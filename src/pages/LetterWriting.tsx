@@ -10,32 +10,35 @@ const LetterWriting = () => {
       description: "A formal letter to apply for a job position",
       content: `Dear Sir/Madam,
 
-I am writing to apply for the position of Sales Manager advertised in today's newspaper. I have completed my Bachelor's degree in Business Administration and have two years of experience in sales.
+I am writing to apply for the position of Computer Operator advertised in The Himalayan Times newspaper. I have completed my +2 in Science from Kathmandu and have one year of experience in data entry.
 
-I am hardworking, honest, and good at communicating with people. I believe I would be perfect for this job. I have attached my resume with this letter.
+I am hardworking, honest, and good at working with computers. I can type both in English and Nepali. I believe I would be perfect for this job. I have attached my CV with this letter.
 
 I hope you will consider my application. I look forward to hearing from you soon.
 
 Thank you for your time.
 
 Yours faithfully,
-[Your Name]`
+Ramesh Sharma
+Lalitpur, Nepal`
     },
     {
       title: "Letter to a Friend",
       description: "An informal letter sharing news with a friend",
-      content: `Dear Sarah,
+      content: `Dear Sita,
 
-How are you? I hope you and your family are doing well. I wanted to tell you about my recent trip to the mountains.
+How are you? I hope you and your family are doing well. I wanted to tell you about my recent trip to Pokhara during Dashain holidays.
 
-Last weekend, I went hiking with my family. The weather was perfect and the views were amazing. We saw beautiful flowers and heard birds singing. We took many photos and had a picnic by the lake.
+Last week, I went to Pokhara with my family. The weather was perfect and Phewa Lake looked so beautiful. We went boating and visited Sarangkot for sunrise. We also went to Devi's Fall and took many photos.
 
-I wish you could have been there with us. Maybe next time we can go together. Please write back and tell me about your summer plans.
+The mountains looked amazing in the clear weather. We could see Annapurna and Machhapuchhre very clearly. We ate delicious momos and dal bhat at local restaurants.
 
-Give my love to your parents.
+I wish you could have been there with us. Maybe next Tihar we can go together. Please write back and tell me about your Dashain celebrations.
+
+Give my namaste to uncle and auntie.
 
 Your friend,
-[Your Name]`
+Bina Thapa`
     },
     {
       title: "Complaint Letter",
