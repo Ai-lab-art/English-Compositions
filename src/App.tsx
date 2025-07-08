@@ -10,6 +10,7 @@ import EmailWriting from "./pages/EmailWriting";
 import StoryWriting from "./pages/StoryWriting";
 import Essays from "./pages/Essays";
 import NewsStory from "./pages/NewsStory";
+import EditorLetter from "./pages/EditorLetter";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/story-writing" element={<StoryWriting />} />
           <Route path="/essays" element={<Essays />} />
           <Route path="/news-story" element={<NewsStory />} />
+          <Route path="/editor-letter" element={<EditorLetter />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

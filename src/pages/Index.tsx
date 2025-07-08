@@ -1,4 +1,4 @@
-import { Mail, Film, AtSign, BookOpen, PenTool, Newspaper, GraduationCap } from "lucide-react";
+import { Mail, Film, AtSign, BookOpen, PenTool, Newspaper, Edit, GraduationCap } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -45,6 +45,13 @@ const Index = () => {
       icon: Newspaper,
       path: "/news-story",
       gradient: "from-indigo-500 to-indigo-600"
+    },
+    {
+      title: "Editor Letters",
+      description: "Write letters to newspaper editors about important issues",
+      icon: Edit,
+      path: "/editor-letter",
+      gradient: "from-teal-500 to-teal-600"
     }
   ];
 
