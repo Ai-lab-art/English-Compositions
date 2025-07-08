@@ -11,7 +11,9 @@ const EditorLetter = () => {
     {
       title: "Letter About Education Problems",
       description: "A letter to editor about educational issues in Nepal",
-      content: `Dear Editor,
+      content: `The Editor,
+The Himalayan Times
+Dear Sir/Madam,
 
 Through your newspaper, I want to share my concerns about the poor condition of government schools in Nepal.
 
@@ -38,7 +40,9 @@ Dhading, Nepal`
     {
       title: "Letter About Road Conditions",
       description: "A letter to editor about poor road conditions",
-      content: `Dear Editor,
+      content: `The Editor,
+Kantipur Daily
+Dear Sir/Madam,
 
 I am writing to highlight the terrible condition of roads in Kathmandu Valley through your newspaper.
 
@@ -65,7 +69,9 @@ Lalitpur, Nepal`
     {
       title: "Letter About Water Shortage",
       description: "A letter to editor about water supply problems",
-      content: `Dear Editor,
+      content: `The Editor,
+Nagarik News
+Dear Sir/Madam,
 
 I want to bring attention to the serious water shortage problem in Kathmandu through your newspaper.
 
@@ -94,7 +100,9 @@ Kirtipur, Nepal`
     {
       title: "Letter About Plastic Pollution",
       description: "A letter to editor about environmental pollution",
-      content: `Dear Editor,
+      content: `The Editor,
+Gorkhapatra Daily
+Dear Sir/Madam,
 
 I am concerned about the increasing plastic pollution in Nepal and want to share this through your newspaper.
 
@@ -124,7 +132,9 @@ Bhaktapur, Nepal`
     {
       title: "Letter About Youth Unemployment",
       description: "A letter to editor about job opportunities for youth",
-      content: `Dear Editor,
+      content: `The Editor,
+Republica Daily
+Dear Sir/Madam,
 
 Through your newspaper, I want to discuss the serious problem of youth unemployment in Nepal.
 
@@ -159,7 +169,9 @@ Pokhara, Nepal`
     {
       title: "Letter About Festival Celebrations",
       description: "A letter to editor about preserving cultural traditions",
-      content: `Dear Editor,
+      content: `The Editor,
+Annapurna Post
+Dear Sir/Madam,
 
 I want to share my thoughts about how we celebrate our traditional festivals in modern times through your newspaper.
 
@@ -282,7 +294,7 @@ Chitwan, Nepal`
         <div className="mt-8 p-6 bg-gradient-card rounded-lg shadow-card">
           <h2 className="text-2xl font-semibold mb-4 text-education-text">Tips for Writing Letters to Editor</h2>
           <ul className="space-y-2 text-education-text">
-            <li>• Start with "Dear Editor" and end with your name and place</li>
+            <li>• Start with "The Editor," then newspaper name, then "Dear Sir/Madam,"</li>
             <li>• Write about issues that affect many people in your community</li>
             <li>• Give specific examples and suggest practical solutions</li>
             <li>• Keep your language simple and respectful</li>
