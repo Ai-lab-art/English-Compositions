@@ -8,7 +8,10 @@ const LetterWriting = () => {
     {
       title: "Job Application Letter",
       description: "A formal letter to apply for a job position",
-      content: `Dear Sir/Madam,
+      content: `                                                              Bhaktapur-5, Kamal Binayak
+                                                              Date: 15th March, 2024
+
+Dear Sir/Madam,
 
 I am writing to apply for the position of Computer Operator advertised in The Himalayan Times newspaper. I have completed my +2 in Science from Kathmandu and have one year of experience in data entry.
 
@@ -25,7 +28,10 @@ Lalitpur, Nepal`
     {
       title: "Letter to a Friend",
       description: "An informal letter sharing news with a friend",
-      content: `Dear Sita,
+      content: `                                                              Pokhara-8, Mahendrapul
+                                                              Date: 25th October, 2024
+
+Dear Sita,
 
 How are you? I hope you and your family are doing well. I wanted to tell you about my recent trip to Pokhara during Dashain holidays.
 
@@ -43,7 +49,10 @@ Bina Thapa`
     {
       title: "Complaint Letter",
       description: "A letter to complain about a product or service",
-      content: `Dear Customer Service Manager,
+      content: `                                                              Kathmandu-10, New Baneshwor
+                                                              Date: 22nd March, 2024
+
+Dear Customer Service Manager,
 
 I am writing to complain about the mobile phone I bought from your store on March 15th, 2024. The phone stopped working after just one week.
 
@@ -61,7 +70,10 @@ Yours sincerely,
     {
       title: "Thank You Letter",
       description: "A letter expressing gratitude for help or kindness",
-      content: `Dear Mrs. Johnson,
+      content: `                                                              Chitwan-6, Bharatpur
+                                                              Date: 5th June, 2024
+
+Dear Mrs. Johnson,
 
 I hope this letter finds you in good health. I am writing to thank you for all the help you gave me during my studies.
 
@@ -77,7 +89,10 @@ With gratitude,
     {
       title: "Invitation Letter",
       description: "A letter inviting someone to an event or celebration",
-      content: `Dear Friend,
+      content: `                                                              Lalitpur-7, Patan Dhoka
+                                                              Date: 15th April, 2024
+
+Dear Friend,
 
 I hope you are doing well. I am very excited to invite you to my birthday party on Saturday, April 20th, 2024.
 
