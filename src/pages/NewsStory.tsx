@@ -6,56 +6,52 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const NewsStory = () => {
   const newsExamples = [
     {
-      title: "Local School Wins Science Competition",
-      description: "A news story about a school achievement",
-      content: `Riverside High School Wins Regional Science Fair
+      title: "Fatal Bus Accident on Prithvi Highway Claims 15 Lives",
+      description: "A tragic road accident news from Nepal",
+      content: `Tragic Bus Accident on Prithvi Highway Kills 15 Passengers
 
-CITYVILLE - Students from Riverside High School made history yesterday by winning first place at the Regional Science Fair held at the Convention Center. This is the first time in the school's 50-year history that they have achieved this honor.
+CHITWAN - A passenger bus traveling from Kathmandu to Pokhara met with a fatal accident yesterday morning on the Prithvi Highway near Mugling, claiming 15 lives and injuring 25 others. The accident occurred around 6:30 AM when the bus skidded off the road and plunged into the Trishuli River.
 
-The winning project, "Solar-Powered Water Purification System," was created by tenth-grade students Maria Santos, James Chen, and David Wilson. Their invention can clean dirty water using only sunlight, making it perfect for areas without electricity.
+The bus, operated by Greenline Tours (Ba 2 Kha 1234), was carrying 40 passengers when it lost control while navigating a sharp turn near kilometer post 87. Preliminary investigations suggest that dense fog and wet road conditions contributed to the accident.
 
-"We wanted to help people who don't have access to clean drinking water," explained Maria Santos, the team leader. "Our system is simple, cheap, and environmentally friendly."
+"The driver seemed to have lost control due to poor visibility caused by heavy fog," said Traffic Police Inspector Ram Bahadur Thapa. "The road was also slippery from last night's rain."
 
-The three-day competition included 150 teams from 45 schools across the region. Judges evaluated projects based on creativity, scientific method, and practical usefulness.
+Rescue operations began immediately after local villagers reported the accident. Teams from Nepal Police, Armed Police Force, and local volunteers worked together to pull survivors from the wreckage. The injured were rushed to Bharatpur Hospital and Chitwan Medical College.
 
-"These students have shown exceptional dedication and creativity," said Dr. Jennifer Adams, the school's science teacher and project supervisor. "They worked on this project for six months, spending their lunch breaks and weekends in the lab."
+Among the deceased are 8 men, 5 women, and 2 children. The injured passengers are receiving treatment, with 10 in critical condition according to Dr. Sushila Karki, Chief Medical Officer at Bharatpur Hospital.
 
-Principal Robert Johnson expressed his pride in the students' achievement. "This victory shows that our students can compete with anyone when they work hard and believe in themselves," he said.
+"We are doing everything possible to save the lives of those in critical condition," Dr. Karki stated. "Additional medical staff has been called in to handle the emergency."
 
-The winning team will now advance to the National Science Fair in Washington, D.C., next month. The school is organizing fundraising events to help cover travel expenses.
+The bus driver, Tek Bahadur Gurung (45), was among those killed in the accident. He had 20 years of driving experience on this route.
 
-Local Mayor Susan Brown congratulated the students and announced that the city would provide $2,000 to support their trip to nationals.
+This tragic incident has once again highlighted the poor condition of Nepal's highways and the urgent need for better road safety measures. The Prithvi Highway has witnessed numerous accidents in recent years due to narrow roads, sharp turns, and lack of proper safety barriers.
 
-"These young scientists represent the best of our community," Mayor Brown stated. "Their innovation and hard work inspire us all."
-
-The team plans to continue improving their invention and hopes to patent it in the future.`
+Prime Minister has announced compensation of NPR 500,000 for the families of deceased passengers and NPR 100,000 for the injured. The government has also ordered a thorough investigation into the accident.`
     },
     {
-      title: "New Library Opens in Downtown",
-      description: "A news story about a community development",
-      content: `New Central Library Opens Its Doors to the Public
+      title: "Earthquake Measuring 5.8 Magnitude Hits Western Nepal",
+      description: "Breaking news about earthquake in Nepal",
+      content: `5.8 Magnitude Earthquake Strikes Bajhang District, No Major Casualties Reported
 
-DOWNTOWN - After three years of construction, the new Central Library officially opened to the public yesterday morning with a ribbon-cutting ceremony attended by hundreds of community members.
+BAJHANG - A moderate earthquake measuring 5.8 on the Richter scale struck Bajhang district in far-western Nepal yesterday at 11:45 PM, causing widespread panic among residents but no major casualties have been reported so far.
 
-The $15 million facility, located on Main Street, features modern technology, comfortable study spaces, and special areas for children and teenagers. The library is five times larger than the old building and includes many new services.
+The epicenter of the earthquake was located 12 kilometers northeast of Chainpur, the district headquarters of Bajhang, at a depth of 10 kilometers, according to the National Seismological Centre.
 
-"This library represents our community's commitment to education and lifelong learning," said Library Director Margaret Foster during the opening ceremony. "We're excited to serve people of all ages with improved resources and programs."
+"The earthquake was felt strongly in Bajhang, Doti, Achham, and Kailali districts," said Dr. Lok Bijaya Adhikari, Chief Seismologist at the National Seismological Centre. "We have recorded several aftershocks, with the strongest measuring 4.2 magnitude."
 
-The new library includes 100,000 books, 50 computer stations, free Wi-Fi throughout the building, and special rooms for group study and community meetings. A dedicated children's section features colorful furniture, story-time areas, and educational games.
+People rushed out of their homes in panic as buildings shook for nearly 30 seconds. Many residents spent the night outdoors, fearing aftershocks. Local authorities have set up temporary shelters in open areas for those afraid to return to their homes.
 
-Teenagers have their own space with gaming computers, study pods, and a quiet area for homework. The library also offers 3D printing services, online databases, and classes on computer skills and digital literacy.
+"The whole house was shaking, and we heard a loud rumbling sound," said Kamala Devi Bhatta, a local resident. "We immediately ran outside with our children. It was very frightening."
 
-"I love the teen section," said 16-year-old student Amy Rodriguez. "It's quiet enough to study but also has fun technology to explore. The Wi-Fi is really fast too."
+Preliminary reports from local authorities indicate minor cracks in some old buildings and traditional houses, but no major structural damage has been reported. The District Emergency Operation Center has been activated to assess damages and coordinate relief efforts.
 
-The library will host special programs including book clubs, computer classes for seniors, story time for toddlers, and homework help for students. All programs are free to the public.
+Chief District Officer Narayan Prasad Bhatta confirmed that no casualties have been reported from any part of the district. "Our teams are conducting detailed surveys in remote areas to assess any possible damages," he said.
 
-Construction began in 2021 after the city council approved funding through a combination of tax revenue and state grants. The project created 200 temporary jobs and will employ 25 full-time librarians and staff members.
+The earthquake was also felt in neighboring districts of Uttarakhand, India. However, no damages have been reported from across the border.
 
-Mayor John Thompson called the library "an investment in our community's future." He noted that studies show libraries improve property values and provide essential services to families.
+Nepal lies in a seismically active zone and frequently experiences earthquakes. The country is still recovering from the devastating 7.8 magnitude earthquake in 2015 that killed nearly 9,000 people and destroyed hundreds of thousands of homes.
 
-The library is open Monday through Thursday from 9 AM to 8 PM, Friday and Saturday from 9 AM to 5 PM, and Sunday from 1 PM to 5 PM.
-
-Registration for library cards begins today, and residents can sign up at the front desk with proof of address.`
+Seismologists have advised people to remain alert for aftershocks and follow earthquake safety measures. The government has deployed emergency response teams to the affected areas.`
     },
     {
       title: "Youth Soccer Team Helps Community",

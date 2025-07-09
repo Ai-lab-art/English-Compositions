@@ -9,6 +9,11 @@ const MovieReview = () => {
       title: "Review of 'The Lion King'",
       description: "A review of the classic Disney animated movie",
       content: `Movie: The Lion King
+Director: Roger Allers, Rob Minkoff
+Producer: Don Hahn
+Starring: Matthew Broderick, James Earl Jones, Jeremy Irons
+Genre: Animation, Adventure, Drama
+Release Date: June 15, 1994
 Rating: 5 out of 5 stars
 
 The Lion King is one of the best animated movies ever made. The story follows Simba, a young lion who must learn to become king after his father's death.
@@ -25,6 +30,11 @@ Overall, The Lion King is a masterpiece that will be loved for generations.`
       title: "Review of 'Spider-Man: Into the Spider-Verse'",
       description: "A review focusing on animation and storytelling",
       content: `Movie: Spider-Man: Into the Spider-Verse
+Director: Bob Persichetti, Peter Ramsey, Rodney Rothman
+Producer: Avi Arad, Phil Lord, Christopher Miller
+Starring: Shameik Moore, Jake Johnson, Hailee Steinfeld
+Genre: Animation, Action, Adventure, Comedy
+Release Date: December 14, 2018
 Rating: 4.5 out of 5 stars
 
 This movie completely changed how we think about animated superhero films. The story follows Miles Morales as he becomes the new Spider-Man and meets other Spider-People from different dimensions.

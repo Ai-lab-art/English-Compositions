@@ -15,6 +15,9 @@ const EditorLetter = () => {
 The Himalayan Times
 Dear Sir/Madam,
 
+Date: 15th January, 2024
+Address: Gorkha-5, Palungtar
+
 Through your newspaper, I want to share my concerns about the poor condition of government schools in Nepal.
 
 Many schools in rural areas do not have enough teachers, proper buildings, or basic facilities like toilets and clean water. Students have to sit on the floor because there are no desks and chairs. During monsoon, classes are cancelled because the roofs leak.
@@ -44,6 +47,9 @@ Dhading, Nepal`
 Kantipur Daily
 Dear Sir/Madam,
 
+Date: 20th February, 2024
+Address: Lalitpur-3, Pulchowk
+
 I am writing to highlight the terrible condition of roads in Kathmandu Valley through your newspaper.
 
 The roads in our capital city are full of potholes and dust. During the dry season, we cannot breathe properly due to dust. During monsoon, the roads become muddy rivers. Traffic jams last for hours because of bad roads.
@@ -72,6 +78,9 @@ Lalitpur, Nepal`
       content: `The Editor,
 Nagarik News
 Dear Sir/Madam,
+
+Date: 10th March, 2024
+Address: Kirtipur-4, TU Road
 
 I want to bring attention to the serious water shortage problem in Kathmandu through your newspaper.
 
@@ -104,6 +113,9 @@ Kirtipur, Nepal`
 Gorkhapatra Daily
 Dear Sir/Madam,
 
+Date: 5th April, 2024
+Address: Bhaktapur-8, Durbar Square
+
 I am concerned about the increasing plastic pollution in Nepal and want to share this through your newspaper.
 
 Every day, we see plastic bags, bottles, and containers thrown everywhere. Our beautiful rivers like Bagmati and Bishnumati have become garbage dumps. Mountains of plastic waste are growing in every corner of Kathmandu.
@@ -135,6 +147,9 @@ Bhaktapur, Nepal`
       content: `The Editor,
 Republica Daily
 Dear Sir/Madam,
+
+Date: 25th May, 2024
+Address: Pokhara-15, Lakeside
 
 Through your newspaper, I want to discuss the serious problem of youth unemployment in Nepal.
 
@@ -172,6 +187,9 @@ Pokhara, Nepal`
       content: `The Editor,
 Annapurna Post
 Dear Sir/Madam,
+
+Date: 18th October, 2024
+Address: Chitwan-2, Bharatpur
 
 I want to share my thoughts about how we celebrate our traditional festivals in modern times through your newspaper.
 

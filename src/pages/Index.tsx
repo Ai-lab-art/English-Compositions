@@ -1,4 +1,4 @@
-import { Mail, Film, AtSign, BookOpen, PenTool, Newspaper, Edit, GraduationCap } from "lucide-react";
+import { Mail, Film, AtSign, BookOpen, PenTool, Newspaper, Edit, GraduationCap, BarChart3 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -52,6 +52,13 @@ const Index = () => {
       icon: Edit,
       path: "/editor-letter",
       gradient: "from-teal-500 to-teal-600"
+    },
+    {
+      title: "Graphical Interpretation",
+      description: "Learn to read and interpret charts and graphs with Nepal data",
+      icon: BarChart3,
+      path: "/graphical-interpretation",
+      gradient: "from-cyan-500 to-cyan-600"
     }
   ];
 

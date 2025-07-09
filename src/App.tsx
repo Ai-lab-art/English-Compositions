@@ -11,6 +11,7 @@ import StoryWriting from "./pages/StoryWriting";
 import Essays from "./pages/Essays";
 import NewsStory from "./pages/NewsStory";
 import EditorLetter from "./pages/EditorLetter";
+import GraphicalInterpretation from "./pages/GraphicalInterpretation";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +31,7 @@ const App = () => (
           <Route path="/essays" element={<Essays />} />
           <Route path="/news-story" element={<NewsStory />} />
           <Route path="/editor-letter" element={<EditorLetter />} />
+          <Route path="/graphical-interpretation" element={<GraphicalInterpretation />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
