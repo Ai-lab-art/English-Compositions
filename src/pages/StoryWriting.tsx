@@ -27,7 +27,7 @@ Moral: Honesty is always rewarded. When we tell the truth, good things happen to
     {
       title: "The Lazy Grasshopper and the Hardworking Ant",
       description: "A story about the importance of hard work and planning",
-      content: `In a beautiful meadow lived a grasshopper and an ant. The grasshopper loved to sing and dance all day under the warm summer sun. He never worried about anything and spent his time having fun.
+      content: `Once, in a beautiful meadow lived a grasshopper and an ant. The grasshopper loved to sing and dance all day under the warm summer sun. He never worried about anything and spent his time having fun.
 
 The ant, however, worked hard every day. From morning until evening, she collected food and stored it safely in her home. "Winter is coming," she always reminded herself.
 
@@ -50,7 +50,7 @@ Moral: Hard work and planning for the future are very important. We should not w
     {
       title: "The Boy Who Cried Wolf",
       description: "A story about the consequences of lying",
-      content: `There was a young shepherd boy who lived in a village near the mountains. His job was to watch the sheep and protect them from wild animals.
+      content: `Once upon a time, there was a young shepherd boy who lived in a village near the mountains. His job was to watch the sheep and protect them from wild animals.
 
 The boy often felt bored and lonely watching the sheep all day. One day, he thought of a plan to have some fun and get attention from the villagers.
 
@@ -79,7 +79,7 @@ Moral: If you lie often, people will not believe you even when you tell the trut
     {
       title: "The Tortoise and the Hare",
       description: "A story about persistence and humility",
-      content: `In a sunny meadow, there lived a speedy hare who was very proud of how fast he could run. He often bragged to other animals about his incredible speed.
+      content: `Once, in a sunny meadow, there lived a speedy hare who was very proud of how fast he could run. He often bragged to other animals about his incredible speed.
 
 One day, he met a slow-moving tortoise and began to make fun of him. "You are so slow!" laughed the hare. "It takes you forever to go anywhere!"
 
@@ -106,7 +106,7 @@ Moral: Consistent effort and determination are more important than natural talen
     {
       title: "The Kind Lion and the Grateful Mouse",
       description: "A story about kindness and how small acts matter",
-      content: `In the heart of the jungle lived a mighty lion, the king of all animals. One hot afternoon, he was sleeping peacefully under a large tree when a tiny mouse accidentally ran across his paw.
+      content: `Once upon a time, in the heart of the jungle lived a mighty lion, the king of all animals. One hot afternoon, he was sleeping peacefully under a large tree when a tiny mouse accidentally ran across his paw.
 
 The lion woke up angry and grabbed the little mouse with his huge paw. "How dare you disturb my sleep!" he roared. "I should eat you right now!"
 
@@ -141,8 +141,8 @@ Moral: Kindness is never wasted, and even the smallest person can make a big dif
       <div className="container mx-auto px-4 py-6">
         <div className="mb-6">
           <Link to="/">
-            <Button variant="ghost" className="mb-4">
-              <ArrowLeft className="mr-2 h-4 w-4" />
+            <Button variant="ghost" className="mb-4 twinkle-button px-6 py-3 text-lg font-semibold">
+              <ArrowLeft className="mr-3 h-6 w-6" />
               Back to Home
             </Button>
           </Link>

@@ -9,7 +9,10 @@ const LetterWriting = () => {
       title: "Job Application Letter",
       description: "A formal letter to apply for a job position",
       content: `                                                              Bhaktapur-5, Kamal Binayak
-                                                              Date: 15th March, 2024
+                                                              15th March, 2024
+
+To The Headmaster
+Shree Bagishwari Secondary School, Doodhpokhari Lamjung
 
 Dear Sir/Madam,
 
@@ -29,7 +32,7 @@ Lalitpur, Nepal`
       title: "Letter to a Friend",
       description: "An informal letter sharing news with a friend",
       content: `                                                              Pokhara-8, Mahendrapul
-                                                              Date: 25th October, 2024
+                                                              25th October, 2024
 
 Dear Sita,
 
@@ -50,7 +53,10 @@ Bina Thapa`
       title: "Complaint Letter",
       description: "A letter to complain about a product or service",
       content: `                                                              Kathmandu-10, New Baneshwor
-                                                              Date: 22nd March, 2024
+                                                              22nd March, 2024
+
+To The Manager
+Sunrise Electronics Store, New Road
 
 Dear Customer Service Manager,
 
@@ -71,7 +77,7 @@ Yours sincerely,
       title: "Thank You Letter",
       description: "A letter expressing gratitude for help or kindness",
       content: `                                                              Chitwan-6, Bharatpur
-                                                              Date: 5th June, 2024
+                                                              5th June, 2024
 
 Dear Mrs. Johnson,
 
@@ -90,7 +96,7 @@ With gratitude,
       title: "Invitation Letter",
       description: "A letter inviting someone to an event or celebration",
       content: `                                                              Lalitpur-7, Patan Dhoka
-                                                              Date: 15th April, 2024
+                                                              15th April, 2024
 
 Dear Friend,
 
@@ -112,8 +118,8 @@ Your friend,
       <div className="container mx-auto px-4 py-6">
         <div className="mb-6">
           <Link to="/">
-            <Button variant="ghost" className="mb-4">
-              <ArrowLeft className="mr-2 h-4 w-4" />
+            <Button variant="ghost" className="mb-4 twinkle-button px-6 py-3 text-lg font-semibold">
+              <ArrowLeft className="mr-3 h-6 w-6" />
               Back to Home
             </Button>
           </Link>

@@ -15,8 +15,8 @@ const EditorLetter = () => {
 The Himalayan Times
 Dear Sir/Madam,
 
-Date: 15th January, 2024
-Address: Gorkha-5, Palungtar
+                                                              Gorkha-5, Palungtar
+                                                              15th January, 2024
 
 Through your newspaper, I want to share my concerns about the poor condition of government schools in Nepal.
 
@@ -47,8 +47,8 @@ Dhading, Nepal`
 Kantipur Daily
 Dear Sir/Madam,
 
-Date: 20th February, 2024
-Address: Lalitpur-3, Pulchowk
+                                                              Lalitpur-3, Pulchowk
+                                                              20th February, 2024
 
 I am writing to highlight the terrible condition of roads in Kathmandu Valley through your newspaper.
 
@@ -79,8 +79,8 @@ Lalitpur, Nepal`
 Nagarik News
 Dear Sir/Madam,
 
-Date: 10th March, 2024
-Address: Kirtipur-4, TU Road
+                                                              Kirtipur-4, TU Road
+                                                              10th March, 2024
 
 I want to bring attention to the serious water shortage problem in Kathmandu through your newspaper.
 
@@ -113,8 +113,8 @@ Kirtipur, Nepal`
 Gorkhapatra Daily
 Dear Sir/Madam,
 
-Date: 5th April, 2024
-Address: Bhaktapur-8, Durbar Square
+                                                              Bhaktapur-8, Durbar Square
+                                                              5th April, 2024
 
 I am concerned about the increasing plastic pollution in Nepal and want to share this through your newspaper.
 
@@ -148,8 +148,8 @@ Bhaktapur, Nepal`
 Republica Daily
 Dear Sir/Madam,
 
-Date: 25th May, 2024
-Address: Pokhara-15, Lakeside
+                                                              Pokhara-15, Lakeside
+                                                              25th May, 2024
 
 Through your newspaper, I want to discuss the serious problem of youth unemployment in Nepal.
 
@@ -188,8 +188,8 @@ Pokhara, Nepal`
 Annapurna Post
 Dear Sir/Madam,
 
-Date: 18th October, 2024
-Address: Chitwan-2, Bharatpur
+                                                              Chitwan-2, Bharatpur
+                                                              18th October, 2024
 
 I want to share my thoughts about how we celebrate our traditional festivals in modern times through your newspaper.
 
@@ -235,8 +235,8 @@ Chitwan, Nepal`
       <div className="container mx-auto px-4 py-6">
         <div className="mb-6">
           <Link to="/">
-            <Button variant="ghost" className="mb-4">
-              <ArrowLeft className="mr-2 h-4 w-4" />
+            <Button variant="ghost" className="mb-4 twinkle-button px-6 py-3 text-lg font-semibold">
+              <ArrowLeft className="mr-3 h-6 w-6" />
               Back to Home
             </Button>
           </Link>
@@ -249,62 +249,22 @@ Chitwan, Nepal`
           </p>
         </div>
 
-        {/* Navigation Counter */}
-        <div className="flex items-center justify-center gap-4 mb-6">
-          <Button
-            variant="outline"
-            size="icon"
-            onClick={prevExample}
-            className="rounded-full"
-          >
-            <ChevronLeft className="h-4 w-4" />
-          </Button>
-          
-          <span className="text-sm text-muted-foreground bg-muted px-3 py-1 rounded-full">
-            {currentExample + 1} of {editorLetterExamples.length}
-          </span>
-          
-          <Button
-            variant="outline"
-            size="icon"
-            onClick={nextExample}
-            className="rounded-full"
-          >
-            <ChevronRight className="h-4 w-4" />
-          </Button>
-        </div>
-
-        {/* Current Example */}
-        <Card className="shadow-card hover:shadow-hover transition-shadow mb-8">
-          <CardHeader>
-            <CardTitle className="text-xl text-education-text">{currentLetter.title}</CardTitle>
-            <CardDescription>{currentLetter.description}</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <div className="bg-education-light p-4 rounded-lg border">
-              <pre className="whitespace-pre-wrap text-sm text-education-text font-mono">
-                {currentLetter.content}
-              </pre>
-            </div>
-          </CardContent>
-        </Card>
 
         {/* All Examples Grid */}
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 mb-8">
+        <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
           {editorLetterExamples.map((example, index) => (
-            <Card 
-              key={index} 
-              className={`cursor-pointer transition-all duration-200 ${
-                index === currentExample 
-                  ? 'ring-2 ring-primary shadow-lg scale-105' 
-                  : 'shadow-card hover:shadow-hover hover:scale-102'
-              }`}
-              onClick={() => setCurrentExample(index)}
-            >
-              <CardHeader className="pb-3">
-                <CardTitle className="text-lg text-education-text">{example.title}</CardTitle>
-                <CardDescription className="text-sm">{example.description}</CardDescription>
+            <Card key={index} className="shadow-card hover:shadow-hover transition-shadow">
+              <CardHeader>
+                <CardTitle className="text-xl text-education-text">{example.title}</CardTitle>
+                <CardDescription>{example.description}</CardDescription>
               </CardHeader>
+              <CardContent>
+                <div className="bg-education-light p-4 rounded-lg border">
+                  <pre className="whitespace-pre-wrap text-sm text-education-text font-mono">
+                    {example.content}
+                  </pre>
+                </div>
+              </CardContent>
             </Card>
           ))}
         </div>

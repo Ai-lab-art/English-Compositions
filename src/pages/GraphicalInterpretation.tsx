@@ -150,8 +150,8 @@ const GraphicalInterpretation = () => {
       <div className="container mx-auto px-4 py-6">
         <div className="mb-6">
           <Link to="/">
-            <Button variant="ghost" className="mb-4">
-              <ArrowLeft className="mr-2 h-4 w-4" />
+            <Button variant="ghost" className="mb-4 twinkle-button px-6 py-3 text-lg font-semibold">
+              <ArrowLeft className="mr-3 h-6 w-6" />
               Back to Home
             </Button>
           </Link>
@@ -164,73 +164,68 @@ const GraphicalInterpretation = () => {
           </p>
         </div>
 
-        {/* Navigation Counter */}
-        <div className="flex items-center justify-center gap-4 mb-6">
-          <Button
-            variant="outline"
-            size="icon"
-            onClick={prevExample}
-            className="rounded-full"
-          >
-            <ChevronLeft className="h-4 w-4" />
-          </Button>
-          
-          <span className="text-sm text-muted-foreground bg-muted px-3 py-1 rounded-full">
-            {currentExample + 1} of {chartExamples.length}
-          </span>
-          
-          <Button
-            variant="outline"
-            size="icon"
-            onClick={nextExample}
-            className="rounded-full"
-          >
-            <ChevronRight className="h-4 w-4" />
-          </Button>
-        </div>
-
-        {/* Current Chart */}
-        <Card className="shadow-card hover:shadow-hover transition-shadow mb-8">
-          <CardHeader>
-            <CardTitle className="text-xl text-education-text flex items-center gap-2">
-              {currentChart.type === "bar" ? <BarChart3 className="h-5 w-5" /> : <PieChart className="h-5 w-5" />}
-              {currentChart.title}
-            </CardTitle>
-            <CardDescription>{currentChart.description}</CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-6">
-            <div className="bg-education-light p-6 rounded-lg border">
-              {renderSimpleChart()}
-            </div>
-            
-            <div>
-              <h3 className="text-lg font-semibold mb-3 text-education-text">Interpretation:</h3>
-              <p className="text-sm text-education-text leading-relaxed bg-muted p-4 rounded-lg">
-                {currentChart.interpretation}
-              </p>
-            </div>
-          </CardContent>
-        </Card>
-
-        {/* All Examples Grid */}
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3 mb-8">
+        <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
           {chartExamples.map((example, index) => (
-            <Card 
-              key={index} 
-              className={`cursor-pointer transition-all duration-200 ${
-                index === currentExample 
-                  ? 'ring-2 ring-primary shadow-lg scale-105' 
-                  : 'shadow-card hover:shadow-hover hover:scale-102'
-              }`}
-              onClick={() => setCurrentExample(index)}
-            >
-              <CardHeader className="pb-3">
-                <CardTitle className="text-lg text-education-text flex items-center gap-2">
-                  {example.type === "bar" ? <BarChart3 className="h-4 w-4" /> : <PieChart className="h-4 w-4" />}
+            <Card key={index} className="shadow-card hover:shadow-hover transition-shadow">
+              <CardHeader>
+                <CardTitle className="text-xl text-education-text flex items-center gap-2">
+                  {example.type === "bar" ? <BarChart3 className="h-5 w-5" /> : <PieChart className="h-5 w-5" />}
                   {example.title}
                 </CardTitle>
-                <CardDescription className="text-sm">{example.description}</CardDescription>
+                <CardDescription>{example.description}</CardDescription>
               </CardHeader>
+              <CardContent className="space-y-6">
+                <div className="bg-education-light p-6 rounded-lg border">
+                  {(() => {
+                    if (example.type === "bar") {
+                      const maxValue = Math.max(...example.data.map((d: any) => d.value));
+                      return (
+                        <div className="space-y-3">
+                          {example.data.map((item: any, idx: number) => (
+                            <div key={idx} className="flex items-center gap-3">
+                              <div className="w-24 text-sm font-medium text-education-text truncate">
+                                {item.name}
+                              </div>
+                              <div className="flex-1 bg-muted rounded-full h-6 relative overflow-hidden">
+                                <div 
+                                  className="h-full bg-primary rounded-full transition-all duration-500"
+                                  style={{ width: `${(item.value / maxValue) * 100}%` }}
+                                />
+                                <div className="absolute inset-0 flex items-center justify-center text-xs font-medium">
+                                  {item.value}%
+                                </div>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      );
+                    } else {
+                      return (
+                        <div className="grid grid-cols-2 gap-4">
+                          {example.data.map((item: any, idx: number) => (
+                            <div key={idx} className="flex items-center gap-2">
+                              <div 
+                                className="w-4 h-4 rounded-full"
+                                style={{ backgroundColor: item.color }}
+                              />
+                              <span className="text-sm font-medium text-education-text">
+                                {item.name}: {item.value}%
+                              </span>
+                            </div>
+                          ))}
+                        </div>
+                      );
+                    }
+                  })()}
+                </div>
+                
+                <div>
+                  <h3 className="text-lg font-semibold mb-3 text-education-text">Interpretation:</h3>
+                  <p className="text-sm text-education-text leading-relaxed bg-muted p-4 rounded-lg">
+                    {example.interpretation}
+                  </p>
+                </div>
+              </CardContent>
             </Card>
           ))}
         </div>

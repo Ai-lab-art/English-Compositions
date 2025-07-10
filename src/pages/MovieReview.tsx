@@ -53,6 +53,11 @@ I highly recommend this movie to superhero fans and animation lovers. It's creat
       title: "Review of 'Finding Nemo'",
       description: "A family movie review highlighting themes and characters",
       content: `Movie: Finding Nemo
+Director: Andrew Stanton
+Producer: Graham Walters
+Starring: Albert Brooks, Ellen DeGeneres, Alexander Gould
+Genre: Animation, Adventure, Comedy, Family
+Release Date: May 30, 2003
 Rating: 5 out of 5 stars
 
 Finding Nemo is a heartwarming story about a father fish named Marlin searching for his lost son Nemo. This Pixar movie is perfect for the whole family.
@@ -73,6 +78,11 @@ Finding Nemo is a movie that everyone should watch. It's funny, touching, and be
       title: "Review of 'Harry Potter and the Philosopher's Stone'",
       description: "A review of the first Harry Potter movie adaptation",
       content: `Movie: Harry Potter and the Philosopher's Stone
+Director: Chris Columbus
+Producer: David Heyman
+Starring: Daniel Radcliffe, Emma Watson, Rupert Grint
+Genre: Adventure, Family, Fantasy
+Release Date: November 16, 2001
 Rating: 4 out of 5 stars
 
 This movie brings the magical world of Harry Potter to life on the big screen. It follows Harry as he discovers he's a wizard and starts his first year at Hogwarts School.
@@ -93,6 +103,11 @@ I recommend this movie to anyone who loves adventure and magic. It's the perfect
       title: "Review of 'Moana'",
       description: "A review highlighting cultural themes and music",
       content: `Movie: Moana
+Director: Ron Clements, John Musker
+Producer: Osnat Shurer
+Starring: Auli'i Cravalho, Dwayne Johnson, Rachel House
+Genre: Animation, Adventure, Comedy, Family, Musical
+Release Date: November 23, 2016
 Rating: 4.5 out of 5 stars
 
 Moana is a beautiful Disney movie about a brave Polynesian girl who sails across the ocean to save her island. This movie celebrates Pacific Island culture in a respectful and colorful way.
@@ -118,8 +133,8 @@ Moana is a wonderful movie that combines adventure, beautiful music, and importa
       <div className="container mx-auto px-4 py-6">
         <div className="mb-6">
           <Link to="/">
-            <Button variant="ghost" className="mb-4">
-              <ArrowLeft className="mr-2 h-4 w-4" />
+            <Button variant="ghost" className="mb-4 twinkle-button px-6 py-3 text-lg font-semibold">
+              <ArrowLeft className="mr-3 h-6 w-6" />
               Back to Home
             </Button>
           </Link>

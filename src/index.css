@@ -50,6 +50,10 @@ All colors MUST be HSL.
     /* Shadows */
     --shadow-card: 0 4px 12px hsl(220 20% 20% / 0.1);
     --shadow-hover: 0 8px 24px hsl(220 20% 20% / 0.15);
+    
+    /* Animations */
+    --twinkle-color: hsl(45 100% 50%);
+    --glow-color: hsl(300 100% 70%);
 
     --radius: 0.5rem;
 
@@ -117,4 +121,43 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+}
+
+@layer components {
+  .twinkle-button {
+    @apply relative overflow-hidden;
+    animation: twinkle 2s ease-in-out infinite;
+  }
+  
+  .twinkle-button::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(45deg, 
+      var(--twinkle-color), 
+      var(--glow-color), 
+      var(--twinkle-color)
+    );
+    border-radius: inherit;
+    z-index: -1;
+    animation: glow 3s ease-in-out infinite;
+  }
+}
+
+@keyframes twinkle {
+  0%, 100% { 
+    box-shadow: 0 0 5px var(--twinkle-color), 0 0 10px var(--glow-color); 
+  }
+  50% { 
+    box-shadow: 0 0 15px var(--twinkle-color), 0 0 25px var(--glow-color); 
+  }
+}
+
+@keyframes glow {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.8; }
+}
 }

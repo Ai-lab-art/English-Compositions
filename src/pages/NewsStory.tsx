@@ -10,7 +10,7 @@ const NewsStory = () => {
       description: "A tragic road accident news from Nepal",
       content: `Tragic Bus Accident on Prithvi Highway Kills 15 Passengers
 
-CHITWAN - A passenger bus traveling from Kathmandu to Pokhara met with a fatal accident yesterday morning on the Prithvi Highway near Mugling, claiming 15 lives and injuring 25 others. The accident occurred around 6:30 AM when the bus skidded off the road and plunged into the Trishuli River.
+Chitwan, 15th January - A passenger bus traveling from Kathmandu to Pokhara met with a fatal accident yesterday morning on the Prithvi Highway near Mugling, claiming 15 lives and injuring 25 others. The accident occurred around 6:30 AM when the bus skidded off the road and plunged into the Trishuli River.
 
 The bus, operated by Greenline Tours (Ba 2 Kha 1234), was carrying 40 passengers when it lost control while navigating a sharp turn near kilometer post 87. Preliminary investigations suggest that dense fog and wet road conditions contributed to the accident.
 
@@ -33,7 +33,7 @@ Prime Minister has announced compensation of NPR 500,000 for the families of dec
       description: "Breaking news about earthquake in Nepal",
       content: `5.8 Magnitude Earthquake Strikes Bajhang District, No Major Casualties Reported
 
-BAJHANG - A moderate earthquake measuring 5.8 on the Richter scale struck Bajhang district in far-western Nepal yesterday at 11:45 PM, causing widespread panic among residents but no major casualties have been reported so far.
+Bajhang, 8th March - A moderate earthquake measuring 5.8 on the Richter scale struck Bajhang district in far-western Nepal yesterday at 11:45 PM, causing widespread panic among residents but no major casualties have been reported so far.
 
 The epicenter of the earthquake was located 12 kilometers northeast of Chainpur, the district headquarters of Bajhang, at a depth of 10 kilometers, according to the National Seismological Centre.
 
@@ -58,7 +58,7 @@ Seismologists have advised people to remain alert for aftershocks and follow ear
       description: "A news story about young people making a difference",
       content: `Local Soccer Team Raises $5,000 for Animal Shelter
 
-WESTSIDE - The Westside Warriors youth soccer team has raised $5,000 for the Community Animal Shelter through a month-long fundraising campaign that ended last weekend.
+Westside, 22nd April - The Westside Warriors youth soccer team has raised $5,000 for the Community Animal Shelter through a month-long fundraising campaign that ended last weekend.
 
 The team, made up of 20 players aged 12-14, organized car washes, bake sales, and a charity soccer tournament to raise money for the shelter, which has been struggling financially due to increased operating costs.
 
@@ -87,7 +87,7 @@ Several team members said they plan to volunteer at the shelter regularly and ho
       description: "A news story about educational achievements",
       content: `Students Showcase Creativity at Annual Technology Fair
 
-EASTDALE - Innovation was on full display at the Eastdale School District's Annual Technology Fair held at Lincoln Middle School on Saturday. Over 200 students from grades 6-12 presented projects demonstrating their technological skills and creativity.
+Eastdale, 10th November - Innovation was on full display at the Eastdale School District's Annual Technology Fair held at Lincoln Middle School on Saturday. Over 200 students from grades 6-12 presented projects demonstrating their technological skills and creativity.
 
 This year's theme, "Technology for Tomorrow," encouraged students to create solutions for real-world problems. Projects ranged from mobile apps and websites to robotics and environmental monitoring systems.
 
@@ -118,7 +118,7 @@ Next year's fair is scheduled for the second Saturday in May, and organizers hop
       description: "A news story about community cooperation and environmental action",
       content: `Community Garden Transforms Vacant Lot into Green Space
 
-RIVERSIDE - What was once an empty lot filled with weeds and trash has been transformed into a thriving community garden, thanks to the efforts of local residents and students from Riverside Elementary School.
+Riverside, 5th September - What was once an empty lot filled with weeds and trash has been transformed into a thriving community garden, thanks to the efforts of local residents and students from Riverside Elementary School.
 
 The garden project began six months ago when neighborhood resident Maria Gonzalez proposed converting the vacant lot on Maple Street into a community space where families could grow their own vegetables and flowers.
 
@@ -153,8 +153,8 @@ The garden holds an annual harvest festival each October, where families share t
       <div className="container mx-auto px-4 py-6">
         <div className="mb-6">
           <Link to="/">
-            <Button variant="ghost" className="mb-4">
-              <ArrowLeft className="mr-2 h-4 w-4" />
+            <Button variant="ghost" className="mb-4 twinkle-button px-6 py-3 text-lg font-semibold">
+              <ArrowLeft className="mr-3 h-6 w-6" />
               Back to Home
             </Button>
           </Link>
