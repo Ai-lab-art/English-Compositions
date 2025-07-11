@@ -13,6 +13,12 @@ import Essays from "./pages/Essays";
 import NewsStory from "./pages/NewsStory";
 import EditorLetter from "./pages/EditorLetter";
 import GraphicalInterpretation from "./pages/GraphicalInterpretation";
+import ParagraphWriting from "./pages/ParagraphWriting";
+import DialogueWriting from "./pages/DialogueWriting";
+import BookReview from "./pages/BookReview";
+import SpeechWriting from "./pages/SpeechWriting";
+import SummaryWriting from "./pages/SummaryWriting";
+import TravelogueWriting from "./pages/TravelogueWriting";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -34,12 +40,12 @@ const App = () => (
           <Route path="/news-story" element={<NewsStory />} />
           <Route path="/editor-letter" element={<EditorLetter />} />
           <Route path="/graphical-interpretation" element={<GraphicalInterpretation />} />
-          {/* Placeholder routes for new topics - will be implemented later */}
-          <Route path="/paragraph-writing" element={<NotFound />} />
-          <Route path="/book-review" element={<NotFound />} />
-          <Route path="/speech-writing" element={<NotFound />} />
-          <Route path="/summary-writing" element={<NotFound />} />
-          <Route path="/travelogue-writing" element={<NotFound />} />
+          <Route path="/paragraph-writing" element={<ParagraphWriting />} />
+          <Route path="/dialogue-writing" element={<DialogueWriting />} />
+          <Route path="/book-review" element={<BookReview />} />
+          <Route path="/speech-writing" element={<SpeechWriting />} />
+          <Route path="/summary-writing" element={<SummaryWriting />} />
+          <Route path="/travelogue-writing" element={<TravelogueWriting />} />
           <Route path="/advertisement-writing" element={<NotFound />} />
           <Route path="/letter-sympathy" element={<NotFound />} />
           <Route path="/message-condolence" element={<NotFound />} />
@@ -50,7 +56,7 @@ const App = () => (
           <Route path="/reply-letter" element={<NotFound />} />
           <Route path="/rules-regulations" element={<NotFound />} />
           <Route path="/instructions" element={<NotFound />} />
-          <Route path="/dialogue-writing" element={<NotFound />} />
+          
           <Route path="/brochure-writing" element={<NotFound />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
