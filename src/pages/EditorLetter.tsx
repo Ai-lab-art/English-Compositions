@@ -11,12 +11,12 @@ const EditorLetter = () => {
     {
       title: "Letter About Education Problems",
       description: "A letter to editor about educational issues in Nepal",
-      content: `The Editor,
+      content: `                                                               Gorkha-5, Palungtar
+                                                               15th January, 2025
+
+The Editor,
 The Himalayan Times
 Dear Sir/Madam,
-
-                                                              Gorkha-5, Palungtar
-                                                              15th January, 2024
 
 Through your newspaper, I want to share my concerns about the poor condition of government schools in Nepal.
 
@@ -43,12 +43,12 @@ Dhading, Nepal`
     {
       title: "Letter About Road Conditions",
       description: "A letter to editor about poor road conditions",
-      content: `The Editor,
+      content: `                                                               Lalitpur-3, Pulchowk
+                                                               20th February, 2025
+
+The Editor,
 Kantipur Daily
 Dear Sir/Madam,
-
-                                                              Lalitpur-3, Pulchowk
-                                                              20th February, 2024
 
 I am writing to highlight the terrible condition of roads in Kathmandu Valley through your newspaper.
 
@@ -75,12 +75,12 @@ Lalitpur, Nepal`
     {
       title: "Letter About Water Shortage",
       description: "A letter to editor about water supply problems",
-      content: `The Editor,
+      content: `                                                               Kirtipur-4, TU Road
+                                                               10th March, 2025
+
+The Editor,
 Nagarik News
 Dear Sir/Madam,
-
-                                                              Kirtipur-4, TU Road
-                                                              10th March, 2024
 
 I want to bring attention to the serious water shortage problem in Kathmandu through your newspaper.
 
@@ -109,12 +109,12 @@ Kirtipur, Nepal`
     {
       title: "Letter About Plastic Pollution",
       description: "A letter to editor about environmental pollution",
-      content: `The Editor,
+      content: `                                                               Bhaktapur-8, Durbar Square
+                                                               5th April, 2025
+
+The Editor,
 Gorkhapatra Daily
 Dear Sir/Madam,
-
-                                                              Bhaktapur-8, Durbar Square
-                                                              5th April, 2024
 
 I am concerned about the increasing plastic pollution in Nepal and want to share this through your newspaper.
 
@@ -144,12 +144,12 @@ Bhaktapur, Nepal`
     {
       title: "Letter About Youth Unemployment",
       description: "A letter to editor about job opportunities for youth",
-      content: `The Editor,
+      content: `                                                               Pokhara-15, Lakeside
+                                                               25th May, 2025
+
+The Editor,
 Republica Daily
 Dear Sir/Madam,
-
-                                                              Pokhara-15, Lakeside
-                                                              25th May, 2024
 
 Through your newspaper, I want to discuss the serious problem of youth unemployment in Nepal.
 
@@ -184,12 +184,12 @@ Pokhara, Nepal`
     {
       title: "Letter About Festival Celebrations",
       description: "A letter to editor about preserving cultural traditions",
-      content: `The Editor,
+      content: `                                                               Chitwan-2, Bharatpur
+                                                               18th October, 2025
+
+The Editor,
 Annapurna Post
 Dear Sir/Madam,
-
-                                                              Chitwan-2, Bharatpur
-                                                              18th October, 2024
 
 I want to share my thoughts about how we celebrate our traditional festivals in modern times through your newspaper.
 

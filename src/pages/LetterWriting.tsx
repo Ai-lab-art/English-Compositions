@@ -9,7 +9,7 @@ const LetterWriting = () => {
       title: "Job Application Letter",
       description: "A formal letter to apply for a job position",
       content: `                                                              Bhaktapur-5, Kamal Binayak
-                                                              15th March, 2024
+                                                               15th March, 2025
 
 To The Headmaster
 Shree Bagishwari Secondary School, Doodhpokhari Lamjung
@@ -32,7 +32,7 @@ Lalitpur, Nepal`
       title: "Letter to a Friend",
       description: "An informal letter sharing news with a friend",
       content: `                                                              Pokhara-8, Mahendrapul
-                                                              25th October, 2024
+                                                               25th October, 2025
 
 Dear Sita,
 
@@ -53,7 +53,7 @@ Bina Thapa`
       title: "Complaint Letter",
       description: "A letter to complain about a product or service",
       content: `                                                              Kathmandu-10, New Baneshwor
-                                                              22nd March, 2024
+                                                               22nd March, 2025
 
 To The Manager
 Sunrise Electronics Store, New Road
@@ -77,7 +77,7 @@ Yours sincerely,
       title: "Thank You Letter",
       description: "A letter expressing gratitude for help or kindness",
       content: `                                                              Chitwan-6, Bharatpur
-                                                              5th June, 2024
+                                                               5th June, 2025
 
 Dear Mrs. Johnson,
 
@@ -96,7 +96,7 @@ With gratitude,
       title: "Invitation Letter",
       description: "A letter inviting someone to an event or celebration",
       content: `                                                              Lalitpur-7, Patan Dhoka
-                                                              15th April, 2024
+                                                               15th April, 2025
 
 Dear Friend,
 
