@@ -1,8 +1,7 @@
 import { 
   Mail, Film, AtSign, BookOpen, PenTool, Newspaper, Edit, BarChart3,
-  FileText, BookOpenCheck, Heart, MessageCircle, ChefHat, ThumbsUp,
-  Users, Building, Reply, MessageSquare, MapPin, Megaphone, Trophy,
-  ScrollText, Plane, Star, Calendar, ClipboardList, Home
+  FileText, BookOpenCheck, MessageSquare, Megaphone,
+  ScrollText, Plane, Home
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -93,90 +92,6 @@ const TableOfContents = () => {
       icon: Plane,
       path: "/travelogue-writing",
       gradient: "from-sky-500 to-sky-600"
-    },
-    {
-      title: "Advertisement Writing",
-      description: "Ads for Nepali products, services, and local businesses",
-      icon: Star,
-      path: "/advertisement-writing",
-      gradient: "from-yellow-500 to-yellow-600"
-    },
-    {
-      title: "Letter of Sympathy",
-      description: "Condolence and sympathy letters for difficult times",
-      icon: Heart,
-      path: "/letter-sympathy",
-      gradient: "from-rose-500 to-rose-600"
-    },
-    {
-      title: "Message of Condolence",
-      description: "Brief condolence messages for social media and cards",
-      icon: MessageCircle,
-      path: "/message-condolence",
-      gradient: "from-slate-500 to-slate-600"
-    },
-    {
-      title: "Recipe Writing",
-      description: "Traditional Nepali recipes like Dal-Bhat, Momo, Gundruk",
-      icon: ChefHat,
-      path: "/recipe-writing",
-      gradient: "from-orange-600 to-red-500"
-    },
-    {
-      title: "Thank You Letter",
-      description: "Appreciation letters for Nepali hospitality and kindness",
-      icon: ThumbsUp,
-      path: "/thankyou-letter",
-      gradient: "from-lime-500 to-lime-600"
-    },
-    {
-      title: "Letter of Congratulation",
-      description: "Congratulatory letters for achievements and celebrations",
-      icon: Trophy,
-      path: "/letter-congratulation",
-      gradient: "from-gold-500 to-yellow-600"
-    },
-    {
-      title: "Application Letter",
-      description: "Job applications for Nepali companies and organizations",
-      icon: ClipboardList,
-      path: "/application-letter",
-      gradient: "from-blue-600 to-indigo-600"
-    },
-    {
-      title: "Reply Letter",
-      description: "Responding to various letters and inquiries",
-      icon: Reply,
-      path: "/reply-letter",
-      gradient: "from-cyan-500 to-blue-500"
-    },
-    {
-      title: "Rules and Regulations",
-      description: "Writing rules for schools, offices, and public places in Nepal",
-      icon: Building,
-      path: "/rules-regulations",
-      gradient: "from-gray-500 to-gray-600"
-    },
-    {
-      title: "Instructions",
-      description: "Step-by-step instructions for Nepali cultural activities",
-      icon: Calendar,
-      path: "/instructions",
-      gradient: "from-purple-600 to-pink-500"
-    },
-    {
-      title: "Dialogue Writing",
-      description: "Conversations in different Nepali social situations",
-      icon: MessageSquare,
-      path: "/dialogue-writing",
-      gradient: "from-teal-600 to-green-500"
-    },
-    {
-      title: "Brochure Writing",
-      description: "Tourism brochures for Nepal's famous destinations",
-      icon: MapPin,
-      path: "/brochure-writing",
-      gradient: "from-indigo-600 to-purple-500"
     },
     {
       title: "Graphical Interpretation",

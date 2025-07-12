@@ -46,18 +46,6 @@ const App = () => (
           <Route path="/speech-writing" element={<SpeechWriting />} />
           <Route path="/summary-writing" element={<SummaryWriting />} />
           <Route path="/travelogue-writing" element={<TravelogueWriting />} />
-          <Route path="/advertisement-writing" element={<NotFound />} />
-          <Route path="/letter-sympathy" element={<NotFound />} />
-          <Route path="/message-condolence" element={<NotFound />} />
-          <Route path="/recipe-writing" element={<NotFound />} />
-          <Route path="/thankyou-letter" element={<NotFound />} />
-          <Route path="/letter-congratulation" element={<NotFound />} />
-          <Route path="/application-letter" element={<NotFound />} />
-          <Route path="/reply-letter" element={<NotFound />} />
-          <Route path="/rules-regulations" element={<NotFound />} />
-          <Route path="/instructions" element={<NotFound />} />
-          
-          <Route path="/brochure-writing" element={<NotFound />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
