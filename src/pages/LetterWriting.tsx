@@ -117,10 +117,10 @@ Your friend,
     <div className="min-h-screen bg-gradient-to-br from-background to-education-light">
       <div className="container mx-auto px-4 py-6">
         <div className="mb-6">
-          <Link to="/">
+          <Link to="/table-of-contents">
             <Button variant="ghost" className="mb-4 twinkle-button px-6 py-3 text-lg font-semibold">
               <ArrowLeft className="mr-3 h-6 w-6" />
-              Back to Home
+              Back to Contents
             </Button>
           </Link>
           <div className="flex items-center gap-3 mb-2">

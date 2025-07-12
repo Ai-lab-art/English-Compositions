@@ -20,6 +20,7 @@ import BookReview from "./pages/BookReview";
 import SpeechWriting from "./pages/SpeechWriting";
 import SummaryWriting from "./pages/SummaryWriting";
 import TravelogueWriting from "./pages/TravelogueWriting";
+import RulesRegulations from "./pages/RulesRegulations";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -47,6 +48,7 @@ const App = () => (
           <Route path="/speech-writing" element={<SpeechWriting />} />
           <Route path="/summary-writing" element={<SummaryWriting />} />
           <Route path="/travelogue-writing" element={<TravelogueWriting />} />
+          <Route path="/rules-regulations" element={<RulesRegulations />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

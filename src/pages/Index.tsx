@@ -15,8 +15,10 @@ const Index = () => {
           {/* Main Title */}
           <div className="flex items-center justify-center gap-4 mb-6">
             <GraduationCap className="h-16 w-16 text-primary animate-pulse" />
-            <h1 className="text-5xl md:text-6xl font-bold text-foreground">
-              English Composition Helper
+            <h1 className="text-5xl md:text-6xl font-bold">
+              <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-blue-600 bg-clip-text text-transparent">
+                English Composition Helper
+              </span>
             </h1>
           </div>
           
@@ -25,30 +27,6 @@ const Index = () => {
             Master the art of English writing with comprehensive examples and tips designed specifically for Nepali secondary level students
           </p>
           
-          {/* Features Highlights */}
-          <div className="grid md:grid-cols-3 gap-6 mb-12 max-w-2xl mx-auto">
-            <div className="bg-gradient-card rounded-lg p-6 shadow-card">
-              <BookOpen className="h-8 w-8 text-primary mx-auto mb-3" />
-              <h3 className="font-semibold text-education-text mb-2">25+ Writing Topics</h3>
-              <p className="text-sm text-muted-foreground">
-                Complete coverage from letters to essays
-              </p>
-            </div>
-            <div className="bg-gradient-card rounded-lg p-6 shadow-card">
-              <PenTool className="h-8 w-8 text-primary mx-auto mb-3" />
-              <h3 className="font-semibold text-education-text mb-2">Nepal Context</h3>
-              <p className="text-sm text-muted-foreground">
-                Examples relevant to Nepali culture
-              </p>
-            </div>
-            <div className="bg-gradient-card rounded-lg p-6 shadow-card">
-              <GraduationCap className="h-8 w-8 text-primary mx-auto mb-3" />
-              <h3 className="font-semibold text-education-text mb-2">Student-Friendly</h3>
-              <p className="text-sm text-muted-foreground">
-                Easy to understand and practice
-              </p>
-            </div>
-          </div>
           
           {/* Start Button */}
           <Link to="/table-of-contents">

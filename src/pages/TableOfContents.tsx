@@ -1,7 +1,7 @@
 import { 
   Mail, Film, AtSign, BookOpen, PenTool, Newspaper, Edit, BarChart3,
   FileText, BookOpenCheck, MessageSquare, Megaphone,
-  ScrollText, Plane, Home
+  ScrollText, Plane, Home, Shield, ChefHat
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -99,6 +99,20 @@ const TableOfContents = () => {
       icon: BarChart3,
       path: "/graphical-interpretation",
       gradient: "from-cyan-500 to-cyan-600"
+    },
+    {
+      title: "Recipe Writing",
+      description: "Traditional Nepali recipes and cooking instructions",
+      icon: ChefHat,
+      path: "/recipe-writing",
+      gradient: "from-yellow-500 to-yellow-600"
+    },
+    {
+      title: "Rules and Regulations",
+      description: "Guidelines for different places like schools, hospitals, and parks",
+      icon: Shield,
+      path: "/rules-regulations",
+      gradient: "from-slate-500 to-slate-600"
     }
   ];
 
