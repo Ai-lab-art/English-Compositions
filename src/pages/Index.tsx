@@ -54,7 +54,7 @@ const Index = () => {
           <Link to="/table-of-contents">
             <Button 
               size="lg" 
-              className="twinkling-button hover-scale group text-lg px-8 py-4 h-auto bg-gradient-to-r from-primary to-primary-foreground border-2 border-primary/20"
+              className="twinkling-button hover-scale group text-lg font-bold px-8 py-4 h-auto bg-gradient-to-r from-blue-700 to-blue-800 text-white border-2 border-blue-600/30 hover:from-blue-800 hover:to-blue-900"
             >
               <Play className="mr-3 h-6 w-6 group-hover:scale-110 transition-transform" />
               Start Learning
