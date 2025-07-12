@@ -8,10 +8,15 @@ const BookReview = () => {
     {
       title: "Seto Dharti by Amar Neupane",
       description: "Review of a classic Nepali novel",
-      content: `                                                              Kathmandu-16, Buddhanagar
-                                                               12th September, 2025
+      content: `Book Review: Seto Dharti
 
-Book Review: Seto Dharti
+Title: Seto Dharti (White Earth)
+Author: Amar Neupane
+Published by: Nepal Pustakalaya
+Main Characters: Tara (protagonist), her family members
+Genre: Social Fiction
+Language: Nepali
+Publication Year: 1989
 
 "Seto Dharti" is one of the most popular novels in Nepali literature written by Amar Neupane. The story takes place in a small village in Nepal and shows the hard life of farmers.
 
@@ -31,10 +36,15 @@ Class: 10, Bright Future School`
     {
       title: "Harry Potter and the Philosopher's Stone",
       description: "Review of the famous fantasy novel",
-      content: `                                                              Pokhara-12, New Road
-                                                               8th November, 2025
+      content: `Book Review: Harry Potter and the Philosopher's Stone
 
-Book Review: Harry Potter and the Philosopher's Stone
+Title: Harry Potter and the Philosopher's Stone
+Author: J.K. Rowling
+Published by: Bloomsbury Publishing
+Main Characters: Harry Potter, Hermione Granger, Ron Weasley, Hagrid, Dumbledore
+Genre: Fantasy, Adventure, Young Adult Fiction
+Language: English
+Publication Year: 1997
 
 "Harry Potter and the Philosopher's Stone" by J.K. Rowling is the first book in the famous Harry Potter series. It tells the story of a young boy who discovers he is a wizard on his 11th birthday.
 
@@ -56,10 +66,15 @@ Class: 9, Mount Everest School`
     {
       title: "Muna Madan by Laxmi Prasad Devkota",
       description: "Review of Nepal's most famous epic poem",
-      content: `                                                              Bhaktapur-7, Nagarkot
-                                                               15th December, 2025
+      content: `Book Review: Muna Madan
 
-Book Review: Muna Madan
+Title: Muna Madan
+Author: Laxmi Prasad Devkota
+Published by: Various Nepali Publishers
+Main Characters: Madan (protagonist), Muna (his wife), Madan's mother
+Genre: Epic Poetry, Tragedy
+Language: Nepali
+Publication Year: 1935
 
 "Muna Madan" is the most famous poem in Nepali literature, written by the great poet Laxmi Prasad Devkota. It is considered the national epic of Nepal and tells the love story of Madan and his wife Muna.
 

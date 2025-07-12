@@ -8,10 +8,7 @@ const TravelogueWriting = () => {
     {
       title: "My Journey to Everest Base Camp",
       description: "A travelogue about trekking to Everest Base Camp",
-      content: `                                                              Kathmandu-5, Thamel
-                                                               25th November, 2025
-
-My Journey to Everest Base Camp
+      content: `My Journey to Everest Base Camp
 
 Day 1: Kathmandu to Lukla
 Our adventure began early morning when we took a small aircraft from Kathmandu to Lukla. The 35-minute flight was both scary and exciting as we flew between high mountains. Lukla airport is one of the most dangerous airports in the world, but our pilot landed safely. From Lukla, we started our trek to Phakding village, walking for about 3 hours through beautiful rhododendron forests.

@@ -13,6 +13,7 @@ import Essays from "./pages/Essays";
 import NewsStory from "./pages/NewsStory";
 import EditorLetter from "./pages/EditorLetter";
 import GraphicalInterpretation from "./pages/GraphicalInterpretation";
+import RecipeWriting from "./pages/RecipeWriting";
 import ParagraphWriting from "./pages/ParagraphWriting";
 import DialogueWriting from "./pages/DialogueWriting";
 import BookReview from "./pages/BookReview";

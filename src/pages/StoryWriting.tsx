@@ -8,6 +8,12 @@ const StoryWriting = () => {
     {
       title: "The Honest Woodcutter",
       description: "A story about honesty and its rewards",
+      outline: `Outline:
+1. A poor woodcutter loses his axe in the river
+2. A fairy appears with a golden axe - woodcutter says it's not his
+3. Fairy brings a silver axe - woodcutter remains honest
+4. Fairy brings his real iron axe - woodcutter claims it
+5. Fairy rewards his honesty with all three axes`,
       content: `Once upon a time, there lived a poor woodcutter near a deep forest. Every day, he would go to the forest to cut wood and sell it in the market to feed his family.
 
 One day, while cutting wood near a river, his old axe slipped from his hands and fell into the deep water. The woodcutter sat by the river and began to cry because he could not buy a new axe.
@@ -27,6 +33,12 @@ Moral: Honesty is always rewarded. When we tell the truth, good things happen to
     {
       title: "The Lazy Grasshopper and the Hardworking Ant",
       description: "A story about the importance of hard work and planning",
+      outline: `Outline:
+1. Grasshopper spends summer singing and dancing
+2. Ant works hard collecting food for winter
+3. Grasshopper mocks ant for working too hard
+4. Winter arrives - grasshopper has no food
+5. Ant helps grasshopper and teaches him about planning`,
       content: `Once, in a beautiful meadow lived a grasshopper and an ant. The grasshopper loved to sing and dance all day under the warm summer sun. He never worried about anything and spent his time having fun.
 
 The ant, however, worked hard every day. From morning until evening, she collected food and stored it safely in her home. "Winter is coming," she always reminded herself.
@@ -50,6 +62,12 @@ Moral: Hard work and planning for the future are very important. We should not w
     {
       title: "The Boy Who Cried Wolf",
       description: "A story about the consequences of lying",
+      outline: `Outline:
+1. Shepherd boy gets bored watching sheep alone
+2. Boy falsely cries "Wolf!" to get attention
+3. Villagers come running but find no wolf
+4. Boy repeats the lie several times
+5. Real wolf comes but nobody believes the boy's cries`,
       content: `Once upon a time, there was a young shepherd boy who lived in a village near the mountains. His job was to watch the sheep and protect them from wild animals.
 
 The boy often felt bored and lonely watching the sheep all day. One day, he thought of a plan to have some fun and get attention from the villagers.
@@ -79,6 +97,12 @@ Moral: If you lie often, people will not believe you even when you tell the trut
     {
       title: "The Tortoise and the Hare",
       description: "A story about persistence and humility",
+      outline: `Outline:
+1. Proud hare makes fun of slow tortoise
+2. Tortoise challenges hare to a race
+3. Hare runs ahead and takes a nap, feeling overconfident
+4. Tortoise continues slowly but steadily
+5. Tortoise wins while hare sleeps`,
       content: `Once, in a sunny meadow, there lived a speedy hare who was very proud of how fast he could run. He often bragged to other animals about his incredible speed.
 
 One day, he met a slow-moving tortoise and began to make fun of him. "You are so slow!" laughed the hare. "It takes you forever to go anywhere!"
@@ -106,6 +130,12 @@ Moral: Consistent effort and determination are more important than natural talen
     {
       title: "The Kind Lion and the Grateful Mouse",
       description: "A story about kindness and how small acts matter",
+      outline: `Outline:
+1. Mouse accidentally disturbs sleeping lion
+2. Lion catches mouse but spares his life
+3. Mouse promises to help lion someday
+4. Lion gets trapped in hunters' net
+5. Mouse saves lion by chewing through ropes`,
       content: `Once upon a time, in the heart of the jungle lived a mighty lion, the king of all animals. One hot afternoon, he was sleeping peacefully under a large tree when a tiny mouse accidentally ran across his paw.
 
 The lion woke up angry and grabbed the little mouse with his huge paw. "How dare you disturb my sleep!" he roared. "I should eat you right now!"
@@ -140,10 +170,10 @@ Moral: Kindness is never wasted, and even the smallest person can make a big dif
     <div className="min-h-screen bg-gradient-to-br from-background to-education-light">
       <div className="container mx-auto px-4 py-6">
         <div className="mb-6">
-          <Link to="/">
+          <Link to="/table-of-contents">
             <Button variant="ghost" className="mb-4 twinkle-button px-6 py-3 text-lg font-semibold">
               <ArrowLeft className="mr-3 h-6 w-6" />
-              Back to Home
+              Back to Contents
             </Button>
           </Link>
           <div className="flex items-center gap-3 mb-2">
@@ -162,11 +192,22 @@ Moral: Kindness is never wasted, and even the smallest person can make a big dif
                 <CardTitle className="text-xl text-education-text">{example.title}</CardTitle>
                 <CardDescription>{example.description}</CardDescription>
               </CardHeader>
-              <CardContent>
-                <div className="bg-education-light p-4 rounded-lg border max-h-96 overflow-y-auto">
-                  <pre className="whitespace-pre-wrap text-sm text-education-text">
-                    {example.content}
-                  </pre>
+              <CardContent className="space-y-4">
+                <div>
+                  <h4 className="font-semibold text-education-text mb-2">Story Outline:</h4>
+                  <div className="bg-muted p-3 rounded-lg border">
+                    <pre className="whitespace-pre-wrap text-sm text-education-text">
+                      {example.outline}
+                    </pre>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-education-text mb-2">Complete Story:</h4>
+                  <div className="bg-education-light p-4 rounded-lg border max-h-96 overflow-y-auto">
+                    <pre className="whitespace-pre-wrap text-sm text-education-text">
+                      {example.content}
+                    </pre>
+                  </div>
                 </div>
               </CardContent>
             </Card>

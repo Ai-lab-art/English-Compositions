@@ -14,7 +14,6 @@ Producer: Don Hahn
 Starring: Matthew Broderick, James Earl Jones, Jeremy Irons
 Genre: Animation, Adventure, Drama
 Release Date: June 15, 1994
-Rating: 5 out of 5 stars
 
 The Lion King is one of the best animated movies ever made. The story follows Simba, a young lion who must learn to become king after his father's death.
 
@@ -35,7 +34,6 @@ Producer: Avi Arad, Phil Lord, Christopher Miller
 Starring: Shameik Moore, Jake Johnson, Hailee Steinfeld
 Genre: Animation, Action, Adventure, Comedy
 Release Date: December 14, 2018
-Rating: 4.5 out of 5 stars
 
 This movie completely changed how we think about animated superhero films. The story follows Miles Morales as he becomes the new Spider-Man and meets other Spider-People from different dimensions.
 
@@ -58,7 +56,6 @@ Producer: Graham Walters
 Starring: Albert Brooks, Ellen DeGeneres, Alexander Gould
 Genre: Animation, Adventure, Comedy, Family
 Release Date: May 30, 2003
-Rating: 5 out of 5 stars
 
 Finding Nemo is a heartwarming story about a father fish named Marlin searching for his lost son Nemo. This Pixar movie is perfect for the whole family.
 
@@ -83,7 +80,6 @@ Producer: David Heyman
 Starring: Daniel Radcliffe, Emma Watson, Rupert Grint
 Genre: Adventure, Family, Fantasy
 Release Date: November 16, 2001
-Rating: 4 out of 5 stars
 
 This movie brings the magical world of Harry Potter to life on the big screen. It follows Harry as he discovers he's a wizard and starts his first year at Hogwarts School.
 
@@ -108,7 +104,6 @@ Producer: Osnat Shurer
 Starring: Auli'i Cravalho, Dwayne Johnson, Rachel House
 Genre: Animation, Adventure, Comedy, Family, Musical
 Release Date: November 23, 2016
-Rating: 4.5 out of 5 stars
 
 Moana is a beautiful Disney movie about a brave Polynesian girl who sails across the ocean to save her island. This movie celebrates Pacific Island culture in a respectful and colorful way.
 
@@ -132,10 +127,10 @@ Moana is a wonderful movie that combines adventure, beautiful music, and importa
     <div className="min-h-screen bg-gradient-to-br from-background to-education-light">
       <div className="container mx-auto px-4 py-6">
         <div className="mb-6">
-          <Link to="/">
+          <Link to="/table-of-contents">
             <Button variant="ghost" className="mb-4 twinkle-button px-6 py-3 text-lg font-semibold">
               <ArrowLeft className="mr-3 h-6 w-6" />
-              Back to Home
+              Back to Contents
             </Button>
           </Link>
           <div className="flex items-center gap-3 mb-2">

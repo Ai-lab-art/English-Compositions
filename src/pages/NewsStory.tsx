@@ -8,6 +8,13 @@ const NewsStory = () => {
     {
       title: "Fatal Bus Accident on Prithvi Highway Claims 15 Lives",
       description: "A tragic road accident news from Nepal",
+      questions: `News Story Questions:
+1. What happened? (A fatal bus accident)
+2. Where did it happen? (Prithvi Highway near Mugling)
+3. When did it happen? (Yesterday morning around 6:30 AM)
+4. Who was involved? (40 passengers, driver Tek Bahadur Gurung)
+5. Why did it happen? (Dense fog, wet road conditions)
+6. How many casualties? (15 deaths, 25 injured)`,
       content: `Tragic Bus Accident on Prithvi Highway Kills 15 Passengers
 
 Chitwan, 15th January - A passenger bus traveling from Kathmandu to Pokhara met with a fatal accident yesterday morning on the Prithvi Highway near Mugling, claiming 15 lives and injuring 25 others. The accident occurred around 6:30 AM when the bus skidded off the road and plunged into the Trishuli River.
@@ -31,6 +38,13 @@ Prime Minister has announced compensation of NPR 500,000 for the families of dec
     {
       title: "Earthquake Measuring 5.8 Magnitude Hits Western Nepal",
       description: "Breaking news about earthquake in Nepal",
+      questions: `News Story Questions:
+1. What happened? (5.8 magnitude earthquake struck)
+2. Where did it happen? (Bajhang district, far-western Nepal)
+3. When did it happen? (Yesterday at 11:45 PM)
+4. Who was affected? (Residents of Bajhang, Doti, Achham, Kailali)
+5. Why is this significant? (Shows seismic activity in Nepal)
+6. How did people respond? (Rushed outside, stayed outdoors)`,
       content: `5.8 Magnitude Earthquake Strikes Bajhang District, No Major Casualties Reported
 
 Bajhang, 8th March - A moderate earthquake measuring 5.8 on the Richter scale struck Bajhang district in far-western Nepal yesterday at 11:45 PM, causing widespread panic among residents but no major casualties have been reported so far.
@@ -56,6 +70,13 @@ Seismologists have advised people to remain alert for aftershocks and follow ear
     {
       title: "Youth Soccer Team Helps Community",
       description: "A news story about young people making a difference",
+      questions: `News Story Questions:
+1. What happened? (Soccer team raised $5,000 for animal shelter)
+2. Where did it happen? (Westside community)
+3. When did it happen? (Month-long campaign ending last weekend)
+4. Who was involved? (Westside Warriors youth soccer team, 20 players)
+5. Why did they do it? (Shelter needed money for operations)
+6. How did they raise money? (Car washes, bake sales, charity tournament)`,
       content: `Local Soccer Team Raises $5,000 for Animal Shelter
 
 Westside, 22nd April - The Westside Warriors youth soccer team has raised $5,000 for the Community Animal Shelter through a month-long fundraising campaign that ended last weekend.
@@ -85,6 +106,13 @@ Several team members said they plan to volunteer at the shelter regularly and ho
     {
       title: "Technology Fair Showcases Student Innovation",
       description: "A news story about educational achievements",
+      questions: `News Story Questions:
+1. What happened? (Annual Technology Fair held)
+2. Where did it happen? (Lincoln Middle School, Eastdale)
+3. When did it happen? (Saturday)
+4. Who participated? (200+ students from grades 6-12)
+5. Why is this important? (Shows student creativity and innovation)
+6. How were projects judged? (Innovation, technical skill, presentation, impact)`,
       content: `Students Showcase Creativity at Annual Technology Fair
 
 Eastdale, 10th November - Innovation was on full display at the Eastdale School District's Annual Technology Fair held at Lincoln Middle School on Saturday. Over 200 students from grades 6-12 presented projects demonstrating their technological skills and creativity.
@@ -116,6 +144,13 @@ Next year's fair is scheduled for the second Saturday in May, and organizers hop
     {
       title: "Community Garden Project Brings Neighbors Together",
       description: "A news story about community cooperation and environmental action",
+      questions: `News Story Questions:
+1. What happened? (Vacant lot transformed into community garden)
+2. Where did it happen? (Maple Street, Riverside)
+3. When did it start? (Six months ago)
+4. Who initiated it? (Maria Gonzalez and 50 local families)
+5. Why was it needed? (Lot was an eyesore, needed community space)
+6. How has it impacted the community? (Brought neighbors together, reduced crime)`,
       content: `Community Garden Transforms Vacant Lot into Green Space
 
 Riverside, 5th September - What was once an empty lot filled with weeds and trash has been transformed into a thriving community garden, thanks to the efforts of local residents and students from Riverside Elementary School.
@@ -152,10 +187,10 @@ The garden holds an annual harvest festival each October, where families share t
     <div className="min-h-screen bg-gradient-to-br from-background to-education-light">
       <div className="container mx-auto px-4 py-6">
         <div className="mb-6">
-          <Link to="/">
+          <Link to="/table-of-contents">
             <Button variant="ghost" className="mb-4 twinkle-button px-6 py-3 text-lg font-semibold">
               <ArrowLeft className="mr-3 h-6 w-6" />
-              Back to Home
+              Back to Contents
             </Button>
           </Link>
           <div className="flex items-center gap-3 mb-2">
@@ -174,11 +209,22 @@ The garden holds an annual harvest festival each October, where families share t
                 <CardTitle className="text-xl text-education-text">{example.title}</CardTitle>
                 <CardDescription>{example.description}</CardDescription>
               </CardHeader>
-              <CardContent>
-                <div className="bg-education-light p-4 rounded-lg border max-h-96 overflow-y-auto">
-                  <pre className="whitespace-pre-wrap text-sm text-education-text">
-                    {example.content}
-                  </pre>
+              <CardContent className="space-y-4">
+                <div>
+                  <h4 className="font-semibold text-education-text mb-2">News Outline (Questions):</h4>
+                  <div className="bg-muted p-3 rounded-lg border">
+                    <pre className="whitespace-pre-wrap text-sm text-education-text">
+                      {example.questions}
+                    </pre>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-education-text mb-2">News Story (Answer):</h4>
+                  <div className="bg-education-light p-4 rounded-lg border max-h-96 overflow-y-auto">
+                    <pre className="whitespace-pre-wrap text-sm text-education-text">
+                      {example.content}
+                    </pre>
+                  </div>
                 </div>
               </CardContent>
             </Card>

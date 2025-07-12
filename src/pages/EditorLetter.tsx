@@ -11,10 +11,7 @@ const EditorLetter = () => {
     {
       title: "Letter About Education Problems",
       description: "A letter to editor about educational issues in Nepal",
-      content: `                                                               Gorkha-5, Palungtar
-                                                               15th January, 2025
-
-The Editor,
+      content: `The Editor,
 The Himalayan Times
 Dear Sir/Madam,
 
@@ -43,10 +40,7 @@ Dhading, Nepal`
     {
       title: "Letter About Road Conditions",
       description: "A letter to editor about poor road conditions",
-      content: `                                                               Lalitpur-3, Pulchowk
-                                                               20th February, 2025
-
-The Editor,
+      content: `The Editor,
 Kantipur Daily
 Dear Sir/Madam,
 
@@ -75,10 +69,7 @@ Lalitpur, Nepal`
     {
       title: "Letter About Water Shortage",
       description: "A letter to editor about water supply problems",
-      content: `                                                               Kirtipur-4, TU Road
-                                                               10th March, 2025
-
-The Editor,
+      content: `The Editor,
 Nagarik News
 Dear Sir/Madam,
 
@@ -109,10 +100,7 @@ Kirtipur, Nepal`
     {
       title: "Letter About Plastic Pollution",
       description: "A letter to editor about environmental pollution",
-      content: `                                                               Bhaktapur-8, Durbar Square
-                                                               5th April, 2025
-
-The Editor,
+      content: `The Editor,
 Gorkhapatra Daily
 Dear Sir/Madam,
 
@@ -144,10 +132,7 @@ Bhaktapur, Nepal`
     {
       title: "Letter About Youth Unemployment",
       description: "A letter to editor about job opportunities for youth",
-      content: `                                                               Pokhara-15, Lakeside
-                                                               25th May, 2025
-
-The Editor,
+      content: `The Editor,
 Republica Daily
 Dear Sir/Madam,
 
@@ -184,10 +169,7 @@ Pokhara, Nepal`
     {
       title: "Letter About Festival Celebrations",
       description: "A letter to editor about preserving cultural traditions",
-      content: `                                                               Chitwan-2, Bharatpur
-                                                               18th October, 2025
-
-The Editor,
+      content: `The Editor,
 Annapurna Post
 Dear Sir/Madam,
 
@@ -234,15 +216,21 @@ Chitwan, Nepal`
     <div className="min-h-screen bg-gradient-to-br from-background to-education-light">
       <div className="container mx-auto px-4 py-6">
         <div className="mb-6">
-          <Link to="/">
+          <Link to="/table-of-contents">
             <Button variant="ghost" className="mb-4 twinkle-button px-6 py-3 text-lg font-semibold">
               <ArrowLeft className="mr-3 h-6 w-6" />
-              Back to Home
+              Back to Contents
             </Button>
           </Link>
-          <div className="flex items-center gap-3 mb-2">
-            <Edit className="h-8 w-8 text-primary" />
-            <h1 className="text-3xl font-bold text-foreground">Letter to Editor</h1>
+          <div className="flex items-center justify-between mb-2">
+            <div className="flex items-center gap-3">
+              <Edit className="h-8 w-8 text-primary" />
+              <h1 className="text-3xl font-bold text-foreground">Letter to Editor</h1>
+            </div>
+            <div className="text-right text-sm text-muted-foreground">
+              <div>Your Address</div>
+              <div>{new Date().toLocaleDateString()}</div>
+            </div>
           </div>
           <p className="text-muted-foreground">
             Learn how to write letters to newspaper editors about important issues

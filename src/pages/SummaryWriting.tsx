@@ -8,7 +8,20 @@ const SummaryWriting = () => {
     {
       title: "Summary of Article on Education in Nepal",
       description: "Summarizing an article about Nepal's education system",
-      content: `Original Article Summary:
+      originalText: `Original Article: "Challenges in Nepal's Education System"
+
+Nepal's education system faces numerous challenges that hinder the country's development and progress. Despite improvements in recent years, many obstacles remain that prevent children from receiving quality education.
+
+Rural areas suffer the most from educational problems. Many children cannot attend school because their families are poor and need them to work for survival. Schools in remote villages are often far from students' homes, making daily attendance difficult, especially during monsoon season when roads become impassable.
+
+Government schools lack basic infrastructure and facilities. Many classrooms have no proper roof, windows, or furniture. Students sit on the floor and write on broken desks. Most schools don't have clean toilets or safe drinking water, which affects students' health and attendance, particularly among girls.
+
+The shortage of qualified teachers is another major issue. Many remote schools have only one or two teachers for all grades. Some teachers are not properly trained and lack modern teaching methods. Low salaries and difficult working conditions discourage qualified teachers from working in rural areas.
+
+The curriculum is outdated and doesn't prepare students for modern jobs. Students memorize information without understanding concepts. There's little focus on practical skills, creativity, or critical thinking. This creates a gap between what students learn and what employers need.
+
+Private schools create inequality in education. Rich families send their children to expensive private schools with good facilities and qualified teachers. Poor families can only afford government schools with limited resources. This creates two different education systems in the same country.`,
+      content: `Article Summary:
 "Challenges in Nepal's Education System"
 
 The article discusses major problems in Nepal's education system and suggests solutions for improvement. The main points are:
@@ -35,7 +48,20 @@ Word Count: Original article (500 words) → Summary (150 words)`
     {
       title: "Summary of News Report on Climate Change",
       description: "Summarizing a news report about climate change effects in Nepal",
-      content: `Original News Report Summary:
+      originalText: `Original News Report: "Climate Change Threatens Nepal's Mountains"
+
+KATHMANDU - A comprehensive study by Nepal's Department of Hydrology and Meteorology reveals alarming evidence of climate change's devastating impact on the country's Himalayan region, raising urgent concerns about the future of the world's highest mountain range.
+
+The research, conducted over the past decade, shows that glaciers in the Everest region are retreating at an unprecedented rate of 30-60 meters per year. Scientists report that average temperatures in Nepal have increased by 1.8 degrees Celsius over the last three decades, nearly double the global average warming rate.
+
+Dr. Rijan Bhakta Kayastha, a leading glaciologist, warns that this rapid warming is causing irregular rainfall patterns across the country. "Traditional monsoon cycles that farmers have relied on for centuries are becoming unpredictable," he explains. "Some areas receive excessive rainfall causing floods, while others face severe droughts."
+
+The changing climate is triggering more frequent natural disasters. Landslides and flash floods have increased by 40% in the past decade, destroying homes, agricultural land, and infrastructure. Mountain communities report that springs and traditional water sources are drying up, forcing villagers to walk longer distances for clean water.
+
+Wildlife is also suffering as changing temperatures force animals and plants to migrate to higher altitudes. The report documents that several endemic species, including the snow leopard and red panda, face habitat loss and potential extinction.
+
+Tourism, Nepal's major source of foreign currency, is already feeling the impact. Unpredictable weather conditions and increased avalanche risks are affecting trekking routes and mountaineering expeditions.`,
+      content: `News Report Summary:
 "Climate Change Threatens Nepal's Mountains"
 
 A recent news report from The Himalayan Times discusses how climate change is affecting Nepal's mountain regions. Key points include:
@@ -67,6 +93,29 @@ Word Count: Original report (800 words) → Summary (180 words)`
     {
       title: "Summary of Story About Friendship",
       description: "Summarizing a short story with moral lessons",
+      originalText: `Original Story: "The Two Friends and the Bear"
+
+Ram and Shyam had been best friends since childhood. They lived in neighboring houses and did everything together. They went to school together, played together, and shared all their secrets. Everyone in the village knew them as inseparable companions who would do anything for each other.
+
+One sunny morning, the two friends decided to visit a nearby town to buy some books for their studies. The shortest route was through a dense forest, but they were confident and fearless. "We'll be fine," said Ram. "We're together, and together we can face anything."
+
+As they walked deeper into the forest, they chatted and laughed, enjoying the cool shade of the tall trees. Birds chirped overhead, and a gentle breeze made the journey pleasant. They felt happy and carefree.
+
+Suddenly, they heard a loud growling sound behind them. They turned around and saw a huge brown bear emerging from behind the trees. The bear looked hungry and angry, and it was walking directly toward them.
+
+Ram, who was taller and a good climber, immediately looked around and spotted a sturdy tree nearby. Without saying a word to his friend, he quickly ran to the tree and climbed up as high as he could. He sat on a thick branch, safely out of the bear's reach.
+
+Shyam, who was shorter and had never learned to climb trees well, was left alone on the ground. He called out to Ram, "Help me up! Pull me up!" But Ram was too scared and only thought about his own safety.
+
+The bear was getting closer. Shyam remembered something his grandfather had told him: "Bears don't attack dead bodies." So he quickly lay down on the ground, held his breath, and pretended to be dead.
+
+The big bear came closer and sniffed around Shyam's body. It smelled his face, ears, and hands carefully. Shyam remained perfectly still, even though he was terrified. After a few long minutes, the bear decided that Shyam was dead and wandered away into the forest.
+
+When the bear was completely gone, Ram climbed down from the tree. He approached Shyam with a smile, as if nothing had happened. "That was close!" he said cheerfully. "I saw the bear leaning close to your ear. What did it whisper to you?"
+
+Shyam stood up, brushed the dirt off his clothes, and looked at Ram with disappointment in his eyes. "The bear told me something very important," he said quietly. "It said that I should never trust a friend who runs away and leaves me in danger."
+
+Ram realized his mistake, but it was too late. Their friendship was never the same again.`,
       content: `Story Summary:
 "The Two Friends and the Bear"
 
@@ -123,11 +172,22 @@ Word Count: Original story (300 words) → Summary (180 words)`
                 <CardTitle className="text-xl text-education-text">{example.title}</CardTitle>
                 <CardDescription>{example.description}</CardDescription>
               </CardHeader>
-              <CardContent>
-                <div className="bg-education-light p-4 rounded-lg border">
-                  <pre className="whitespace-pre-wrap text-sm text-education-text font-mono leading-relaxed">
-                    {example.content}
-                  </pre>
+              <CardContent className="space-y-4">
+                <div>
+                  <h4 className="font-semibold text-education-text mb-2">Original Text:</h4>
+                  <div className="bg-muted p-3 rounded-lg border max-h-60 overflow-y-auto">
+                    <pre className="whitespace-pre-wrap text-xs text-education-text">
+                      {example.originalText}
+                    </pre>
+                  </div>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-education-text mb-2">Summary:</h4>
+                  <div className="bg-education-light p-4 rounded-lg border">
+                    <pre className="whitespace-pre-wrap text-sm text-education-text font-mono leading-relaxed">
+                      {example.content}
+                    </pre>
+                  </div>
                 </div>
               </CardContent>
             </Card>
