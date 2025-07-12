@@ -15,7 +15,7 @@ const Index = () => {
           {/* Main Title */}
           <div className="flex items-center justify-center gap-4 mb-6">
             <GraduationCap className="h-16 w-16 text-primary animate-pulse" />
-            <h1 className="text-5xl md:text-6xl font-bold bg-gradient-primary bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-6xl font-bold text-foreground">
               English Composition Helper
             </h1>
           </div>
