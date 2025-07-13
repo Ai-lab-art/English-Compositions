@@ -1,4 +1,4 @@
-import { GraduationCap, BookOpen, PenTool, Play } from "lucide-react";
+import { GraduationCap, BookOpen, PenTool, Play, Facebook, Instagram, MessageCircle, Share2 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
@@ -46,6 +46,54 @@ const Index = () => {
             </blockquote>
           </div>
         </div>
+      </div>
+      
+      {/* Social Media Icons */}
+      <div className="fixed bottom-6 right-6 flex flex-col gap-3">
+        <a
+          href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg transition-all hover:scale-110"
+        >
+          <Facebook className="h-5 w-5" />
+        </a>
+        
+        <a
+          href={`https://wa.me/?text=${encodeURIComponent(`Check out this English Composition Helper: ${window.location.href}`)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg transition-all hover:scale-110"
+        >
+          <MessageCircle className="h-5 w-5" />
+        </a>
+        
+        <a
+          href={`https://www.instagram.com/`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white p-3 rounded-full shadow-lg transition-all hover:scale-110"
+        >
+          <Instagram className="h-5 w-5" />
+        </a>
+        
+        <button
+          onClick={() => {
+            if (navigator.share) {
+              navigator.share({
+                title: 'English Composition Helper',
+                text: 'Master the art of English writing with comprehensive examples and tips',
+                url: window.location.href
+              });
+            } else {
+              navigator.clipboard.writeText(window.location.href);
+              alert('Link copied to clipboard!');
+            }
+          }}
+          className="bg-gray-600 hover:bg-gray-700 text-white p-3 rounded-full shadow-lg transition-all hover:scale-110"
+        >
+          <Share2 className="h-5 w-5" />
+        </button>
       </div>
     </div>
   );
