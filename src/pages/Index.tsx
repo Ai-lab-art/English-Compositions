@@ -1,4 +1,4 @@
-import { GraduationCap, BookOpen, PenTool, Play, Facebook, Instagram, MessageCircle, Share2 } from "lucide-react";
+import { GraduationCap, BookOpen, PenTool, Play, Facebook, Instagram, MessageCircle, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
@@ -77,23 +77,14 @@ const Index = () => {
           <Instagram className="h-5 w-5" />
         </a>
         
-        <button
-          onClick={() => {
-            if (navigator.share) {
-              navigator.share({
-                title: 'English Composition Helper',
-                text: 'Master the art of English writing with comprehensive examples and tips',
-                url: window.location.href
-              });
-            } else {
-              navigator.clipboard.writeText(window.location.href);
-              alert('Link copied to clipboard!');
-            }
-          }}
-          className="bg-gray-600 hover:bg-gray-700 text-white p-3 rounded-full shadow-lg transition-all hover:scale-110"
+        <a
+          href={`https://m.me/?text=${encodeURIComponent(`Check out this English Composition Helper: ${window.location.href}`)}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-blue-500 hover:bg-blue-600 text-white p-3 rounded-full shadow-lg transition-all hover:scale-110"
         >
-          <Share2 className="h-5 w-5" />
-        </button>
+          <MessageCircle className="h-5 w-5" />
+        </a>
       </div>
     </div>
   );
