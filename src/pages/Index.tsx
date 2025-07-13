@@ -24,7 +24,7 @@ const Index = () => {
           
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-education-text mb-8 max-w-3xl mx-auto leading-relaxed">
-            Master the art of English writing with comprehensive examples and tips designed specifically for Nepali secondary level students
+            Master the art of English writing with comprehensive examples and tips designed specifically for secondary level students
           </p>
           
           
