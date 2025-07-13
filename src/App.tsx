@@ -43,6 +43,7 @@ const App = () => (
           <Route path="/editor-letter" element={<EditorLetter />} />
           <Route path="/graphical-interpretation" element={<GraphicalInterpretation />} />
           <Route path="/recipe-writing" element={<RecipeWriting />} />
+          <Route path="/paragraph-writing" element={<ParagraphWriting />} />
           <Route path="/dialogue-writing" element={<DialogueWriting />} />
           <Route path="/book-review" element={<BookReview />} />
           <Route path="/speech-writing" element={<SpeechWriting />} />
