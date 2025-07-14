@@ -195,10 +195,18 @@ Moral: Kindness is never wasted, and even the smallest person can make a big dif
               <CardContent className="space-y-4">
                 <div>
                   <h4 className="font-semibold text-education-text mb-2">Story Outline:</h4>
-                  <div className="bg-muted p-3 rounded-lg border">
-                    <pre className="whitespace-pre-wrap text-sm text-education-text">
-                      {example.outline}
-                    </pre>
+                  <div className="bg-gradient-to-br from-orange-50 to-amber-50 p-4 rounded-lg border-2 border-orange-200 shadow-sm">
+                    <div className="text-sm text-orange-800 leading-relaxed">
+                      {example.outline.replace(/Outline:\n/, '').split('\n').filter(line => line.trim()).map((point, idx) => {
+                        const cleanPoint = point.replace(/^\d+\.\s*/, '');
+                        return (
+                          <div key={idx} className="flex items-start gap-2 mb-2">
+                            <span className="w-2 h-2 bg-orange-400 rounded-full mt-2 flex-shrink-0"></span>
+                            <span>{cleanPoint}</span>
+                          </div>
+                        );
+                      })}
+                    </div>
                   </div>
                 </div>
                 <div>

@@ -21,6 +21,8 @@ import SpeechWriting from "./pages/SpeechWriting";
 import SummaryWriting from "./pages/SummaryWriting";
 import TravelogueWriting from "./pages/TravelogueWriting";
 import RulesRegulations from "./pages/RulesRegulations";
+import NewsArticles from "./pages/NewsArticles";
+import DiaryEntry from "./pages/DiaryEntry";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -50,6 +52,8 @@ const App = () => (
           <Route path="/summary-writing" element={<SummaryWriting />} />
           <Route path="/travelogue-writing" element={<TravelogueWriting />} />
           <Route path="/rules-regulations" element={<RulesRegulations />} />
+          <Route path="/news-articles" element={<NewsArticles />} />
+          <Route path="/diary-entry" element={<DiaryEntry />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

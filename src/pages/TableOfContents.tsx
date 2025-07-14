@@ -1,11 +1,30 @@
 import { 
   Mail, Film, AtSign, BookOpen, PenTool, Newspaper, Edit, BarChart3,
   FileText, BookOpenCheck, MessageSquare, Megaphone,
-  ScrollText, Plane, Home, Shield, ChefHat
+  ScrollText, Plane, Home, Shield, ChefHat, Calendar, Heart
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+
+// Import images
+import letterWritingImg from "@/assets/letter-writing.jpg";
+import paragraphWritingImg from "@/assets/paragraph-writing.jpg";
+import storyWritingImg from "@/assets/story-writing.jpg";
+import essaysImg from "@/assets/essays.jpg";
+import newsStoryImg from "@/assets/news-story.jpg";
+import editorLetterImg from "@/assets/editor-letter.jpg";
+import movieReviewImg from "@/assets/movie-review.jpg";
+import bookReviewImg from "@/assets/book-review.jpg";
+import emailWritingImg from "@/assets/email-writing.jpg";
+import speechWritingImg from "@/assets/speech-writing.jpg";
+import summaryWritingImg from "@/assets/summary-writing.jpg";
+import travelogueWritingImg from "@/assets/travelogue-writing.jpg";
+import graphicalInterpretationImg from "@/assets/graphical-interpretation.jpg";
+import recipeWritingImg from "@/assets/recipe-writing.jpg";
+import rulesRegulationsImg from "@/assets/rules-regulations.jpg";
+import newsArticlesImg from "@/assets/news-articles.jpg";
+import diaryEntryImg from "@/assets/diary-entry.jpg";
 
 const TableOfContents = () => {
   const topics = [
@@ -14,7 +33,8 @@ const TableOfContents = () => {
       description: "Formal and informal letters for Nepali context and occasions",
       icon: Mail,
       path: "/letter-writing",
-      gradient: "from-blue-500 to-blue-600"
+      gradient: "from-blue-500 to-blue-600",
+      image: letterWritingImg
     },
     {
       title: "Paragraph Writing",
@@ -112,7 +132,24 @@ const TableOfContents = () => {
       description: "Guidelines for different places like schools, hospitals, and parks",
       icon: Shield,
       path: "/rules-regulations",
-      gradient: "from-slate-500 to-slate-600"
+      gradient: "from-slate-500 to-slate-600",
+      image: rulesRegulationsImg
+    },
+    {
+      title: "News Articles",
+      description: "Current events and news stories from Nepal with detailed reporting",
+      icon: Calendar,
+      path: "/news-articles",
+      gradient: "from-blue-500 to-cyan-500",
+      image: newsArticlesImg
+    },
+    {
+      title: "Diary Entry",
+      description: "Personal experiences and reflections through heartfelt diary writing",
+      icon: Heart,
+      path: "/diary-entry",
+      gradient: "from-pink-500 to-rose-500",
+      image: diaryEntryImg
     }
   ];
 
@@ -147,7 +184,16 @@ const TableOfContents = () => {
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {topics.map((topic, index) => (
             <Link key={index} to={topic.path} className="group">
-              <Card className="h-full shadow-card hover:shadow-hover transition-all duration-300 group-hover:scale-105 bg-gradient-card border-0">
+              <Card className="h-full shadow-card hover:shadow-hover transition-all duration-300 group-hover:scale-105 bg-gradient-card border-0 overflow-hidden">
+                {topic.image && (
+                  <div className="h-48 overflow-hidden">
+                    <img 
+                      src={topic.image} 
+                      alt={topic.title}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                  </div>
+                )}
                 <CardHeader className="text-center pb-4">
                   <div className={`w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-r ${topic.gradient} flex items-center justify-center shadow-lg`}>
                     <topic.icon className="h-8 w-8 text-white" />
