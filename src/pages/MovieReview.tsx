@@ -2,6 +2,7 @@ import { ArrowLeft, Film } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import movieReviewHero from "@/assets/movie-review-hero.jpg";
 
 const MovieReview = () => {
   const reviewExamples = [
@@ -117,15 +118,100 @@ Maui, voiced by Dwayne Johnson, is a funny and lovable character. The relationsh
 
 The movie respects Polynesian culture and shows the importance of traditions, family, and protecting nature.
 
-The only small problem is that some parts might be too intense for very young children, especially the scenes with Te Kā.
+      The only small problem is that some parts might be too intense for very young children, especially the scenes with Te Kā.
 
 Moana is a wonderful movie that combines adventure, beautiful music, and important life lessons.`
+    },
+    {
+      title: "Review of 'Pashupati Prasad'",
+      description: "A review of the popular Nepali social drama film",
+      content: `Movie: Pashupati Prasad
+Director: Dipendra K. Khanal
+Producer: Madhav Wagle, Narendra Maharjan
+Starring: Khagendra Lamichhane, Rabindra Singh Baniya, Barsha Siwakoti
+Genre: Social Drama, Comedy
+Release Date: January 29, 2016
+
+Pashupati Prasad is one of the finest Nepali movies that beautifully portrays the struggles of ordinary people in Nepal. The story follows Pashupati, a poor man from a village who comes to Kathmandu seeking a better life.
+
+The movie shows the harsh reality of life in Nepal, where honest people often struggle while corrupt people succeed. Khagendra Lamichhane gives an outstanding performance as Pashupati, making us feel his pain and hopes.
+
+What makes this movie special is its realistic portrayal of Nepali society. The dialogues are natural and the situations feel real. The movie doesn't use fancy effects but relies on good storytelling and acting.
+
+The film addresses important social issues like corruption, poverty, and the gap between rich and poor in Nepal. It shows how difficult it is for honest people to survive in a corrupt system.
+
+The cinematography captures both the beauty of rural Nepal and the chaos of Kathmandu city. The music by Rohit John Chettri perfectly complements the story.
+
+The movie might be sad at times, but it gives an important message about honesty, hard work, and staying true to your values.
+
+I highly recommend this movie to anyone who wants to understand Nepali society and culture. It's a masterpiece of Nepali cinema.`
+    },
+    {
+      title: "Review of 'Loot'",
+      description: "A review of the popular Nepali action-comedy film",
+      content: `Movie: Loot
+Director: Nischal Basnet
+Producer: Madhav Wagle, Narendra Maharjan
+Starring: Saugat Malla, Dayahang Rai, Karma Shakya, Prateek Raj Neupane
+Genre: Action, Comedy, Crime
+Release Date: February 11, 2012
+
+Loot changed the landscape of Nepali cinema with its fresh approach to storytelling and natural acting. The movie follows four friends who plan a bank robbery to solve their financial problems.
+
+The best thing about Loot is its realistic dialogue and natural acting. The actors don't feel like they're acting - they become their characters. Saugat Malla, Dayahang Rai, and the entire cast deliver brilliant performances.
+
+The movie perfectly balances action and comedy without making it unrealistic. The friendship between the four main characters feels genuine and their problems are relatable to young Nepali audiences.
+
+Director Nischal Basnet created a movie that feels very Nepali while using modern filmmaking techniques. The cinematography and editing are professional and engaging.
+
+The movie addresses real issues that young people face in Nepal - unemployment, financial struggles, and peer pressure. However, it doesn't glorify crime but shows its consequences.
+
+The soundtrack by various artists fits perfectly with the story and has become very popular among Nepali youth.
+
+One small criticism is that some action scenes could have been better choreographed, but the strong story and acting make up for it.
+
+Loot is a landmark movie in Nepali cinema that proved audiences want quality stories with good acting. It's entertaining, thought-provoking, and thoroughly enjoyable.`
+    },
+    {
+      title: "Review of 'Kabaddi'",
+      description: "A review of the heartwarming Nepali sports drama",
+      content: `Movie: Kabaddi
+Director: Ram Babu Gurung
+Producer: Nawal Nepal
+Starring: Dayahang Rai, Rishma Gurung, Buddhi Tamang, Bijay Baral
+Genre: Sports, Drama, Comedy
+Release Date: March 27, 2014
+
+Kabaddi is a beautiful movie that combines sports, romance, and social issues in rural Nepal. The story follows Kaji, who returns to his village and gets involved in a kabaddi tournament that becomes more than just a game.
+
+Dayahang Rai once again proves why he's one of Nepal's best actors. His portrayal of Kaji is natural and convincing. The entire cast, including the villagers, gives authentic performances that make the story believable.
+
+The movie beautifully captures rural Nepali life with its traditions, festivals, and community spirit. The kabaddi matches are exciting and well-filmed, making you feel like you're part of the crowd cheering.
+
+What makes Kabaddi special is how it addresses serious social issues like caste discrimination and gender equality while maintaining a light and entertaining tone. The movie shows how sports can bring people together despite their differences.
+
+The romance between Kaji and the female characters is sweet and doesn't overshadow the main story. The comedy is natural and arises from situations rather than forced jokes.
+
+The cinematography showcases the beautiful landscapes of rural Nepal. The music and songs add to the festive atmosphere of the village celebrations.
+
+The movie successfully shows that Nepali cinema can tell local stories that are both entertaining and meaningful. It celebrates Nepali culture while addressing important social messages.
+
+Kabaddi is a must-watch movie that will make you laugh, think, and feel proud of Nepali storytelling and filmmaking.`
     }
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background to-education-light">
-      <div className="container mx-auto px-4 py-6">
+    <div className="min-h-screen relative">
+      {/* Hero Background */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${movieReviewHero})` }}
+      >
+        <div className="absolute inset-0 bg-black/50"></div>
+      </div>
+      
+      <div className="relative z-10 min-h-screen">
+        <div className="container mx-auto px-4 py-6">
         <div className="mb-6">
           <Link to="/table-of-contents">
             <Button variant="ghost" className="mb-4 twinkle-button px-6 py-3 text-lg font-semibold">
@@ -134,10 +220,10 @@ Moana is a wonderful movie that combines adventure, beautiful music, and importa
             </Button>
           </Link>
           <div className="flex items-center gap-3 mb-2">
-            <Film className="h-8 w-8 text-primary" />
-            <h1 className="text-3xl font-bold text-foreground">Movie Reviews</h1>
+            <Film className="h-8 w-8 text-white" />
+            <h1 className="text-3xl font-bold text-white drop-shadow-lg">Movie Reviews</h1>
           </div>
-          <p className="text-muted-foreground">
+          <p className="text-white/90 drop-shadow-md">
             Learn how to write thoughtful movie reviews that share your opinions clearly
           </p>
         </div>
@@ -173,6 +259,7 @@ Moana is a wonderful movie that combines adventure, beautiful music, and importa
         </div>
       </div>
     </div>
+  </div>
   );
 };
 

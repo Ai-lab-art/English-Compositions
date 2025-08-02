@@ -25,6 +25,7 @@ import recipeWritingImg from "@/assets/recipe-writing.jpg";
 import rulesRegulationsImg from "@/assets/rules-regulations.jpg";
 import newsArticlesImg from "@/assets/news-articles.jpg";
 import diaryEntryImg from "@/assets/diary-entry.jpg";
+import tableOfContentsHero from "@/assets/table-of-contents-hero.jpg";
 
 const TableOfContents = () => {
   const topics = [
@@ -154,8 +155,17 @@ const TableOfContents = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background to-education-light">
-      <div className="container mx-auto px-4 py-8">
+    <div className="min-h-screen relative">
+      {/* Hero Background */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${tableOfContentsHero})` }}
+      >
+        <div className="absolute inset-0 bg-black/40"></div>
+      </div>
+      
+      <div className="relative z-10 min-h-screen">
+        <div className="container mx-auto px-4 py-8">
         {/* Back to Home Button */}
         <div className="mb-6">
           <Link to="/">
@@ -172,10 +182,10 @@ const TableOfContents = () => {
 
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-4">
+          <h1 className="text-4xl font-bold text-white drop-shadow-lg mb-4">
             Table of Contents
           </h1>
-          <p className="text-xl text-education-text max-w-2xl mx-auto">
+          <p className="text-xl text-white/90 max-w-2xl mx-auto drop-shadow-md">
             Choose any writing topic to practice and improve your English composition skills
           </p>
         </div>
@@ -220,6 +230,7 @@ const TableOfContents = () => {
         </div>
       </div>
     </div>
+  </div>
   );
 };
 

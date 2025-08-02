@@ -1,12 +1,22 @@
 import { GraduationCap, BookOpen, PenTool, Play, Facebook, Instagram, MessageCircle, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
+import homepageHero from "@/assets/homepage-hero.jpg";
 
 const Index = () => {
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background to-education-light flex items-center justify-center">
-      <div className="container mx-auto px-4 py-8 text-center">
+    <div className="min-h-screen relative overflow-hidden">
+      {/* Hero Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${homepageHero})` }}
+      >
+        <div className="absolute inset-0 bg-black/50"></div>
+      </div>
+      
+      <div className="relative z-10 min-h-screen flex items-center justify-center">
+        <div className="container mx-auto px-4 py-8 text-center">
         {/* Main Hero Section */}
         <div className="max-w-4xl mx-auto">
           {/* Developer Credit */}
@@ -14,16 +24,16 @@ const Index = () => {
           
           {/* Main Title */}
           <div className="flex items-center justify-center gap-4 mb-6">
-            <GraduationCap className="h-16 w-16 text-primary animate-pulse" />
+            <GraduationCap className="h-16 w-16 text-white animate-pulse" />
             <h1 className="text-5xl md:text-6xl font-bold">
-              <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-blue-600 bg-clip-text text-transparent">
+              <span className="text-white drop-shadow-lg">
                 English Composition Helper
               </span>
             </h1>
           </div>
           
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-education-text mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed drop-shadow-md">
             Master the art of English writing with comprehensive examples and tips designed specifically for secondary level students
           </p>
           
@@ -47,6 +57,7 @@ const Index = () => {
           </div>
         </div>
       </div>
+    </div>
       
       {/* Social Media Icons */}
       <div className="fixed bottom-6 right-6 flex flex-col gap-3">
