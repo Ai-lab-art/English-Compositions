@@ -25,6 +25,7 @@ import recipeWritingImg from "@/assets/recipe-writing.jpg";
 import rulesRegulationsImg from "@/assets/rules-regulations.jpg";
 import newsArticlesImg from "@/assets/news-articles.jpg";
 import diaryEntryImg from "@/assets/diary-entry.jpg";
+import cvWritingImg from "@/assets/cv-writing.jpg";
 import tableOfContentsHero from "@/assets/table-of-contents-hero.jpg";
 
 const TableOfContents = () => {
@@ -151,6 +152,14 @@ const TableOfContents = () => {
       path: "/diary-entry",
       gradient: "from-pink-500 to-rose-500",
       image: diaryEntryImg
+    },
+    {
+      title: "Writing a CV",
+      description: "Professional curriculum vitae samples for different careers and experience levels",
+      icon: FileText,
+      path: "/cv-writing",
+      gradient: "from-blue-500 to-purple-600",
+      image: cvWritingImg
     }
   ];
 
