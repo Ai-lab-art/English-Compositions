@@ -4,10 +4,11 @@ import { Card, CardContent } from '@/components/ui/card';
 
 interface AdminRouteProps {
   children: React.ReactNode;
+  requireAuth?: boolean;
 }
 
-const AdminRoute = ({ children }: AdminRouteProps) => {
-  const { user, isAdmin, loading } = useAuth();
+const AdminRoute = ({ children, requireAuth = false }: AdminRouteProps) => {
+  const { user, loading } = useAuth();
 
   if (loading) {
     return (
@@ -21,23 +22,8 @@ const AdminRoute = ({ children }: AdminRouteProps) => {
     );
   }
 
-  if (!user) {
+  if (requireAuth && !user) {
     return <Navigate to="/auth" replace />;
-  }
-
-  if (!isAdmin) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary/20 to-secondary/20 p-4">
-        <Card className="w-full max-w-md">
-          <CardContent className="p-6 text-center">
-            <h2 className="text-xl font-semibold mb-2">Access Denied</h2>
-            <p className="text-muted-foreground">
-              You need admin privileges to access this area.
-            </p>
-          </CardContent>
-        </Card>
-      </div>
-    );
   }
 
   return <>{children}</>;

@@ -40,111 +40,27 @@ const App = () => (
         <BrowserRouter>
           <Routes>
             <Route path="/auth" element={<Auth />} />
-            <Route path="/" element={
-              <AdminRoute>
-                <Index />
-              </AdminRoute>
-            } />
-            <Route path="/table-of-contents" element={
-              <AdminRoute>
-                <TableOfContents />
-              </AdminRoute>
-            } />
-            <Route path="/letter-writing" element={
-              <AdminRoute>
-                <LetterWriting />
-              </AdminRoute>
-            } />
-            <Route path="/movie-review" element={
-              <AdminRoute>
-                <MovieReview />
-              </AdminRoute>
-            } />
-            <Route path="/email-writing" element={
-              <AdminRoute>
-                <EmailWriting />
-              </AdminRoute>
-            } />
-            <Route path="/story-writing" element={
-              <AdminRoute>
-                <StoryWriting />
-              </AdminRoute>
-            } />
-            <Route path="/essays" element={
-              <AdminRoute>
-                <Essays />
-              </AdminRoute>
-            } />
-            <Route path="/news-story" element={
-              <AdminRoute>
-                <NewsStory />
-              </AdminRoute>
-            } />
-            <Route path="/editor-letter" element={
-              <AdminRoute>
-                <EditorLetter />
-              </AdminRoute>
-            } />
-            <Route path="/graphical-interpretation" element={
-              <AdminRoute>
-                <GraphicalInterpretation />
-              </AdminRoute>
-            } />
-            <Route path="/recipe-writing" element={
-              <AdminRoute>
-                <RecipeWriting />
-              </AdminRoute>
-            } />
-            <Route path="/paragraph-writing" element={
-              <AdminRoute>
-                <ParagraphWriting />
-              </AdminRoute>
-            } />
-            <Route path="/dialogue-writing" element={
-              <AdminRoute>
-                <DialogueWriting />
-              </AdminRoute>
-            } />
-            <Route path="/book-review" element={
-              <AdminRoute>
-                <BookReview />
-              </AdminRoute>
-            } />
-            <Route path="/speech-writing" element={
-              <AdminRoute>
-                <SpeechWriting />
-              </AdminRoute>
-            } />
-            <Route path="/summary-writing" element={
-              <AdminRoute>
-                <SummaryWriting />
-              </AdminRoute>
-            } />
-            <Route path="/travelogue-writing" element={
-              <AdminRoute>
-                <TravelogueWriting />
-              </AdminRoute>
-            } />
-            <Route path="/rules-regulations" element={
-              <AdminRoute>
-                <RulesRegulations />
-              </AdminRoute>
-            } />
-            <Route path="/news-articles" element={
-              <AdminRoute>
-                <NewsArticles />
-              </AdminRoute>
-            } />
-            <Route path="/diary-entry" element={
-              <AdminRoute>
-                <DiaryEntry />
-              </AdminRoute>
-            } />
-            <Route path="/cv-writing" element={
-              <AdminRoute>
-                <CVWriting />
-              </AdminRoute>
-            } />
+            <Route path="/" element={<Index />} />
+            <Route path="/table-of-contents" element={<TableOfContents />} />
+            <Route path="/letter-writing" element={<LetterWriting />} />
+            <Route path="/movie-review" element={<MovieReview />} />
+            <Route path="/email-writing" element={<EmailWriting />} />
+            <Route path="/story-writing" element={<StoryWriting />} />
+            <Route path="/essays" element={<Essays />} />
+            <Route path="/news-story" element={<NewsStory />} />
+            <Route path="/editor-letter" element={<EditorLetter />} />
+            <Route path="/graphical-interpretation" element={<GraphicalInterpretation />} />
+            <Route path="/recipe-writing" element={<RecipeWriting />} />
+            <Route path="/paragraph-writing" element={<ParagraphWriting />} />
+            <Route path="/dialogue-writing" element={<DialogueWriting />} />
+            <Route path="/book-review" element={<BookReview />} />
+            <Route path="/speech-writing" element={<SpeechWriting />} />
+            <Route path="/summary-writing" element={<SummaryWriting />} />
+            <Route path="/travelogue-writing" element={<TravelogueWriting />} />
+            <Route path="/rules-regulations" element={<RulesRegulations />} />
+            <Route path="/news-articles" element={<NewsArticles />} />
+            <Route path="/diary-entry" element={<DiaryEntry />} />
+            <Route path="/cv-writing" element={<CVWriting />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
