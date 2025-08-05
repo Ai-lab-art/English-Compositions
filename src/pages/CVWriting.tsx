@@ -7,6 +7,143 @@ import cvWritingHero from "@/assets/cv-writing-hero.jpg";
 const CVWriting = () => {
   const cvExamples = [
     {
+      title: "Nepali Student CV",
+      description: "CV for Nepali student applying for higher studies and jobs",
+      content: `CURRICULUM VITAE
+
+PERSONAL INFORMATION
+Name: Aashish Sharma
+Address: Thamel-29, Kathmandu, Nepal
+Phone: +977-9841234567
+Email: aashish.sharma@student.edu.np
+Date of Birth: February 18, 2002
+Nationality: Nepali
+Gender: Male
+
+CAREER OBJECTIVE
+Dedicated and ambitious final year Computer Engineering student at Tribhuvan University seeking opportunities for internships and entry-level positions in software development. Passionate about technology and eager to contribute to innovative projects while continuing academic excellence.
+
+EDUCATION
+• Bachelor of Engineering in Computer Engineering (2020-2024)
+  Tribhuvan University, Institute of Engineering, Pulchowk Campus
+  Current CGPA: 3.6/4.0 (Expected graduation: June 2024)
+  Relevant Coursework: Data Structures, Algorithms, Database Systems, 
+  Software Engineering, Computer Networks, Artificial Intelligence
+
+• Higher Secondary Education (+2) Science (2018-2020)
+  Kathmandu Model College, Physical Science
+  GPA: 3.8/4.0 (Grade: A+)
+  Major Subjects: Physics, Chemistry, Mathematics, Computer Science
+
+• School Leaving Certificate (2018)
+  Little Angels' School, Lalitpur
+  GPA: 3.9/4.0 (Grade: A+)
+
+TECHNICAL SKILLS
+• Programming Languages: C/C++, Java, Python, JavaScript
+• Web Development: HTML5, CSS3, React.js, Node.js, Express.js
+• Database: MySQL, MongoDB, PostgreSQL
+• Tools & Technologies: Git/GitHub, Docker, Linux, VS Code
+• Mobile Development: Android Studio (Java), Flutter (Dart)
+• Cloud Platforms: AWS (basic), Firebase
+
+ACADEMIC PROJECTS
+• E-Commerce Web Application (2023)
+  - Full-stack web application using React.js and Node.js
+  - Implemented user authentication, shopping cart, and payment integration
+  - Used MongoDB for database management
+  - GitHub: github.com/aashish/ecommerce-app
+
+• Nepal Tourism Mobile App (2023)
+  - Android application showcasing tourist destinations in Nepal
+  - Integrated Google Maps API and weather information
+  - Over 500+ downloads on college app store
+
+• Student Management System (2022)
+  - Desktop application using Java and MySQL
+  - Features include student registration, grade management, and reporting
+  - Won 2nd place in college programming competition
+
+WORK EXPERIENCE
+• Web Development Intern (Summer 2023)
+  Yomari Inc., Kathmandu
+  - Developed responsive web components using React.js
+  - Collaborated with senior developers on client projects
+  - Gained experience in Agile development methodology
+  - Duration: 3 months
+
+• Computer Lab Assistant (2021-2023)
+  IOE Pulchowk Campus
+  - Assisted students with programming assignments and lab exercises
+  - Maintained computer lab equipment and software installations
+  - Conducted basic troubleshooting for hardware and software issues
+  - Part-time position (10 hours/week)
+
+EXTRACURRICULAR ACTIVITIES
+• President, Computer Engineering Society (2023-2024)
+  - Organized technical workshops and coding competitions
+  - Led team of 15 members in organizing annual tech fest
+  - Coordinated with industry professionals for guest lectures
+
+• Member, IEEE Student Branch (2021-Present)
+  - Participated in technical seminars and workshops
+  - Volunteered in community service programs
+  - Attended national and international IEEE conferences
+
+• Captain, College Cricket Team (2022-2023)
+  - Led team to inter-college championship finals
+  - Demonstrated leadership and team management skills
+
+ACHIEVEMENTS & CERTIFICATIONS
+• Dean's List for Academic Excellence (2021, 2022, 2023)
+• First Prize in College Programming Contest (2022)
+• AWS Cloud Practitioner Certification (2023)
+• Google Analytics Certified (2023)
+• Participant in ACM ICPC Asia Regional Contest (2022)
+• Bronze Medal in Nepal Olympiad in Informatics (2019)
+
+LANGUAGES
+• Nepali: Native
+• English: Fluent (IELTS: 7.5/9.0)
+• Hindi: Conversational
+• Newari: Conversational
+
+VOLUNTEER EXPERIENCE
+• Coding Instructor at Rural Schools (2022-Present)
+  - Teaching basic computer skills to students in rural areas
+  - Part of "Digital Nepal" initiative by student organization
+
+• Earthquake Relief Volunteer (2021)
+  - Distributed relief materials in affected areas
+  - Helped in data collection and digital mapping
+
+HOBBIES & INTERESTS
+• Photography and Video Editing
+• Trekking and Mountain Climbing
+• Reading Technology Blogs and Books
+• Playing Chess and Online Gaming
+• Traditional Nepali Music (Flute)
+
+REFERENCES
+• Prof. Dr. Bal Krishna Bal
+  Head of Department, Computer Engineering
+  Institute of Engineering, Pulchowk Campus
+  Email: balkrishna@ioe.edu.np
+  Phone: +977-9841111111
+
+• Mr. Roshan Manandhar
+  Senior Software Engineer, Yomari Inc.
+  Email: roshan@yomari.com.np
+  Phone: +977-9851222222
+
+ADDITIONAL INFORMATION
+• Available for full-time employment from July 2024
+• Open to relocation within Nepal and abroad
+• Active GitHub profile with 20+ repositories
+• Personal blog on latest technology trends
+• LinkedIn: linkedin.com/in/aashish-sharma-nepal`
+    },
+    {
       title: "Fresh Graduate CV",
       description: "CV for recent graduate seeking first job",
       content: `CURRICULUM VITAE
