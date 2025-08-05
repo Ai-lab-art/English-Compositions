@@ -7,6 +7,159 @@ import cvWritingHero from "@/assets/cv-writing-hero.jpg";
 const CVWriting = () => {
   const cvExamples = [
     {
+      title: "Grade 10 Nepali Student CV",
+      description: "CV for Grade 10 student applying for scholarships and part-time opportunities",
+      content: `CURRICULUM VITAE
+
+PERSONAL INFORMATION
+Name: Kritika Adhikari
+Address: Baneshwor-12, Kathmandu, Nepal
+Phone: +977-9841123456 (Guardian: Mother)
+Email: kritika.adhikari2009@gmail.com
+Date of Birth: March 25, 2009
+Age: 15 years
+Nationality: Nepali
+Gender: Female
+Guardian: Mrs. Sunita Adhikari (Mother)
+
+ACADEMIC OBJECTIVE
+Dedicated and enthusiastic Grade 10 student at Kathmandu Model Secondary School with strong academic performance and active participation in extracurricular activities. Seeking scholarship opportunities for higher studies and part-time work opportunities to support family and gain practical experience.
+
+CURRENT EDUCATION
+• Grade 10 (SEE Preparation) - 2024
+  Kathmandu Model Secondary School, Baneshwor
+  Current Grade: A+ (90% average)
+  Major Subjects: Nepali, English, Mathematics, Science, Social Studies, 
+  Computer Science, Health Education, Occupation Education
+
+• Grade 9 (2023)
+  Kathmandu Model Secondary School
+  Grade: A+ (92%)
+  Class Rank: 3rd out of 45 students
+
+• Grade 8 (2022)
+  Kathmandu Model Secondary School
+  Grade: A+ (89%)
+  
+ACADEMIC ACHIEVEMENTS
+• Consistent A+ grades from Grade 6 to current Grade 10
+• School topper in English subject (Grade 9)
+• 2nd position in school-level Mathematics Olympiad (2023)
+• Perfect attendance record for past 3 years
+• Selected for District Level Science Exhibition (2023)
+• Winner of Inter-school Essay Competition in English (2022)
+
+SKILLS & ABILITIES
+• Languages: Nepali (Native), English (Fluent), Hindi (Good), Newari (Basic)
+• Computer Skills: MS Office (Word, PowerPoint, Excel), Internet browsing, 
+  Basic programming in QBASIC
+• Leadership: Class representative for 2 consecutive years
+• Communication: Excellent public speaking and presentation skills
+• Time Management: Successfully balancing studies with extracurricular activities
+
+EXTRACURRICULAR ACTIVITIES
+• Member, English Literary Club (2022-Present)
+  - Participated in debate competitions and poetry recitations
+  - Organized school magazine "Young Voices"
+
+• Member, Science Club (2023-Present)  
+  - Participated in science project exhibitions
+  - Conducted experiments and demonstrations for junior classes
+
+• Member, School Dance Group (2021-Present)
+  - Performed traditional and modern dances in school events
+  - Represented school in inter-school cultural programs
+
+• Volunteer, Community Cleanliness Drive (2022-2023)
+  - Participated in monthly neighborhood cleaning activities
+  - Organized awareness programs about waste management
+
+SCHOOL PROJECTS & PRESENTATIONS
+• "Water Conservation in Nepal" - Science Project (Grade 9)
+  - Researched water scarcity issues and presented solutions
+  - Won 2nd prize in school science fair
+
+• "Traditional Games of Nepal" - Social Studies Project (Grade 8)
+  - Documented and demonstrated traditional Nepali games
+  - Created presentation for cultural preservation awareness
+
+• "Computer and Our Future" - Computer Science Project (Grade 10)
+  - Prepared presentation on technology's impact on education
+  - Currently preparing for district-level competition
+
+WORK EXPERIENCE
+• Part-time Tutor (2023-Present)
+  - Teaching Mathematics and English to Grade 6-7 students
+  - 3 hours per week after school
+  - Earning NPR 3,000 per month to support family expenses
+
+• Helper at Mother's Small Shop (2022-Present)
+  - Assisting in family grocery shop during weekends
+  - Managing inventory and customer service
+  - Learning basic business and accounting skills
+
+FAMILY BACKGROUND
+• Father: Mr. Ramesh Adhikari (Daily wage laborer)
+• Mother: Mrs. Sunita Adhikari (Small shop owner)
+• Younger Brother: Arjun Adhikari (Grade 5 student)
+• Family Income: Limited (approximately NPR 25,000 per month)
+• Financial Status: Seeking educational support for higher studies
+
+CAREER ASPIRATIONS
+• Short-term Goal: Excel in SEE examination with A+ grade
+• Medium-term Goal: Complete +2 in Science stream with scholarship
+• Long-term Goal: Become a Computer Engineer or Doctor to serve community
+• Dream: Start technology-based social enterprise to help rural Nepal
+
+HOBBIES & INTERESTS
+• Reading storybooks and educational magazines
+• Writing poems and short stories in both Nepali and English
+• Learning traditional Nepali songs and dances
+• Playing badminton and volleyball
+• Helping neighbors with computer-related problems
+• Gardening and growing vegetables at home
+
+AWARDS & RECOGNITIONS
+• "Best Student of the Year" Award (Grade 8, 2022)
+• Certificate of Excellence in English (Grade 9, 2023)
+• Certificate of Participation in District Science Exhibition (2023)
+• Community Service Recognition Certificate (2023)
+• Perfect Attendance Award (2021, 2022, 2023)
+
+REFERENCES
+• Mrs. Kamala Sharma
+  Class Teacher, Grade 10
+  Kathmandu Model Secondary School
+  Phone: +977-9841111111
+  Email: kamala.teacher@kms.edu.np
+
+• Mr. Bijay Lama  
+  Principal, Kathmandu Model Secondary School
+  Phone: +977-9851222222
+  Email: principal@kms.edu.np
+
+• Mrs. Gita Maharjan
+  Neighbor and Community Leader
+  Phone: +977-9876543210
+  (Can vouch for character and community involvement)
+
+ADDITIONAL INFORMATION
+• Willing to work part-time while continuing studies
+• Available for weekend and evening work
+• Strong determination to overcome financial challenges through education
+• Excellent relationships with teachers, classmates, and community members
+• Committed to using education for community development
+
+DECLARATION
+I hereby declare that all the above information is true and correct to the best of my knowledge. I am willing to provide any additional documents or certificates as required.
+
+Date: December 2024
+Place: Kathmandu
+
+Signature: ________________
+           Kritika Adhikari`
+    },
+    {
       title: "Nepali Student CV",
       description: "CV for Nepali student applying for higher studies and jobs",
       content: `CURRICULUM VITAE
