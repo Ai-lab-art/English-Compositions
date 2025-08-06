@@ -1,3 +1,4 @@
+
 import { ArrowLeft, BarChart3, PieChart, ChevronLeft, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -93,6 +94,34 @@ const GraphicalInterpretation = () => {
     }
   ];
 
+  const foodMenuExamples = [
+    {
+      title: "Everest Summit Restaurant - Traditional Dal Bhat",
+      description: "Complete Nepali meal with rice, lentils, and vegetables",
+      content: `Our signature Dal Bhat Tarkari is a complete traditional meal featuring steamed basmati rice, creamy black lentil soup, seasonal mixed vegetables, and your choice of tender chicken or mutton curry. Served with homemade pickles, crispy papad, and fresh yogurt. This authentic dish represents the heart of Nepali cuisine, prepared with locally sourced ingredients and traditional spices passed down through generations.`
+    },
+    {
+      title: "Himalayan Garden Cafe - Grilled Chicken Sekuwa",
+      description: "Marinated and grilled chicken with Himalayan herbs",
+      content: `Our famous Chicken Sekuwa features tender chicken pieces marinated for 24 hours in a blend of Himalayan herbs, garlic, ginger, and traditional spices. Grilled over an open flame and served with mint chutney, sliced onions, and warm flatbread. This smoky, flavorful dish is perfect for sharing and pairs beautifully with our house special lemon tea served in traditional clay cups.`
+    },
+    {
+      title: "Annapurna Lodge - Hearty Thukpa Soup",
+      description: "Warming noodle soup perfect for mountain weather",
+      content: `Our signature Thukpa is a hearty noodle soup filled with fresh vegetables, tender pieces of chicken or yak meat, and hand-pulled noodles in a rich, aromatic broth. Seasoned with garlic, ginger, and mountain herbs, this warming dish is perfect for cold mountain evenings. Served with a side of homemade bread and butter, it provides the energy needed for mountain adventures.`
+    },
+    {
+      title: "Royal Palace Restaurant - Luxury Goat Curry",
+      description: "Premium goat curry inspired by royal kitchens",
+      content: `Our Maharaja's Goat Curry features tender goat meat slow-cooked in a rich sauce of aromatic spices, tomatoes, and onions. Served with saffron-infused basmati rice, fresh naan bread, and palace-style vegetables cooked in clarified butter. The meal concludes with traditional Kheer dessert made with organic milk, almonds, and cardamom, all presented on handcrafted copper plates for an authentic royal dining experience.`
+    },
+    {
+      title: "Village Corner Restaurant - Home-style Chicken Curry",
+      description: "Comfort food prepared with grandmother's recipes",
+      content: `Our Home-style Chicken Curry brings the warmth of village cooking to your table with tender chicken pieces simmered in a flavorful gravy of fresh tomatoes, onions, and traditional spices. Served with fluffy rice, seasonal vegetables from local farms, and homemade pickles. This comforting meal is prepared using our grandmother's secret recipe and served on traditional brass plates in a cozy, family-friendly atmosphere.`
+    }
+  ];
+
   const nextExample = () => {
     setCurrentExample((prev) => (prev + 1) % chartExamples.length);
   };
@@ -119,7 +148,7 @@ const GraphicalInterpretation = () => {
                   style={{ width: `${(item.value / maxValue) * 100}%` }}
                 />
                 <div className="absolute inset-0 flex items-center justify-center text-xs font-medium">
-                  {item.value}%
+                  {currentChart.title === "Tourist Arrivals to Nepal by Country (2023)" ? item.value.toLocaleString() : `${item.value}%`}
                 </div>
               </div>
             </div>
@@ -192,7 +221,7 @@ const GraphicalInterpretation = () => {
                                   style={{ width: `${(item.value / maxValue) * 100}%` }}
                                 />
                                 <div className="absolute inset-0 flex items-center justify-center text-xs font-medium">
-                                  {item.value}%
+                                  {example.title === "Tourist Arrivals to Nepal by Country (2023)" ? item.value.toLocaleString() : `${item.value}%`}
                                 </div>
                               </div>
                             </div>
@@ -228,6 +257,34 @@ const GraphicalInterpretation = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        {/* Food Menu Section */}
+        <div className="mt-12">
+          <div className="mb-6">
+            <h2 className="text-3xl font-bold text-foreground mb-2">Restaurant Food Menu Writing</h2>
+            <p className="text-muted-foreground">
+              Learn how to write appealing food menu descriptions that attract customers
+            </p>
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
+            {foodMenuExamples.map((example, index) => (
+              <Card key={index} className="shadow-card hover:shadow-hover transition-shadow">
+                <CardHeader>
+                  <CardTitle className="text-xl text-education-text">{example.title}</CardTitle>
+                  <CardDescription>{example.description}</CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <div className="bg-education-light p-4 rounded-lg border">
+                    <p className="text-sm text-education-text leading-relaxed">
+                      {example.content}
+                    </p>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </div>
 
         <div className="mt-8 p-6 bg-gradient-card rounded-lg shadow-card">
