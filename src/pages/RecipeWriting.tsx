@@ -1,3 +1,4 @@
+
 import { ChefHat, Home } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -118,34 +119,34 @@ Cooking time: 45 minutes`
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background to-education-light">
+    <div className="min-h-screen bg-gradient-to-br from-background to-education-cyan/20">
       <div className="container mx-auto px-4 py-6">
         <div className="mb-6">
           <Link to="/table-of-contents">
-            <Button variant="ghost" className="mb-4 twinkle-button px-6 py-3 text-lg font-semibold">
-              <Home className="mr-3 h-6 w-6" />
-              Back to Contents
+            <Button variant="ghost" className="mb-4 twinkling-button px-6 py-3 text-lg font-semibold">
+              <Home className="mr-3 h-6 w-6 text-education-green" />
+              <span className="colorful-heading">Back to Contents</span>
             </Button>
           </Link>
           <div className="flex items-center gap-3 mb-2">
-            <ChefHat className="h-8 w-8 text-primary" />
-            <h1 className="text-3xl font-bold text-foreground">Recipe Writing</h1>
+            <ChefHat className="h-8 w-8 text-education-orange animate-bounce" />
+            <h1 className="text-3xl font-bold colorful-heading">Recipe Writing</h1>
           </div>
-          <p className="text-muted-foreground">
+          <p className="text-muted-foreground playful-text text-lg">
             Learn how to write clear and easy-to-follow recipes
           </p>
         </div>
 
         <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
           {recipeExamples.map((example, index) => (
-            <Card key={index} className="shadow-card hover:shadow-hover transition-shadow">
+            <Card key={index} className="shadow-rainbow hover:shadow-rainbow transition-shadow colorful-card">
               <CardHeader>
-                <CardTitle className="text-xl text-education-text">{example.title}</CardTitle>
-                <CardDescription>{example.description}</CardDescription>
+                <CardTitle className="text-xl colorful-heading">{example.title}</CardTitle>
+                <CardDescription className="fun-text text-base">{example.description}</CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="bg-education-light p-4 rounded-lg border">
-                  <pre className="whitespace-pre-wrap text-sm text-education-text">
+                <div className="bg-gradient-to-br from-education-yellow/10 to-education-green/10 p-4 rounded-lg border-2 border-education-purple/20">
+                  <pre className="whitespace-pre-wrap text-sm elegant-text text-foreground">
                     {example.content}
                   </pre>
                 </div>
@@ -154,15 +155,33 @@ Cooking time: 45 minutes`
           ))}
         </div>
 
-        <div className="mt-8 p-6 bg-gradient-card rounded-lg shadow-card">
-          <h2 className="text-2xl font-semibold mb-4 text-education-text">Tips for Recipe Writing</h2>
-          <ul className="space-y-2 text-education-text">
-            <li>• List all ingredients with exact measurements first</li>
-            <li>• Write instructions in chronological order</li>
-            <li>• Use action verbs (mix, chop, boil, fry)</li>
-            <li>• Include cooking times and serving sizes</li>
-            <li>• Mention cooking temperatures when needed</li>
-            <li>• Add helpful tips for beginners</li>
+        <div className="mt-8 p-6 bg-gradient-card rounded-lg shadow-rainbow">
+          <h2 className="text-2xl font-semibold mb-4 colorful-heading">Tips for Recipe Writing</h2>
+          <ul className="space-y-2 fun-text text-foreground">
+            <li className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-education-purple rounded-full"></span>
+              List all ingredients with exact measurements first
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-education-blue rounded-full"></span>
+              Write instructions in chronological order
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-education-cyan rounded-full"></span>
+              Use action verbs (mix, chop, boil, fry)
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-education-green rounded-full"></span>
+              Include cooking times and serving sizes
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-education-yellow rounded-full"></span>
+              Mention cooking temperatures when needed
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-education-orange rounded-full"></span>
+              Add helpful tips for beginners
+            </li>
           </ul>
         </div>
       </div>
