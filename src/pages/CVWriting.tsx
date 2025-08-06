@@ -8,6 +8,49 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 const CVWriting = () => {
   const cvExamples = [
     {
+      title: "Nepali Class 10 Student CV",
+      description: "Perfect for Nepali students in class 10 seeking opportunities",
+      content: `राम बहादुर शाही (Ram Bahadur Shahi)
+Email: ram.shahi@gmail.com | Phone: 9841234567
+Address: Gorkha-5, Lumbini Province, Nepal
+
+OBJECTIVE
+Dedicated Class 10 student seeking part-time opportunities or internships to gain practical experience while continuing studies. Eager to learn and contribute to community development.
+
+EDUCATION
+Currently studying in Class 10 (SEE Appearing - 2025)
+Shree Janata Higher Secondary School, Gorkha
+Expected Percentage: 75%+
+Subjects: Nepali, English, Mathematics, Science, Social Studies, Computer Science
+
+SKILLS
+• Languages: Nepali (Native), English (Intermediate), Hindi (Conversational)
+• Computer: MS Office (Word, Excel, PowerPoint), Basic Internet Usage
+• Academic: Good in Mathematics and Science
+• Personal: Leadership, Teamwork, Communication
+
+ACTIVITIES & ACHIEVEMENTS
+• Class Monitor for 2 consecutive years (2023-2024)
+• Participated in District Level Science Exhibition 2024
+• Winner of School Debate Competition (Nepali Language) 2023
+• Member of School Environment Club
+• Volunteer at Local Community Library
+
+PROJECTS
+• Science Project: "Water Purification Methods in Rural Areas"
+• Social Studies Project: "Cultural Heritage of Gorkha District"
+• Computer Project: Created presentation on "Digital Nepal"
+
+INTERESTS
+• Reading books and newspapers
+• Playing football and volleyball
+• Participating in cultural programs
+• Learning about technology and science
+
+REFERENCES
+Available upon request`
+    },
+    {
       title: "Fresh Graduate CV",
       description: "Perfect for students entering the job market",
       content: `John Smith
