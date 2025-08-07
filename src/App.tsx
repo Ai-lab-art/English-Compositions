@@ -26,6 +26,8 @@ import RulesRegulations from "./pages/RulesRegulations";
 import NewsArticles from "./pages/NewsArticles";
 import DiaryEntry from "./pages/DiaryEntry";
 import CVWriting from "./pages/CVWriting";
+import FoodMenuWriting from "./pages/FoodMenuWriting";
+import AdvertisementWriting from "./pages/AdvertisementWriting";
 import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
 
@@ -61,6 +63,8 @@ const App = () => (
             <Route path="/news-articles" element={<NewsArticles />} />
             <Route path="/diary-entry" element={<DiaryEntry />} />
             <Route path="/cv-writing" element={<CVWriting />} />
+            <Route path="/food-menu-writing" element={<FoodMenuWriting />} />
+            <Route path="/advertisement-writing" element={<AdvertisementWriting />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

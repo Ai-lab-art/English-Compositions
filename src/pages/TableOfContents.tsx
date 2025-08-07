@@ -49,14 +49,14 @@ const TableOfContents = () => {
       title: "Food Menu Writing",
       description: "Professional restaurant menu descriptions and food presentations",
       icon: ChefHat,
-      path: "/paragraph-writing#food-menu",
+      path: "/food-menu-writing",
       gradient: "from-orange-500 to-red-500"
     },
     {
       title: "Advertisement/Vacancy",
       description: "Job advertisements and vacancy announcements for various positions",
       icon: Megaphone,
-      path: "/paragraph-writing#advertisement",
+      path: "/advertisement-writing",
       gradient: "from-blue-500 to-purple-500"
     },
     {
