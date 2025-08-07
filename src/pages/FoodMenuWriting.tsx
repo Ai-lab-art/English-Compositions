@@ -2,33 +2,64 @@ import { ArrowLeft, ChefHat, Home } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 
 const FoodMenuWriting = () => {
   const foodMenuExamples = [
     {
       title: "Everest Summit Restaurant - Traditional Nepali Cuisine",
-      description: "A menu description for authentic Nepali dishes",
-      content: `Welcome to Everest Summit Restaurant, where the authentic flavors of Nepal come alive on your plate. Our signature Dal Bhat Tarkari is a complete meal featuring steamed rice, lentil soup, mixed vegetables, and your choice of chicken or mutton curry, served with fresh pickles and papad. The aromatic spices and traditional cooking methods create a dining experience that takes you straight to the heart of Kathmandu. Each dish is prepared with locally sourced ingredients and centuries-old family recipes passed down through generations of Nepali cooks.`
+      description: "A menu featuring authentic Nepali dishes with traditional flavors",
+      menuItems: [
+        { name: "Dal Bhat Tarkari (Complete Meal)", description: "Steamed rice, lentil soup, mixed vegetables, choice of chicken or mutton curry, pickles & papad", price: "Rs. 450" },
+        { name: "Chicken Curry", description: "Traditional Nepali-style chicken cooked with aromatic spices", price: "Rs. 380" },
+        { name: "Mutton Curry", description: "Tender mutton prepared with authentic Himalayan spices", price: "Rs. 420" },
+        { name: "Mixed Vegetables", description: "Seasonal vegetables cooked with traditional herbs", price: "Rs. 280" },
+        { name: "Nepali Tea", description: "Traditional milk tea served in clay cups", price: "Rs. 50" }
+      ]
     },
     {
       title: "Himalayan Garden Cafe - International & Local Fusion",
-      description: "A modern restaurant menu combining Nepali and international flavors",
-      content: `Himalayan Garden Cafe offers a unique fusion of traditional Nepali cuisine with international favorites. Our bestselling Chicken Sekuwa is marinated for 24 hours in Himalayan herbs and spices, then grilled to perfection over an open flame. Pair it with our signature Gundruk soup, made from fermented leafy greens that provide a tangy and nutritious start to your meal. For our international guests, we also serve wood-fired pizzas topped with local yak cheese and fresh vegetables grown in our own garden. Every meal comes with complimentary Nepali tea served in traditional clay cups.`
+      description: "A modern menu combining Nepali and international flavors",
+      menuItems: [
+        { name: "Chicken Sekuwa", description: "24-hour marinated chicken grilled with Himalayan herbs & spices", price: "Rs. 520" },
+        { name: "Gundruk Soup", description: "Signature soup made from fermented leafy greens", price: "Rs. 180" },
+        { name: "Yak Cheese Pizza", description: "Wood-fired pizza topped with local yak cheese & garden vegetables", price: "Rs. 650" },
+        { name: "Garden Salad", description: "Fresh vegetables from our own organic garden", price: "Rs. 220" },
+        { name: "Complimentary Nepali Tea", description: "Traditional tea served with every meal", price: "Free" }
+      ]
     },
     {
       title: "Annapurna Lodge - Mountain Trekker's Special",
-      description: "A simple yet hearty menu for mountain climbers and trekkers",
-      content: `Located at the base of Annapurna, our lodge specializes in hearty meals that provide energy for mountain adventures. Our Famous Trekker's Breakfast includes two fried eggs, hash browns made from local potatoes, grilled tomatoes, and freshly baked bread with homemade jam. The generous portion ensures you have enough energy for a full day of hiking. Our evening special features Thukpa, a warming noodle soup filled with vegetables and your choice of chicken or yak meat, perfect for recovering after a long day on the mountain trails.`
+      description: "Hearty meals designed for mountain adventurers and trekkers",
+      menuItems: [
+        { name: "Trekker's Breakfast", description: "Two fried eggs, hash browns, grilled tomatoes, fresh bread & jam", price: "Rs. 350" },
+        { name: "Thukpa (Evening Special)", description: "Warming noodle soup with vegetables & choice of chicken or yak meat", price: "Rs. 320" },
+        { name: "Energy Porridge", description: "Nutritious oats with nuts, honey & dried fruits", price: "Rs. 250" },
+        { name: "Mountain Coffee", description: "Strong coffee to fuel your adventure", price: "Rs. 120" },
+        { name: "Hot Chocolate", description: "Warming drink perfect for cold mountain evenings", price: "Rs. 150" }
+      ]
     },
     {
       title: "Royal Palace Restaurant - Luxury Dining Experience",
-      description: "An upscale restaurant menu featuring premium Nepali cuisine",
-      content: `Royal Palace Restaurant presents the finest in luxury Nepali dining with dishes inspired by ancient royal kitchens. Our Maharaja's Feast includes tender goat curry slow-cooked in aromatic spices, saffron rice, and an assortment of palace vegetables prepared in traditional ghee. The meal is accompanied by freshly made naan bread and concluded with our signature dessert, Kheer, made with organic milk, almonds, and cardamom. Each dish is elegantly presented on handcrafted copper plates, creating an authentic royal dining experience in the heart of modern Nepal.`
+      description: "Premium Nepali cuisine inspired by ancient royal kitchens",
+      menuItems: [
+        { name: "Maharaja's Feast", description: "Tender goat curry, saffron rice, palace vegetables in ghee, naan bread", price: "Rs. 1,200" },
+        { name: "Royal Goat Curry", description: "Slow-cooked tender goat in aromatic royal spices", price: "Rs. 780" },
+        { name: "Saffron Rice", description: "Basmati rice infused with premium saffron", price: "Rs. 320" },
+        { name: "Palace Vegetables", description: "Assorted vegetables prepared in traditional ghee", price: "Rs. 450" },
+        { name: "Kheer (Royal Dessert)", description: "Organic milk dessert with almonds & cardamom", price: "Rs. 280" }
+      ]
     },
     {
       title: "Village Corner Restaurant - Home-style Cooking",
-      description: "A family-run restaurant serving simple, delicious home-cooked meals",
-      content: `Village Corner Restaurant brings the warmth of Nepali home cooking to your table with recipes from our grandmother's kitchen. Our Popular Family Meal serves four people and includes fragrant rice, creamy black lentils, seasonal vegetables from local farms, and tender chicken cooked in village-style spices. Everything is served on traditional brass plates with a side of homemade pickles and fresh yogurt. The cozy atmosphere, complete with wooden tables and traditional decorations, makes every guest feel like part of our extended family sharing a meal together.`
+      description: "Family-run restaurant serving traditional home-cooked meals",
+      menuItems: [
+        { name: "Family Meal (Serves 4)", description: "Fragrant rice, black lentils, seasonal vegetables, village-style chicken", price: "Rs. 1,800" },
+        { name: "Village-Style Chicken", description: "Tender chicken cooked with grandmother's secret spices", price: "Rs. 420" },
+        { name: "Black Lentils (Dal)", description: "Creamy black lentils slow-cooked to perfection", price: "Rs. 180" },
+        { name: "Seasonal Vegetables", description: "Fresh vegetables from local farms", price: "Rs. 250" },
+        { name: "Homemade Pickles & Yogurt", description: "Traditional accompaniments made fresh daily", price: "Rs. 80" }
+      ]
     }
   ];
 
@@ -59,18 +90,43 @@ const FoodMenuWriting = () => {
           </p>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
+        <div className="grid gap-8 md:grid-cols-1">
           {foodMenuExamples.map((example, index) => (
-            <Card key={index} className="shadow-card hover:shadow-hover transition-shadow">
-              <CardHeader>
-                <CardTitle className="text-xl text-education-text">{example.title}</CardTitle>
-                <CardDescription>{example.description}</CardDescription>
+            <Card key={index} className="shadow-card hover:shadow-hover transition-shadow rainbow-border">
+              <CardHeader className="bg-gradient-to-r from-primary/10 to-secondary/10">
+                <CardTitle className="text-xl text-primary font-bold">{example.title}</CardTitle>
+                <CardDescription className="text-muted-foreground">{example.description}</CardDescription>
               </CardHeader>
-              <CardContent>
-                <div className="bg-education-light p-4 rounded-lg border">
-                  <p className="text-sm text-education-text leading-relaxed">
-                    {example.content}
-                  </p>
+              <CardContent className="p-0">
+                <div className="overflow-hidden rounded-b-lg">
+                  <Table>
+                    <TableHeader>
+                      <TableRow className="bg-gradient-to-r from-primary/5 to-secondary/5">
+                        <TableHead className="font-semibold text-primary">Menu Item</TableHead>
+                        <TableHead className="text-right font-semibold text-primary">Price</TableHead>
+                      </TableRow>
+                    </TableHeader>
+                    <TableBody>
+                      {example.menuItems.map((item, itemIndex) => (
+                        <TableRow 
+                          key={itemIndex} 
+                          className={`hover:bg-gradient-to-r hover:from-primary/5 hover:to-secondary/5 transition-colors ${
+                            itemIndex % 2 === 0 ? 'bg-muted/30' : 'bg-background'
+                          }`}
+                        >
+                          <TableCell className="font-medium">
+                            <div>
+                              <div className="font-semibold text-foreground mb-1">{item.name}</div>
+                              <div className="text-sm text-muted-foreground">{item.description}</div>
+                            </div>
+                          </TableCell>
+                          <TableCell className="text-right">
+                            <span className="font-bold text-primary text-lg">{item.price}</span>
+                          </TableCell>
+                        </TableRow>
+                      ))}
+                    </TableBody>
+                  </Table>
                 </div>
               </CardContent>
             </Card>
