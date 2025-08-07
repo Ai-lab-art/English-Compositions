@@ -46,6 +46,20 @@ const TableOfContents = () => {
       gradient: "from-amber-500 to-amber-600"
     },
     {
+      title: "Food Menu Writing",
+      description: "Professional restaurant menu descriptions and food presentations",
+      icon: ChefHat,
+      path: "/paragraph-writing#food-menu",
+      gradient: "from-orange-500 to-red-500"
+    },
+    {
+      title: "Advertisement/Vacancy",
+      description: "Job advertisements and vacancy announcements for various positions",
+      icon: Megaphone,
+      path: "/paragraph-writing#advertisement",
+      gradient: "from-blue-500 to-purple-500"
+    },
+    {
       title: "Story Writing",
       description: "Creative stories with Nepali characters, settings, and moral lessons",
       icon: BookOpen,
