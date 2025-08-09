@@ -1,7 +1,11 @@
+
 name: Build Android Debug APK
 
 on:
   workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
 
 jobs:
   build:
@@ -42,7 +46,38 @@ jobs:
       - name: Build debug APK
         run: cd android && ./gradlew assembleDebug
 
-      - name: Upload APK artifact
+      - name: Get APK path
+        id: apk-path
+        run: echo "apk_path=$(find android/app/build/outputs/apk/debug -name '*.apk' | head -1)" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: apk-${{ github.run_number }}
+          release_name: Android APK Build ${{ github.run_number }}
+          body: |
+            Automatically built Android APK
+            
+            **Download Instructions:**
+            1. Click on the APK file below to download
+            2. Install on your Android device (you may need to enable "Install from unknown sources" in your device settings)
+          draft: false
+          prerelease: false
+
+      - name: Upload APK to Release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ${{ steps.apk-path.outputs.apk_path }}
+          asset_name: english-compositions-app.apk
+          asset_content_type: application/vnd.android.package-archive
+
+      - name: Upload APK artifact (backup)
         uses: actions/upload-artifact@v4
         with:
           name: app-debug-apk
