@@ -1,5 +1,6 @@
 import { ArrowLeft, ChefHat, Home } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
@@ -63,6 +64,25 @@ const FoodMenuWriting = () => {
     }
   ];
 
+  // SEO metadata
+  useEffect(() => {
+    document.title = "Food Menu Design | Food Menu Writing";
+    let meta = document.querySelector('meta[name="description"]') as HTMLMetaElement | null;
+    if (!meta) { meta = document.createElement('meta'); meta.name = 'description'; document.head.appendChild(meta); }
+    meta.content = 'Two-column sample food menu design with categories and prices; learn effective menu writing.';
+    let link = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
+    if (!link) { link = document.createElement('link'); link.rel = 'canonical'; document.head.appendChild(link); }
+    link.href = window.location.href;
+  }, []);
+
+  const Row = (props: { name: string; price: string }) => (
+    <div className="flex items-baseline gap-2 py-1">
+      <span className="text-foreground">{props.name}</span>
+      <span aria-hidden className="flex-1 border-b border-dotted border-muted-foreground/50" />
+      <span className="font-semibold text-foreground">{props.price}</span>
+    </div>
+  );
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-education-light">
       <div className="container mx-auto px-4 py-6">
@@ -89,6 +109,59 @@ const FoodMenuWriting = () => {
             Learn how to write appealing food menu descriptions that attract customers and showcase your restaurant's specialties
           </p>
         </div>
+
+        {/* Sample two-column Food Menu design (based on provided reference) */}
+        <section aria-labelledby="sample-menu" className="mb-8">
+          <Card className="overflow-hidden shadow-card">
+            <header className="bg-primary text-primary-foreground px-6 py-4 flex items-center justify-between">
+              <h2 id="sample-menu" className="text-xl font-semibold">Menu</h2>
+              <span className="text-sm opacity-90">Page 1</span>
+            </header>
+            <CardContent className="p-0">
+              <div className="grid md:grid-cols-2 gap-8 p-6">
+                <div>
+                  <h3 className="text-lg font-semibold mb-2 text-foreground">Wonderland Special Khaja set:</h3>
+                  <Row name="Wonderland Non Veg" price="250/-" />
+                  <Row name="Wonderland Veg" price="150/-" />
+                  <h3 className="text-lg font-semibold mt-4 mb-2 text-foreground">Breakfast:</h3>
+                  <Row name="Toasted Bread (Jam/Honey)" price="80/-" />
+                  <Row name="Sausage Corn on Toast" price="120/-" />
+                  <Row name="Aloo Parautah Set" price="100/-" />
+                  <Row name="Cornflakes with Milk" price="100/-" />
+                  <Row name="Puri Bhaji" price="120/-" />
+                  <Row name="Plain Omelette" price="70/-" />
+                  <Row name="Masala Omelette" price="100/-" />
+                  <Row name="Cheese Omelette" price="120/-" />
+                  <h3 className="text-lg font-semibold mt-4 mb-2 text-foreground">Appetizers (Starter):</h3>
+                  <Row name="Nepali Salad" price="100/-" />
+                  <Row name="Fruit Salad" price="150/-" />
+                  <Row name="Russian Salad" price="200/-" />
+                  <Row name="Tropical Veg Salad" price="120/-" />
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold mb-2 text-foreground">Nepali Khana Set:</h3>
+                  <Row name="Khana set (Veg Curry)" price="170/-" />
+                  <Row name="Khana set (Chicken Curry)" price="250/-" />
+                  <Row name="Khana set (Pork Curry)" price="250/-" />
+                  <Row name="Khana set (Fish Curry)" price="250/-" />
+                  <Row name="Khana set (Local Fish Curry)" price="300/-" />
+                  <Row name="Khana set (Mutton Curry)" price="300/-" />
+                  <Row name="Khana set (L. Chicken Curry)" price="350/-" />
+                  <Row name="Thakali Khana set (Veg)" price="250/-" />
+                  <Row name="Thakali Khana set (Non Veg)" price="350/-" />
+                  <h3 className="text-lg font-semibold mt-4 mb-2 text-foreground">Chapati set:</h3>
+                  <Row name="Chapati set (Veg)" price="170/-" />
+                  <Row name="Chapati set (Chicken)" price="250/-" />
+                  <Row name="Chapati set (Mutton)" price="300/-" />
+                </div>
+              </div>
+            </CardContent>
+            <footer className="bg-secondary text-secondary-foreground px-6 py-3 flex items-center justify-between">
+              <span className="font-semibold tracking-wide">HOTEL</span>
+              <span className="text-xl font-bold">Wonderland</span>
+            </footer>
+          </Card>
+        </section>
 
         <div className="grid gap-8 md:grid-cols-1">
           {foodMenuExamples.map((example, index) => (
