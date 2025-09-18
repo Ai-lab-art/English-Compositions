@@ -11,7 +11,11 @@ const EditorLetter = () => {
     {
       title: "Letter About Education Problems",
       description: "A letter to editor about educational issues in Nepal",
-      content: `The Editor,
+      content: `                                                                    123 Main Street
+                                                                    Dhading, Nepal
+                                                                    ${new Date().toLocaleDateString()}
+
+The Editor,
 The Himalayan Times
 Dear Sir/Madam,
 
@@ -34,13 +38,16 @@ I hope you will publish this letter so that concerned authorities will take acti
 Thank you.
 
 Yours truly,
-Krishna Bahadur Shrestha
-Dhading, Nepal`
+Krishna Bahadur Shrestha`
     },
     {
       title: "Letter About Road Conditions",
       description: "A letter to editor about poor road conditions",
-      content: `The Editor,
+      content: `                                                                    456 Ring Road
+                                                                    Lalitpur, Nepal
+                                                                    ${new Date().toLocaleDateString()}
+
+The Editor,
 Kantipur Daily
 Dear Sir/Madam,
 
@@ -63,13 +70,16 @@ We pay taxes and deserve good roads. Our leaders travel on the same roads, so th
 Please publish this letter to draw attention to this urgent issue.
 
 Sincerely,
-Sushma Karki
-Lalitpur, Nepal`
+Sushma Karki`
     },
     {
       title: "Letter About Water Shortage",
       description: "A letter to editor about water supply problems",
-      content: `The Editor,
+      content: `                                                                    789 Water Colony
+                                                                    Kirtipur, Nepal
+                                                                    ${new Date().toLocaleDateString()}
+
+The Editor,
 Nagarik News
 Dear Sir/Madam,
 
@@ -94,13 +104,16 @@ I request you to publish this letter so that authorities will take immediate act
 Thank you.
 
 Respectfully,
-Raj Kumar Tamang
-Kirtipur, Nepal`
+Raj Kumar Tamang`
     },
     {
       title: "Letter About Plastic Pollution",
       description: "A letter to editor about environmental pollution",
-      content: `The Editor,
+      content: `                                                                    101 Heritage Lane
+                                                                    Bhaktapur, Nepal
+                                                                    ${new Date().toLocaleDateString()}
+
+The Editor,
 Gorkhapatra Daily
 Dear Sir/Madam,
 
@@ -126,13 +139,16 @@ I hope this letter will inspire people to stop using plastic and keep our countr
 Thank you for your time.
 
 Yours sincerely,
-Maya Devi Poudel
-Bhaktapur, Nepal`
+Maya Devi Poudel`
     },
     {
       title: "Letter About Youth Unemployment",
       description: "A letter to editor about job opportunities for youth",
-      content: `The Editor,
+      content: `                                                                    567 Lakeside Road
+                                                                    Pokhara, Nepal
+                                                                    ${new Date().toLocaleDateString()}
+
+The Editor,
 Republica Daily
 Dear Sir/Madam,
 
@@ -163,13 +179,16 @@ If we can provide good opportunities here, our youth will not need to go abroad.
 I hope concerned authorities will read this and take action to solve this national problem.
 
 Respectfully yours,
-Dinesh Adhikari
-Pokhara, Nepal`
+Dinesh Adhikari`
     },
     {
       title: "Letter About Festival Celebrations",
       description: "A letter to editor about preserving cultural traditions",
-      content: `The Editor,
+      content: `                                                                    234 Festival Street
+                                                                    Chitwan, Nepal
+                                                                    ${new Date().toLocaleDateString()}
+
+The Editor,
 Annapurna Post
 Dear Sir/Madam,
 
@@ -197,8 +216,7 @@ I hope this message will remind people to celebrate our beautiful festivals in t
 Thank you.
 
 With cultural pride,
-Kamala Sharma
-Chitwan, Nepal`
+Kamala Sharma`
     }
   ];
 
