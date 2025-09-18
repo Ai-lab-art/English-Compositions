@@ -4,6 +4,25 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
+const formatDate = () => {
+  const now = new Date();
+  const day = now.getDate();
+  const month = now.toLocaleString('default', { month: 'long' });
+  const year = now.getFullYear();
+  
+  const getOrdinalSuffix = (day: number) => {
+    if (day >= 11 && day <= 13) return 'th';
+    switch (day % 10) {
+      case 1: return 'st';
+      case 2: return 'nd';
+      case 3: return 'rd';
+      default: return 'th';
+    }
+  };
+  
+  return `${day}${getOrdinalSuffix(day)} ${month}, ${year}`;
+};
+
 const EditorLetter = () => {
   const [currentExample, setCurrentExample] = useState(0);
 
@@ -13,7 +32,7 @@ const EditorLetter = () => {
       description: "A letter to editor about educational issues in Nepal",
       content: `                                                                    123 Main Street
                                                                     Dhading, Nepal
-                                                                    ${new Date().toLocaleDateString()}
+                                                                    ${formatDate()}
 
 The Editor,
 The Himalayan Times
@@ -45,7 +64,7 @@ Krishna Bahadur Shrestha`
       description: "A letter to editor about poor road conditions",
       content: `                                                                    456 Ring Road
                                                                     Lalitpur, Nepal
-                                                                    ${new Date().toLocaleDateString()}
+                                                                    ${formatDate()}
 
 The Editor,
 Kantipur Daily
@@ -77,7 +96,7 @@ Sushma Karki`
       description: "A letter to editor about water supply problems",
       content: `                                                                    789 Water Colony
                                                                     Kirtipur, Nepal
-                                                                    ${new Date().toLocaleDateString()}
+                                                                    ${formatDate()}
 
 The Editor,
 Nagarik News
@@ -111,7 +130,7 @@ Raj Kumar Tamang`
       description: "A letter to editor about environmental pollution",
       content: `                                                                    101 Heritage Lane
                                                                     Bhaktapur, Nepal
-                                                                    ${new Date().toLocaleDateString()}
+                                                                    ${formatDate()}
 
 The Editor,
 Gorkhapatra Daily
@@ -146,7 +165,7 @@ Maya Devi Poudel`
       description: "A letter to editor about job opportunities for youth",
       content: `                                                                    567 Lakeside Road
                                                                     Pokhara, Nepal
-                                                                    ${new Date().toLocaleDateString()}
+                                                                    ${formatDate()}
 
 The Editor,
 Republica Daily
@@ -186,7 +205,7 @@ Dinesh Adhikari`
       description: "A letter to editor about preserving cultural traditions",
       content: `                                                                    234 Festival Street
                                                                     Chitwan, Nepal
-                                                                    ${new Date().toLocaleDateString()}
+                                                                    ${formatDate()}
 
 The Editor,
 Annapurna Post
@@ -247,7 +266,7 @@ Kamala Sharma`
             </div>
             <div className="text-right text-sm text-muted-foreground">
               <div>Your Address</div>
-              <div>{new Date().toLocaleDateString()}</div>
+              <div>{formatDate()}</div>
             </div>
           </div>
           <p className="text-muted-foreground">
