@@ -24,7 +24,15 @@ The voice acting is excellent, and the music by Elton John is unforgettable. Son
 
 I recommend this movie to everyone, especially families with children. It's a timeless story that makes you laugh, cry, and sing along.
 
-Overall, The Lion King is a masterpiece that will be loved for generations.`
+Overall, The Lion King is a masterpiece that will be loved for generations.
+
+Vocabulary (Difficult Words):
+1. Animated - Moving pictures created by computers or drawings / चलायमान चित्रहरू (chalaayamaan chitraharoo)
+2. Responsibility - Being in charge of something important / जिम्मेवारी (jimmewaari)
+3. Courage - Being brave in difficult situations / साहस (saahas)
+4. Unforgettable - Something you will always remember / नबिर्सने (nabirsane)
+5. Timeless - Never getting old or outdated / कहिल्यै पुरानो नहुने (kahilyai puraano nahune)
+6. Masterpiece - A perfect piece of art / उत्कृष्ट कृति (utkrishta kriti)`
     },
     {
       title: "Review of 'Spider-Man: Into the Spider-Verse'",
@@ -46,7 +54,15 @@ The voice acting is great, especially by Shameik Moore as Miles. The action scen
 
 If I had to find one problem, it would be that some parts move very quickly and might be confusing for younger children.
 
-I highly recommend this movie to superhero fans and animation lovers. It's creative, inspiring, and lots of fun.`
+I highly recommend this movie to superhero fans and animation lovers. It's creative, inspiring, and lots of fun.
+
+Vocabulary (Difficult Words):
+1. Dimensions - Different worlds or realities / विभिन्न संसारहरू (bibhinna sansaarharoo)
+2. Stunning - Very beautiful and impressive / अत्यन्त सुन्दर (atyanta sundar)
+3. Unique - One of a kind, special / अनौठो (anautho)
+4. Thrilling - Very exciting and making your heart beat fast / रोमाञ्चक (romaanchak)
+5. Inspiring - Making you feel motivated / प्रेरणादायक (preraṇaadaayak)
+6. Confusing - Hard to understand / अलमलिने (alamaline)`
     },
     {
       title: "Review of 'Finding Nemo'",
@@ -70,7 +86,15 @@ The adventure is exciting but not too scary for young children. The movie shows 
 
 The voice acting by Albert Brooks and Ellen DeGeneres is fantastic. They bring the characters to life perfectly.
 
-Finding Nemo is a movie that everyone should watch. It's funny, touching, and beautifully made.`
+Finding Nemo is a movie that everyone should watch. It's funny, touching, and beautifully made.
+
+Vocabulary (Difficult Words):
+1. Heartwarming - Making you feel happy and emotional / मन छुने (man chhune)
+2. Independence - Being able to do things on your own / स्वतन्त्रता (swatantrata)
+3. Confident - Believing in yourself / आत्मविश्वासी (aatmabishwaasi)
+4. Overcome - To defeat or solve a problem / परास्त गर्नु (paraast garnu)
+5. Fantastic - Very good and amazing / उत्कृष्ट (utkrishta)
+6. Forgetful - Not able to remember things easily / बिर्सने स्वभावको (birsane swabhaawako)`
     },
     {
       title: "Review of 'Harry Potter and the Philosopher's Stone'",
@@ -94,7 +118,15 @@ The film is quite long (about 2.5 hours), which might be difficult for younger c
 
 The music by John Williams is beautiful and makes every scene more exciting. The Quidditch game is thrilling to watch.
 
-I recommend this movie to anyone who loves adventure and magic. It's the perfect start to an amazing film series.`
+I recommend this movie to anyone who loves adventure and magic. It's the perfect start to an amazing film series.
+
+Vocabulary (Difficult Words):
+1. Wizard - A person who can do magic / जादुगर (jaadugar)
+2. Magical - Related to magic and supernatural powers / जादुई (jaaduii)
+3. Loyalty - Being faithful to friends and family / वफादारी (wafaadaari)
+4. Thrilling - Very exciting / रोमाञ्चक (romaanchak)
+5. Special effects - Computer-made images in movies / विशेष प्रभाव (vishesh prabhaav)
+6. Adventure - An exciting journey or experience / साहसिक यात्रा (saahsik yaatraa)`
     },
     {
       title: "Review of 'Moana'",
@@ -120,7 +152,15 @@ The movie respects Polynesian culture and shows the importance of traditions, fa
 
       The only small problem is that some parts might be too intense for very young children, especially the scenes with Te Kā.
 
-Moana is a wonderful movie that combines adventure, beautiful music, and important life lessons.`
+Moana is a wonderful movie that combines adventure, beautiful music, and important life lessons.
+
+Vocabulary (Difficult Words):
+1. Polynesian - Related to Pacific Island people and culture / प्रशान्त महासागरका टापुहरूको (prashaant mahaasaagaraka taapuharuko)
+2. Gorgeous - Extremely beautiful / अत्यन्त सुन्दर (atyanta sundar)
+3. Obstacles - Problems or difficulties in your way / अवरोधहरू (awarodhharoo)
+4. Catchy - Easy to remember and enjoyable / सजिलै याद हुने (sajilaie yaad hune)
+5. Traditions - Cultural practices passed down through generations / परम्पराहरू (parampraharoo)
+6. Intense - Very strong and serious / तीव्र (teevra)`
     },
     {
       title: "Review of 'Pashupati Prasad'",
@@ -144,7 +184,16 @@ The cinematography captures both the beauty of rural Nepal and the chaos of Kath
 
 The movie might be sad at times, but it gives an important message about honesty, hard work, and staying true to your values.
 
-I highly recommend this movie to anyone who wants to understand Nepali society and culture. It's a masterpiece of Nepali cinema.`
+I highly recommend this movie to anyone who wants to understand Nepali society and culture. It's a masterpiece of Nepali cinema.
+
+Vocabulary (Difficult Words):
+1. Portrays - Shows or describes something / चित्रण गर्दछ (chitran gardachha)
+2. Struggles - Difficulties and hard times / संघर्षहरू (sangharshharoo)
+3. Corrupt - Dishonest people who break rules for personal gain / भ्रष्ट (bhrashta)
+4. Outstanding - Extremely good / उत्कृष्ट (utkrishta)
+5. Realistic - Showing real life as it is / यथार्थवादी (yathaarthawaadi)
+6. Cinematography - The art of filming movies / छायांकन कला (chhaayaankan kalaa)
+7. Complements - Goes well together with something / पूरक हुन्छ (poorak hunchha)`
     },
     {
       title: "Review of 'Loot'",
@@ -170,7 +219,16 @@ The soundtrack by various artists fits perfectly with the story and has become v
 
 One small criticism is that some action scenes could have been better choreographed, but the strong story and acting make up for it.
 
-Loot is a landmark movie in Nepali cinema that proved audiences want quality stories with good acting. It's entertaining, thought-provoking, and thoroughly enjoyable.`
+Loot is a landmark movie in Nepali cinema that proved audiences want quality stories with good acting. It's entertaining, thought-provoking, and thoroughly enjoyable.
+
+Vocabulary (Difficult Words):
+1. Landscape - The general state or appearance of something / दृश्य, अवस्था (drishya, awasthaa)
+2. Genuine - Real and honest / वास्तविक (waastavik)
+3. Relatable - Easy to understand because similar to your own life / सम्बन्धित हुन सक्ने (sambandhit huna sakne)
+4. Glorify - To make something look good when it is not / महिमामण्डित गर्नु (mahimaamandit garnu)
+5. Consequences - Results of your actions / परिणामहरू (pariṇaamharoo)
+6. Choreographed - Planned and designed (for action scenes) / संयोजन गरिएको (sanyojan gariyeko)
+7. Thought-provoking - Making you think deeply / विचार उत्तेजक (bichaar uttejak)`
     },
     {
       title: "Review of 'Kabaddi'",
@@ -196,7 +254,17 @@ The cinematography showcases the beautiful landscapes of rural Nepal. The music 
 
 The movie successfully shows that Nepali cinema can tell local stories that are both entertaining and meaningful. It celebrates Nepali culture while addressing important social messages.
 
-Kabaddi is a must-watch movie that will make you laugh, think, and feel proud of Nepali storytelling and filmmaking.`
+Kabaddi is a must-watch movie that will make you laugh, think, and feel proud of Nepali storytelling and filmmaking.
+
+Vocabulary (Difficult Words):
+1. Tournament - A sports competition with many matches / प्रतियोगिता (pratiyogitaa)
+2. Portrayal - The way someone acts or shows a character / चित्रण (chitran)
+3. Authentic - Real and genuine / प्रामाणिक (praamaṇik)
+4. Discrimination - Unfair treatment of people / भेदभाव (bhedbhaav)
+5. Equality - Everyone having the same rights / समानता (samaanataa)
+6. Overshadow - To make something seem less important / छाया पार्नु (chhaayaa paarnu)
+7. Showcases - Displays or shows clearly / प्रदर्शन गर्दछ (pradarshan gardachha)
+8. Festive - Related to celebration and happiness / चाडपर्वको (chaadparvako)`
     }
   ];
 
