@@ -10,8 +10,6 @@ const AdvertisementWriting = () => {
       description: "Teacher position advertisement for educational institution",
       content: `VACANCY ANNOUNCEMENT
 
-PRIMARY LEVEL TEACHER REQUIRED
-
 We are seeking a qualified and dedicated Primary Level Teacher to join our educational team. The ideal candidate should be passionate about teaching young students and committed to providing quality education.
 
 POST: Primary Level Teacher
@@ -49,8 +47,6 @@ Phone: 065-560XXX`,
       title: "Manager Position",
       description: "Management position for marketing company",
       content: `VACANCY ANNOUNCEMENT
-
-MANAGER REQUIRED
 
 We are looking for an experienced and dynamic Manager to lead our marketing operations and drive business growth.
 
@@ -92,8 +88,6 @@ Email: himalayamarketing@gmail.com`,
       title: "Secondary English Teacher",
       description: "English teacher position for secondary level",
       content: `VACANCY ANNOUNCEMENT
-
-SECONDARY ENGLISH TEACHER REQUIRED
 
 A reputed educational institution is seeking a qualified English Teacher for secondary level (Class 6-10) to join our academic team.
 
@@ -140,8 +134,6 @@ Email: himalayanmodel@gmail.com`,
       title: "Accountant",
       description: "Accounting position for sales office management",
       content: `URGENT VACANCY
-
-ACCOUNTANT REQUIRED
 
 A well-established sales company is looking for a skilled Accountant to manage financial operations and maintain accurate records.
 
@@ -191,8 +183,6 @@ Email: mountainsales2024@gmail.com`,
       title: "Branch Manager",
       description: "Banking sector management position",
       content: `VACANCY ANNOUNCEMENT
-
-BRANCH MANAGER REQUIRED
 
 A leading commercial bank invites applications for the position of Branch Manager to lead branch operations.
 
