@@ -6,16 +6,15 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const AdvertisementWriting = () => {
   const advertisementExamples = [
     {
-      title: "Primary Level Teacher - Shree Bagishwari Secondary School",
+      title: "Primary Level Teacher",
       description: "Teacher position advertisement for educational institution",
       content: `VACANCY ANNOUNCEMENT
-
-Shree Bagishwari Secondary School
-Doodhpokhari Rural Municipality-02, Lamjung
 
 PRIMARY LEVEL TEACHER REQUIRED
 
 We are seeking a qualified and dedicated Primary Level Teacher to join our educational team. The ideal candidate should be passionate about teaching young students and committed to providing quality education.
+
+POST: Primary Level Teacher
 
 REQUIRED QUALIFICATIONS:
 • +2 (Intermediate) passed in Education Faculty
@@ -34,19 +33,28 @@ CONTRACT: Permanent position available
 
 Interested candidates should submit their application with academic certificates, CV, and recent photograph within 15 days of this advertisement.
 
-Contact: Shree Bagishwari Secondary School, Doodhpokhari-02, Lamjung
-Phone: 065-560XXX`
+For Contact: Principal
+Shree Bagishwari Secondary School
+Phone: 065-560XXX`,
+      vocabulary: [
+        { word: "Qualified", english: "Having the necessary skills or knowledge", nepali: "योग्य" },
+        { word: "Dedicated", english: "Committed to a task or purpose", nepali: "समर्पित" },
+        { word: "Command", english: "Good control or knowledge", nepali: "दक्षता" },
+        { word: "Interpersonal", english: "Related to relationships between people", nepali: "पारस्परिक" },
+        { word: "Evaluate", english: "To judge or assess", nepali: "मूल्याङ्कन गर्नु" },
+        { word: "Participate", english: "To take part in", nepali: "भाग लिनु" }
+      ]
     },
     {
-      title: "Manager Position - Marketing Office Gorkha",
+      title: "Manager Position",
       description: "Management position for marketing company",
       content: `VACANCY ANNOUNCEMENT
 
 MANAGER REQUIRED
-Himalayan Marketing Solutions Pvt. Ltd.
-Gorkha Municipality-5, Gorkha
 
 We are looking for an experienced and dynamic Manager to lead our marketing operations and drive business growth.
+
+POST: Manager
 
 REQUIRED QUALIFICATIONS:
 • Bachelor's Degree in Management/Marketing/Business Studies
@@ -65,21 +73,31 @@ KEY RESPONSIBILITIES:
 SALARY: Rs. 35,000 - 45,000 per month (Negotiable based on experience)
 BENEFITS: Dashain Bonus, Festival Allowance, Insurance Coverage
 
-Send your CV with a cover letter to: himalayamarketing@gmail.com
-Or visit our office during 10 AM - 5 PM, Sunday to Friday.
+Send your CV with a cover letter within 30 days from publication date.
 
-Deadline: 30 days from publication date`
+For Contact: Managing Director
+Himalayan Marketing Solutions Pvt. Ltd.
+Email: himalayamarketing@gmail.com`,
+      vocabulary: [
+        { word: "Experienced", english: "Having knowledge gained through practice", nepali: "अनुभवी" },
+        { word: "Dynamic", english: "Energetic and positive", nepali: "गतिशील" },
+        { word: "Leadership", english: "Ability to guide and direct", nepali: "नेतृत्व" },
+        { word: "Proficiency", english: "High level of skill", nepali: "निपुणता" },
+        { word: "Strategies", english: "Plans to achieve goals", nepali: "रणनीतिहरू" },
+        { word: "Coordinate", english: "To organize and work together", nepali: "समन्वय गर्नु" },
+        { word: "Negotiable", english: "Open to discussion", nepali: "वार्ता योग्य" }
+      ]
     },
     {
       title: "Secondary English Teacher",
       description: "English teacher position for secondary level",
       content: `VACANCY ANNOUNCEMENT
 
-SECONDARY ENGLISH TEACHER
-Himalayan Model Secondary School
-Bharatpur-10, Chitwan
+SECONDARY ENGLISH TEACHER REQUIRED
 
 A reputed educational institution is seeking a qualified English Teacher for secondary level (Class 6-10) to join our academic team.
+
+POST: Secondary English Teacher
 
 REQUIRED QUALIFICATIONS:
 • Bachelor's Degree in English/Education with English Major
@@ -104,18 +122,30 @@ FACILITIES PROVIDED:
 Interested candidates are requested to submit their application along with CV, educational certificates, and recent passport-size photograph.
 
 Application Deadline: 20 days from this notice
-Contact: 056-571XXX, himalayanmodel@gmail.com`
+
+For Contact: Principal
+Himalayan Model Secondary School
+Email: himalayanmodel@gmail.com`,
+      vocabulary: [
+        { word: "Reputed", english: "Well-known and respected", nepali: "प्रतिष्ठित" },
+        { word: "Equivalent", english: "Equal in value or meaning", nepali: "समतुल्य" },
+        { word: "Fluent", english: "Able to speak smoothly and easily", nepali: "धाराप्रवाह" },
+        { word: "Innovative", english: "New and creative", nepali: "नवीन" },
+        { word: "Assessments", english: "Tests or evaluations", nepali: "मूल्याङ्कन" },
+        { word: "Extra-curricular", english: "Activities outside regular classes", nepali: "पाठ्यक्रम बाहिर" },
+        { word: "Competitive", english: "As good as or better than others", nepali: "प्रतिस्पर्धात्मक" }
+      ]
     },
     {
-      title: "Accountant - Sales Office",
+      title: "Accountant",
       description: "Accounting position for sales office management",
       content: `URGENT VACANCY
 
 ACCOUNTANT REQUIRED
-Mountain Sales Corporation
-Pokhara-8, Kaski
 
 A well-established sales company is looking for a skilled Accountant to manage financial operations and maintain accurate records.
+
+POST: Accountant
 
 ESSENTIAL QUALIFICATIONS:
 • Bachelor's Degree in Accounting/Finance/Management
@@ -139,22 +169,34 @@ SALARY PACKAGE:
 
 Apply with complete CV, academic transcripts, experience certificates, and recent photograph.
 
-Email: mountainsales2024@gmail.com
-Office Address: New Road, Pokhara-8
-Phone: 061-462XXX
+Last Date: 25 days from advertisement date
 
-Last Date: 25 days from advertisement date`
+For Contact: General Manager
+Mountain Sales Corporation
+Email: mountainsales2024@gmail.com`,
+      vocabulary: [
+        { word: "Established", english: "Well-known and successful for a long time", nepali: "स्थापित" },
+        { word: "Financial", english: "Related to money and accounts", nepali: "आर्थिक" },
+        { word: "Analytical", english: "Able to examine and understand details", nepali: "विश्लेषणात्मक" },
+        { word: "Quarterly", english: "Every three months", nepali: "त्रैमासिक" },
+        { word: "Documentation", english: "Written records and papers", nepali: "कागजात" },
+        { word: "Payable", english: "Money that needs to be paid", nepali: "तिर्नुपर्ने" },
+        { word: "Receivable", english: "Money that will be received", nepali: "प्राप्त हुने" },
+        { word: "Reconciliation", english: "Making accounts match and agree", nepali: "मिलान" },
+        { word: "Incentives", english: "Extra payment for good work", nepali: "प्रोत्साहन" },
+        { word: "Transcripts", english: "Official school records", nepali: "प्रमाणपत्र" }
+      ]
     },
     {
-      title: "Branch Manager - Himalayan Bank Nepal",
+      title: "Branch Manager",
       description: "Banking sector management position",
       content: `VACANCY ANNOUNCEMENT
 
-BRANCH MANAGER
-Himalayan Bank Limited
-Butwal Branch, Rupandehi
+BRANCH MANAGER REQUIRED
 
-Himalayan Bank Limited, one of Nepal's leading commercial banks, invites applications for the position of Branch Manager to lead our Butwal branch operations.
+A leading commercial bank invites applications for the position of Branch Manager to lead branch operations.
+
+POST: Branch Manager
 
 MINIMUM REQUIREMENTS:
 • Master's Degree in Management/Economics/Finance/Banking
@@ -178,11 +220,23 @@ REMUNERATION PACKAGE:
 • Medical insurance for self and family
 • Retirement benefits and other facilities
 
-Qualified candidates should submit their application through our online portal: www.himalayanbank.com/careers or send to hr@himalayanbank.com
+Qualified candidates should submit their application within 45 days from this publication.
 
-Application Deadline: 45 days from this publication
-
-Himalayan Bank Limited is an equal opportunity employer.`
+For Contact: Human Resource Manager
+Himalayan Bank Limited
+Email: hr@himalayanbank.com`,
+      vocabulary: [
+        { word: "Commercial", english: "Related to business and trade", nepali: "व्यापारिक" },
+        { word: "Operations", english: "Daily business activities", nepali: "सञ्चालन" },
+        { word: "Regulations", english: "Official rules and laws", nepali: "नियमहरू" },
+        { word: "Managerial", english: "Related to management", nepali: "प्रबन्धकीय" },
+        { word: "Acquisition", english: "Getting new customers", nepali: "प्राप्ति" },
+        { word: "Compliance", english: "Following rules and regulations", nepali: "अनुपालन" },
+        { word: "Supervise", english: "To watch over and direct", nepali: "सुपरिवेक्षण गर्नु" },
+        { word: "Remuneration", english: "Payment for work", nepali: "पारिश्रमिक" },
+        { word: "Commensurate", english: "Matching in amount or level", nepali: "समानुपातिक" },
+        { word: "Concessional", english: "At reduced or lower rates", nepali: "रियायती" }
+      ]
     }
   ];
 
@@ -221,10 +275,23 @@ Himalayan Bank Limited is an equal opportunity employer.`
                 <CardDescription>{example.description}</CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="bg-education-light p-4 rounded-lg border">
+                <div className="bg-education-light p-4 rounded-lg border mb-4">
                   <pre className="text-sm text-education-text leading-relaxed whitespace-pre-wrap font-sans">
                     {example.content}
                   </pre>
+                </div>
+                
+                <div className="bg-muted/50 p-4 rounded-lg border">
+                  <h3 className="font-semibold text-base mb-3 text-education-text">Vocabulary (शब्दावली):</h3>
+                  <div className="space-y-2">
+                    {example.vocabulary.map((vocab, vIndex) => (
+                      <div key={vIndex} className="text-sm">
+                        <span className="font-medium text-education-text">{vocab.word}:</span>
+                        <span className="text-muted-foreground"> {vocab.english}</span>
+                        <span className="text-education-text"> (नेपाली: {vocab.nepali})</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </CardContent>
             </Card>
