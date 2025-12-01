@@ -1,7 +1,7 @@
 import { 
   Mail, Film, AtSign, BookOpen, PenTool, Newspaper, Edit, BarChart3,
   FileText, BookOpenCheck, MessageSquare, Megaphone,
-  ScrollText, Plane, Home, Shield, ChefHat, Calendar, Heart
+  ScrollText, Plane, Home, Shield, ChefHat, Calendar, Heart, ClipboardList
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -26,6 +26,7 @@ import rulesRegulationsImg from "@/assets/rules-regulations.jpg";
 import newsArticlesImg from "@/assets/news-articles.jpg";
 import diaryEntryImg from "@/assets/diary-entry.jpg";
 import cvWritingImg from "@/assets/cv-writing.jpg";
+import noticeWritingImg from "@/assets/notice-writing.jpg";
 import tableOfContentsHero from "@/assets/table-of-contents-hero.jpg";
 
 const TableOfContents = () => {
@@ -174,6 +175,14 @@ const TableOfContents = () => {
       path: "/cv-writing",
       gradient: "from-blue-500 to-purple-600",
       image: cvWritingImg
+    },
+    {
+      title: "Notice Writing",
+      description: "School notices for events, announcements, and important information",
+      icon: ClipboardList,
+      path: "/notice-writing",
+      gradient: "from-amber-500 to-orange-500",
+      image: noticeWritingImg
     }
   ];
 

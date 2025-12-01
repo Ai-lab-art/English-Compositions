@@ -28,6 +28,7 @@ import DiaryEntry from "./pages/DiaryEntry";
 import CVWriting from "./pages/CVWriting";
 import FoodMenuWriting from "./pages/FoodMenuWriting";
 import AdvertisementWriting from "./pages/AdvertisementWriting";
+import NoticeWriting from "./pages/NoticeWriting";
 import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
 
@@ -65,6 +66,7 @@ const App = () => (
             <Route path="/cv-writing" element={<CVWriting />} />
             <Route path="/food-menu-writing" element={<FoodMenuWriting />} />
             <Route path="/advertisement-writing" element={<AdvertisementWriting />} />
+            <Route path="/notice-writing" element={<NoticeWriting />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
