@@ -11,12 +11,9 @@ const NoticeWriting = () => {
       question: "Write a notice on behalf of your headteacher about organizing (आयोजना) a Parents Day program in your school. Include the date, time, and purpose (उद्देश्य) of the meeting.",
       content: `ABC Secondary School
 Kathmandu, Nepal
+                                                           Date: March 10, 2025
 
 NOTICE
-
-Date: March 10, 2025
-
-Parents Day Program
 
 This is to inform all parents and guardians (संरक्षक) that our school is organizing (आयोजना गर्दै छ) a Parents Day program on March 25, 2025, at 10:00 AM in the school auditorium (सभाकक्ष).
 
@@ -34,12 +31,9 @@ Headteacher`
       question: "Your school is organizing (आयोजना) an Annual Sports Day. Write a notice informing students about the event, registration (दर्ता) process, and participation (सहभागिता) requirements.",
       content: `Sunrise English School
 Pokhara, Nepal
+                                                           Date: April 5, 2025
 
 NOTICE
-
-Date: April 5, 2025
-
-Annual Sports Day - 2025
 
 All students are hereby informed that our school will organize (आयोजना गर्नेछ) the Annual Sports Day on April 20, 2025, at the school ground.
 
@@ -61,12 +55,9 @@ Sports Coordinator (संयोजक)`
       question: "Write a notice about an educational excursion (भ्रमण) to a historical (ऐतिहासिक) place. Mention the destination (गन्तव्य), date, fees, and instructions for students.",
       content: `Nepal National School
 Lalitpur, Nepal
+                                                           Date: February 15, 2025
 
 NOTICE
-
-Date: February 15, 2025
-
-Educational Excursion (शैक्षिक भ्रमण) to Lumbini
 
 This is to inform all students of Grade 10 that our school is organizing an educational excursion (भ्रमण) to Lumbini, the birthplace (जन्मस्थल) of Lord Buddha, on March 5-7, 2025.
 
@@ -88,12 +79,9 @@ Trip Coordinator`
       question: "Write a notice about a lost identity (परिचय) card found in the school premises (परिसर). Include description (विवरण) and contact information.",
       content: `Everest High School
 Bhaktapur, Nepal
+                                                           Date: January 20, 2025
 
 NOTICE
-
-Date: January 20, 2025
-
-Lost and Found
 
 An identity (परिचय) card has been found in the school library on January 18, 2025.
 
@@ -115,12 +103,9 @@ Administrative Officer (प्रशासनिक अधिकृत)`
       question: "Your school is celebrating (मनाउँदै छ) its Annual Day. Write a notice as the cultural secretary inviting (निमन्त्रणा) students to participate (भाग लिन) in various cultural programs.",
       content: `Himalayan English School
 Chitwan, Nepal
+                                                           Date: November 1, 2025
 
 NOTICE
-
-Date: November 1, 2025
-
-Annual Function - 2025
 
 This is to inform all students that our school will celebrate (मनाउनेछ) its 25th Annual Day on November 30, 2025, at 2:00 PM in the school hall.
 
