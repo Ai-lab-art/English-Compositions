@@ -9,8 +9,8 @@ const NoticeWriting = () => {
     {
       title: "Notice about Parents Day",
       question: "Write a notice on behalf of your headteacher about organizing (आयोजना) a Parents Day program in your school. Include the date, time, and purpose (उद्देश्य) of the meeting.",
-      content: `ABC Secondary School
-Kathmandu, Nepal
+      content: `                    ABC Secondary School
+                    Kathmandu, Nepal
                                                            Date: March 10, 2025
 
 NOTICE
@@ -29,8 +29,8 @@ Headteacher`
     {
       title: "Notice about Sports Day",
       question: "Your school is organizing (आयोजना) an Annual Sports Day. Write a notice informing students about the event, registration (दर्ता) process, and participation (सहभागिता) requirements.",
-      content: `Sunrise English School
-Pokhara, Nepal
+      content: `                    Sunrise English School
+                    Pokhara, Nepal
                                                            Date: April 5, 2025
 
 NOTICE
@@ -53,8 +53,8 @@ Sports Coordinator (संयोजक)`
     {
       title: "Notice about Educational Trip",
       question: "Write a notice about an educational excursion (भ्रमण) to a historical (ऐतिहासिक) place. Mention the destination (गन्तव्य), date, fees, and instructions for students.",
-      content: `Nepal National School
-Lalitpur, Nepal
+      content: `                    Nepal National School
+                    Lalitpur, Nepal
                                                            Date: February 15, 2025
 
 NOTICE
@@ -77,8 +77,8 @@ Trip Coordinator`
     {
       title: "Notice about Lost Identity Card",
       question: "Write a notice about a lost identity (परिचय) card found in the school premises (परिसर). Include description (विवरण) and contact information.",
-      content: `Everest High School
-Bhaktapur, Nepal
+      content: `                    Everest High School
+                    Bhaktapur, Nepal
                                                            Date: January 20, 2025
 
 NOTICE
@@ -101,8 +101,8 @@ Administrative Officer (प्रशासनिक अधिकृत)`
     {
       title: "Notice about Annual Function",
       question: "Your school is celebrating (मनाउँदै छ) its Annual Day. Write a notice as the cultural secretary inviting (निमन्त्रणा) students to participate (भाग लिन) in various cultural programs.",
-      content: `Himalayan English School
-Chitwan, Nepal
+      content: `                    Himalayan English School
+                    Chitwan, Nepal
                                                            Date: November 1, 2025
 
 NOTICE
