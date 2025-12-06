@@ -1,7 +1,7 @@
 import { 
   Mail, Film, AtSign, BookOpen, PenTool, Newspaper, Edit, BarChart3,
   FileText, BookOpenCheck, MessageSquare, Megaphone,
-  ScrollText, Plane, Home, Shield, ChefHat, Calendar, Heart, ClipboardList
+  ScrollText, Plane, Home, Shield, ChefHat, Calendar, Heart, ClipboardList, PartyPopper
 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -183,6 +183,13 @@ const TableOfContents = () => {
       path: "/notice-writing",
       gradient: "from-amber-500 to-orange-500",
       image: noticeWritingImg
+    },
+    {
+      title: "Message of Congratulations",
+      description: "Formal congratulations messages for achievements and special occasions",
+      icon: PartyPopper,
+      path: "/congratulations-message",
+      gradient: "from-yellow-400 to-pink-500"
     }
   ];
 
