@@ -6,6 +6,31 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const ParagraphWriting = () => {
   const paragraphExamples = [
     {
+      title: "Benefits of Reading Books",
+      description: "A paragraph about why reading is valuable",
+      content: `Reading books is one of the best habits a person can develop. It increases our knowledge and helps us learn new things every day. When we read stories, our imagination grows stronger and we can picture different worlds in our minds. Reading also improves our language skills because we learn new words and better ways to express ourselves. After a tiring day, sitting with a good book can reduce stress and make us feel calm. Books teach us that learning never stops, no matter how old we become. That is why reading is truly a wonderful hobby that enriches our lives.`
+    },
+    {
+      title: "Importance of Saving Water",
+      description: "A paragraph about water conservation",
+      content: `Water is one of the most precious resources on our planet, and saving it is our duty. Many places around the world face water scarcity, making life very difficult for people there. Water is essential for drinking, farming, and daily activities, so we cannot survive without it. By using water wisely, we can prevent drought and ensure there is enough for everyone. Simple actions like fixing leaky taps and collecting rainwater through harvesting systems can make a big difference. We must practice conservation today so that future generations can also enjoy clean and safe water. Every drop we save truly matters.`
+    },
+    {
+      title: "Advantages of Playing Sports",
+      description: "A paragraph about benefits of sports activities",
+      content: `Playing sports is very beneficial for both our body and mind. Regular physical activity keeps us fit and improves our stamina, making us stronger and more energetic. Sports teach us important values like teamwork, discipline, and leadership, which help us in all areas of life. When we play with others, we learn to work together and respect our teammates. Physical exercise also reduces stress and helps us feel happier after a busy day of studying. By making sports a part of our daily routine, we develop a healthy lifestyle that stays with us forever. Everyone should try to play at least one sport regularly.`
+    },
+    {
+      title: "Value of Time Management",
+      description: "A paragraph about managing time wisely",
+      content: `Time is one of the most precious things we have, and once it passes, we can never get it back. Good time management starts with proper planning and making a schedule for our daily tasks. Being punctual shows that we respect other people's time as well as our own. When we manage our time well, we avoid unnecessary stress because we complete our work on time without rushing. This also increases our productivity, allowing us to achieve more each day. Students who practice time management often find success in their studies and future careers. A balanced routine with time for work, play, and rest makes life much happier.`
+    },
+    {
+      title: "Importance of Healthy Eating Habits",
+      description: "A paragraph about nutritious food choices",
+      content: `Eating healthy food is one of the best things we can do for our body and mind. A balanced diet that includes proteins, carbohydrates, and vitamins keeps us strong and active throughout the day. Fresh fruits and vegetables boost our immunity and help us fight against common illnesses. When we eat nutritious meals, we have more energy to study, play, and do our daily activities. Healthy food also keeps our brain sharp and improves our mental alertness in class. By avoiding junk food and choosing wholesome meals, we can prevent many diseases and maintain a healthy body. Good eating habits formed in childhood last a lifetime.`
+    },
+    {
       title: "My Favorite Festival - Dashain",
       description: "A paragraph about Nepal's biggest festival",
       content: `Dashain is the biggest and most important festival in Nepal. It lasts for fifteen days and usually falls in September or October. During Dashain, all family members come together to celebrate. We worship Goddess Durga and ask for her blessings. On the tenth day, called Vijaya Dashami, elders put tika and jamara on our foreheads and give us blessings. We also receive money and gifts from relatives. The whole atmosphere is filled with joy, love, and unity. Houses are cleaned and decorated, and everyone wears new clothes. Dashain teaches us the importance of family bonds and our cultural traditions.`
