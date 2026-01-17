@@ -275,8 +275,8 @@ SKILLS
                 <CardDescription>{example.description}</CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="bg-education-light p-4 rounded-lg border max-h-96 overflow-y-auto">
-                  <pre className="whitespace-pre-wrap text-sm text-education-text font-mono">
+                <div className="bg-gray-200 p-4 rounded-lg border border-gray-300 max-h-96 overflow-y-auto">
+                  <pre className="whitespace-pre-wrap text-sm text-black font-mono select-all cursor-text">
                     {example.content}
                   </pre>
                 </div>

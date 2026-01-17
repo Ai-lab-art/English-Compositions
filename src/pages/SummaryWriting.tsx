@@ -183,8 +183,8 @@ Word Count: Original story (300 words) → Summary (180 words)`
                 </div>
                 <div>
                   <h4 className="font-semibold text-education-text mb-2">Summary:</h4>
-                  <div className="bg-education-light p-4 rounded-lg border">
-                    <pre className="whitespace-pre-wrap text-sm text-education-text font-mono leading-relaxed">
+                  <div className="bg-gray-200 p-4 rounded-lg border border-gray-300">
+                    <pre className="whitespace-pre-wrap text-sm text-black font-mono leading-relaxed select-all cursor-text">
                       {example.content}
                     </pre>
                   </div>

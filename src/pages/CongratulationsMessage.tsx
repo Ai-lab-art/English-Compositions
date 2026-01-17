@@ -250,8 +250,8 @@ Your nephew/niece (भतिजा/भतिजी)`
               </CardHeader>
               <CardContent>
                 {/* Copy Paper Style Background */}
-                <div className="copy-paper-bg p-6 rounded-lg">
-                  <p className="text-sm leading-loose whitespace-pre-line font-handwriting text-gray-800">
+                <div className="bg-gray-200 p-6 rounded-lg border border-gray-300">
+                  <p className="text-sm leading-loose whitespace-pre-line font-mono text-black select-all cursor-text">
                     {example.content}
                   </p>
                 </div>

@@ -195,8 +195,8 @@ Candidate: Thank you for your time, sir. I look forward to hearing (सुन्
                 <CardDescription>{example.description}</CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="bg-education-light p-4 rounded-lg border">
-                  <pre className="whitespace-pre-wrap text-sm text-education-text font-mono leading-relaxed">
+                <div className="bg-gray-200 p-4 rounded-lg border border-gray-300">
+                  <pre className="whitespace-pre-wrap text-sm text-black font-mono leading-relaxed select-all cursor-text">
                     {example.content}
                   </pre>
                 </div>

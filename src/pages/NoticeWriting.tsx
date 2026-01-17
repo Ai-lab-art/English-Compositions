@@ -175,8 +175,8 @@ Cultural Secretary`
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="bg-background/80 p-6 rounded-lg">
-                    <pre className="whitespace-pre-wrap font-sans text-sm text-education-text leading-relaxed">
+                  <div className="bg-gray-200 p-6 rounded-lg border border-gray-300">
+                    <pre className="whitespace-pre-wrap font-sans text-sm text-black leading-relaxed select-all cursor-text">
                       {example.content}
                     </pre>
                   </div>

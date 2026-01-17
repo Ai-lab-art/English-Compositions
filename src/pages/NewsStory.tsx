@@ -200,8 +200,8 @@ The garden holds an annual (वार्षिक) harvest (फसल) festival 
                 </div>
                 <div>
                   <h4 className="font-semibold text-education-text mb-2">News Story (Answer):</h4>
-                  <div className="bg-education-light p-4 rounded-lg border max-h-96 overflow-y-auto">
-                    <pre className="whitespace-pre-wrap text-sm text-education-text">
+                  <div className="bg-gray-200 p-4 rounded-lg border border-gray-300 max-h-96 overflow-y-auto">
+                    <pre className="whitespace-pre-wrap text-sm text-black select-all cursor-text">
                       {example.content}
                     </pre>
                   </div>

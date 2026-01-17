@@ -199,9 +199,9 @@ The recognition is also expected to boost cultural tourism, with visitors increa
                 
                 {/* Article Content */}
                 <div className="prose prose-sm max-w-none">
-                  <div className="bg-gray-50 p-4 rounded-lg border-l-4 border-blue-500">
-                    <h4 className="font-semibold text-blue-800 mb-2">Full Article:</h4>
-                    <div className="text-gray-700 text-sm leading-relaxed whitespace-pre-line">
+                  <div className="bg-gray-200 p-4 rounded-lg border border-gray-300">
+                    <h4 className="font-semibold text-black mb-2">Full Article:</h4>
+                    <div className="text-black text-sm leading-relaxed whitespace-pre-line select-all cursor-text">
                       {article.content}
                     </div>
                   </div>
