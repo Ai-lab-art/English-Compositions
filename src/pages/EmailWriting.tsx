@@ -10,17 +10,17 @@ const EmailWriting = () => {
       description: "A formal email asking for help with homework",
       content: `To: teacher.smith@school.edu
 From: student@email.com
-Subject: Request for Help with Math Assignment
+Subject: Request (अनुरोध) for Help with Math Assignment (गणितको काम)
 
 Dear Mrs. Smith,
 
-I hope this email finds you well. I am writing to ask for your help with the math assignment you gave us yesterday.
+I hope this email finds you well. I am writing to ask for your help with the math assignment (गणितको काम) you gave us yesterday.
 
-I have tried to solve problems 5 and 7, but I am having trouble understanding the steps. Could you please explain how to approach these types of problems?
+I have tried to solve (समाधान गर्न) problems 5 and 7, but I am having trouble understanding (बुझ्न) the steps. Could you please explain (व्याख्या गर्नुहोस्) how to approach these types of problems?
 
-I would be very grateful if you could spare some time to help me. I can meet you during your office hours or after class.
+I would be very grateful (कृतज्ञ) if you could spare (दिनुहोस्) some time to help me. I can meet you during your office hours or after class.
 
-Thank you very much for your time and patience.
+Thank you very much for your time and patience (धैर्य).
 
 Best regards,
 John Student
@@ -35,13 +35,13 @@ Subject: Guess what happened today! 🎉
 
 Hey Sarah!
 
-You won't believe what happened today! I got selected for the school basketball team! I'm so excited I can hardly contain myself.
+You won't believe (विश्वास गर्नुहुन्न) what happened today! I got selected (छानिएँ) for the school basketball team! I'm so excited (उत्साहित) I can hardly contain (समात्न) myself.
 
-Remember how I've been practicing every day after school? Well, it finally paid off! The coach said I showed great improvement and team spirit.
+Remember how I've been practicing (अभ्यास गर्दै) every day after school? Well, it finally paid off (सफल भयो)! The coach said I showed great improvement (सुधार) and team spirit (सहकार्य भावना).
 
-The first game is next Friday. I really hope you can come and cheer for me. It would mean so much to have my best friend there.
+The first game is next Friday. I really hope you can come and cheer (उत्साह) for me. It would mean so much to have my best friend there.
 
-I can't wait to tell you all the details when we meet tomorrow. This is definitely the best day of my life!
+I can't wait to tell you all the details (विवरण) when we meet tomorrow. This is definitely (निश्चित रूपमा) the best day of my life!
 
 Talk soon!
 Your excited friend,
@@ -52,26 +52,26 @@ Alex 😊`
       description: "A formal email asking for details about a summer camp",
       content: `To: info@summercamp.com
 From: parent@email.com
-Subject: Inquiry About Summer Camp Program
+Subject: Inquiry (सोधपुछ) About Summer Camp Program
 
 Dear Sir/Madam,
 
-I am writing to inquire about your summer camp program for teenagers. My daughter is 14 years old and very interested in outdoor activities.
+I am writing to inquire (सोधपुछ गर्न) about your summer camp program for teenagers (किशोरहरू). My daughter is 14 years old and very interested in outdoor activities (बाहिरी गतिविधिहरू).
 
-Could you please provide me with the following information:
-- Dates and duration of the camp
-- Cost and payment options
-- Activities included in the program
-- Accommodation and meal arrangements
+Could you please provide (प्रदान गर्नुहोस्) me with the following information:
+- Dates and duration (अवधि) of the camp
+- Cost and payment options (भुक्तानी विकल्पहरू)
+- Activities (गतिविधिहरू) included in the program
+- Accommodation (आवास) and meal arrangements (खाना व्यवस्था)
 - What items she should bring
 
-I would also like to know about safety measures and the experience of your staff members.
+I would also like to know about safety measures (सुरक्षा उपायहरू) and the experience (अनुभव) of your staff members.
 
-Please send me a brochure or any additional information that might be helpful. You can reach me at this email address or by phone at (555) 123-4567.
+Please send me a brochure (पुस्तिका) or any additional (थप) information that might be helpful. You can reach me at this email address or by phone at (555) 123-4567.
 
-Thank you for your time and assistance.
+Thank you for your time and assistance (सहायता).
 
-Sincerely,
+Sincerely (शुभकामना सहित),
 Mrs. Jennifer Wilson`
     },
     {
@@ -83,15 +83,15 @@ Subject: Thank you for the amazing birthday gift!
 
 Dear Uncle Mike,
 
-I hope you and Aunt Lisa are doing well. I wanted to write to thank you for the wonderful birthday gift you sent me.
+I hope you and Aunt Lisa are doing well. I wanted to write to thank you for the wonderful (अद्भुत) birthday gift you sent me.
 
-The new laptop is absolutely perfect! It's exactly what I needed for my school projects and online classes. The design is beautiful and it works so fast.
+The new laptop is absolutely perfect (उत्तम)! It's exactly what I needed for my school projects and online classes. The design is beautiful and it works so fast.
 
-I was completely surprised when the package arrived. Mom told me it was from you, and I couldn't believe how thoughtful and generous you are.
+I was completely surprised (आश्चर्यचकित) when the package arrived (आइपुग्यो). Mom told me it was from you, and I couldn't believe how thoughtful (विचारशील) and generous (उदार) you are.
 
-I promise to take good care of it and use it wisely for my studies. This gift will really help me with my education.
+I promise (वाचा) to take good care of it and use it wisely (बुद्धिमानी साथ) for my studies. This gift will really help me with my education (शिक्षा).
 
-Thank you again for thinking of me on my special day. I feel so lucky to have such a caring uncle.
+Thank you again for thinking of me on my special day. I feel so lucky (भाग्यशाली) to have such a caring uncle.
 
 Love and best wishes,
 David
@@ -103,25 +103,25 @@ P.S. Mom says to tell you that we're planning to visit you next month!`
       description: "A polite email complaining about a service issue",
       content: `To: customer.service@company.com
 From: customer@email.com
-Subject: Problem with Recent Online Order
+Subject: Problem (समस्या) with Recent Online Order
 
 Dear Customer Service Team,
 
-I am writing to report a problem with my recent online order (Order Number: 12345).
+I am writing to report (रिपोर्ट गर्न) a problem with my recent online order (Order Number: 12345).
 
-I ordered a blue backpack on March 10th, but I received a red one instead. The backpack is the right size and style, but the color is completely wrong.
+I ordered a blue backpack on March 10th, but I received (प्राप्त गरेँ) a red one instead. The backpack is the right size and style, but the color is completely wrong (गलत).
 
-I need the blue backpack for my school uniform, so the red one is not useful for me. I have attached photos of what I received compared to what I ordered.
+I need the blue backpack for my school uniform (स्कुल पोशाक), so the red one is not useful (उपयोगी) for me. I have attached (संलग्न) photos of what I received compared (तुलना) to what I ordered.
 
-Could you please help me exchange this item for the correct color? I am willing to return the red backpack as soon as possible.
+Could you please help me exchange (साट्न) this item for the correct (सही) color? I am willing (तयार) to return the red backpack as soon as possible (सकेसम्म चाँडो).
 
-I have been a satisfied customer for two years, and I hope we can resolve this issue quickly.
+I have been a satisfied (सन्तुष्ट) customer for two years, and I hope we can resolve (समाधान गर्न) this issue quickly.
 
 Please let me know the next steps for returning this item and receiving the correct one.
 
 Thank you for your help.
 
-Sincerely,
+Sincerely (शुभकामना सहित),
 Maria Rodriguez
 Customer ID: CR789`
     }

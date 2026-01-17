@@ -190,6 +190,13 @@ const TableOfContents = () => {
       icon: PartyPopper,
       path: "/congratulations-message",
       gradient: "from-yellow-400 to-pink-500"
+    },
+    {
+      title: "Dialogue Writing",
+      description: "Realistic conversations for different situations in Nepal",
+      icon: MessageSquare,
+      path: "/dialogue-writing",
+      gradient: "from-teal-400 to-cyan-500"
     }
   ];
 

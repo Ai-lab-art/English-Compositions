@@ -14,21 +14,21 @@ const StoryWriting = () => {
 3. Fairy brings a silver axe - woodcutter remains honest
 4. Fairy brings his real iron axe - woodcutter claims it
 5. Fairy rewards his honesty with all three axes`,
-      content: `Once upon a time, there lived a poor woodcutter near a deep forest. Every day, he would go to the forest to cut wood and sell it in the market to feed his family.
+      content: `Once upon a time, there lived a poor (गरिब) woodcutter (दाउरा काट्ने) near a deep forest. Every day, he would go to the forest to cut wood and sell it in the market to feed his family.
 
-One day, while cutting wood near a river, his old axe slipped from his hands and fell into the deep water. The woodcutter sat by the river and began to cry because he could not buy a new axe.
+One day, while cutting wood near a river, his old axe (बन्चरो) slipped from his hands and fell into the deep water. The woodcutter sat by the river and began to cry because he could not buy a new axe.
 
-Suddenly, a fairy appeared from the water holding a golden axe. "Is this your axe?" she asked kindly. The woodcutter looked at the beautiful golden axe but shook his head. "No, that is not mine. My axe was old and made of iron."
+Suddenly (अचानक), a fairy (परी) appeared from the water holding a golden (सुनको) axe. "Is this your axe?" she asked kindly (दयालु भएर). The woodcutter looked at the beautiful golden axe but shook his head. "No, that is not mine. My axe was old and made of iron."
 
-The fairy disappeared and came back with a silver axe. "Is this yours?" she asked again. Once more, the honest woodcutter said, "No, my axe was not so beautiful."
+The fairy disappeared (हराइन्) and came back with a silver (चाँदीको) axe. "Is this yours?" she asked again. Once more, the honest (इमानदार) woodcutter said, "No, my axe was not so beautiful."
 
-Finally, the fairy brought his old iron axe. "Yes! That's my axe!" said the woodcutter happily. The fairy was impressed by his honesty.
+Finally (अन्ततः), the fairy brought his old iron axe. "Yes! That's my axe!" said the woodcutter happily. The fairy was impressed (प्रभावित) by his honesty (इमानदारी).
 
-"Because you told the truth, you can keep all three axes," said the fairy, and gave him the golden, silver, and iron axes.
+"Because you told the truth (सत्य), you can keep all three axes," said the fairy, and gave him the golden, silver, and iron axes.
 
-The woodcutter returned home rich and happy, and never had to worry about money again.
+The woodcutter returned home rich and happy, and never had to worry (चिन्ता) about money again.
 
-Moral: Honesty is always rewarded. When we tell the truth, good things happen to us.`
+Moral (नैतिक शिक्षा): Honesty is always rewarded (पुरस्कृत). When we tell the truth, good things happen to us.`
     },
     {
       title: "The Lazy Grasshopper and the Hardworking Ant",
@@ -39,25 +39,25 @@ Moral: Honesty is always rewarded. When we tell the truth, good things happen to
 3. Grasshopper mocks ant for working too hard
 4. Winter arrives - grasshopper has no food
 5. Ant helps grasshopper and teaches him about planning`,
-      content: `Once, in a beautiful meadow lived a grasshopper and an ant. The grasshopper loved to sing and dance all day under the warm summer sun. He never worried about anything and spent his time having fun.
+      content: `Once, in a beautiful meadow (घाँसे मैदान) lived a grasshopper (फट्यांग्रा) and an ant (कमिला). The grasshopper loved to sing and dance all day under the warm summer sun. He never worried (चिन्ता गरेन) about anything and spent his time having fun.
 
-The ant, however, worked hard every day. From morning until evening, she collected food and stored it safely in her home. "Winter is coming," she always reminded herself.
+The ant, however (तथापि), worked hard every day. From morning until evening, she collected (संकलन गर्थी) food and stored it safely in her home. "Winter (जाडो) is coming," she always reminded herself.
 
-One day, the grasshopper saw the ant carrying a heavy grain of wheat. "Why do you work so hard?" laughed the grasshopper. "Come and dance with me! The sun is shining and life is beautiful!"
+One day, the grasshopper saw the ant carrying a heavy (भारी) grain of wheat. "Why do you work so hard?" laughed the grasshopper. "Come and dance with me! The sun is shining and life is beautiful!"
 
-"I must prepare for winter," replied the ant. "You should also collect food. Soon it will be cold and there will be no food to find."
+"I must prepare (तयारी गर्नुपर्छ) for winter," replied the ant. "You should also collect food. Soon it will be cold and there will be no food to find."
 
 The grasshopper just laughed. "Winter is still far away! I have plenty of time to worry about that later." And he continued singing and dancing.
 
-Summer passed quickly, and soon the cold winter arrived. Snow covered the ground, and no food could be found anywhere.
+Summer passed quickly, and soon the cold winter arrived (आयो). Snow covered the ground, and no food could be found anywhere.
 
-The grasshopper was cold and hungry. He remembered the wise ant and went to her home. "Please help me," he said sadly. "I have no food and I'm very hungry."
+The grasshopper was cold and hungry (भोको). He remembered (सम्झ्यो) the wise (बुद्धिमान) ant and went to her home. "Please help me," he said sadly. "I have no food and I'm very hungry."
 
-The kind ant shared her food with the grasshopper. "Next summer, you must work hard and prepare for winter," she advised.
+The kind (दयालु) ant shared her food with the grasshopper. "Next summer, you must work hard and prepare for winter," she advised (सल्लाह दिइन्).
 
-The grasshopper learned his lesson and promised to work hard in the future.
+The grasshopper learned (सिक्यो) his lesson and promised (वाचा गर्यो) to work hard in the future.
 
-Moral: Hard work and planning for the future are very important. We should not waste time when we should be preparing for difficult times.`
+Moral (नैतिक शिक्षा): Hard work (मेहनत) and planning for the future are very important. We should not waste time when we should be preparing for difficult (कठिन) times.`
     },
     {
       title: "The Boy Who Cried Wolf",
@@ -68,31 +68,31 @@ Moral: Hard work and planning for the future are very important. We should not w
 3. Villagers come running but find no wolf
 4. Boy repeats the lie several times
 5. Real wolf comes but nobody believes the boy's cries`,
-      content: `Once upon a time, there was a young shepherd boy who lived in a village near the mountains. His job was to watch the sheep and protect them from wild animals.
+      content: `Once upon a time, there was a young shepherd (गोठालो) boy who lived in a village (गाउँ) near the mountains. His job was to watch the sheep and protect (रक्षा गर्ने) them from wild animals.
 
-The boy often felt bored and lonely watching the sheep all day. One day, he thought of a plan to have some fun and get attention from the villagers.
+The boy often felt bored (बोरिङ) and lonely (एक्लो) watching the sheep all day. One day, he thought of a plan (योजना) to have some fun and get attention from the villagers (गाउँलेहरू).
 
-"Wolf! Wolf! A wolf is attacking the sheep!" he shouted loudly from the hillside.
+"Wolf! Wolf! A wolf is attacking (आक्रमण गर्दैछ) the sheep!" he shouted loudly from the hillside.
 
-The villagers heard his cries and came running with sticks and tools to help him. But when they reached the hill, they found no wolf anywhere. The sheep were grazing peacefully.
+The villagers heard his cries and came running with sticks and tools to help him. But when they reached the hill, they found no wolf anywhere. The sheep were grazing (घाँस खाइरहेका थिए) peacefully.
 
 "Where is the wolf?" they asked, breathing heavily from running.
 
 The boy laughed. "There was no wolf! I just wanted to see if you would come!"
 
-The villagers were angry but returned to their work. A few days later, the boy played the same trick again. Once more, the villagers came running, and once more, there was no wolf.
+The villagers were angry but returned (फर्के) to their work. A few days later, the boy played the same trick again. Once more, the villagers came running, and once more, there was no wolf.
 
-"This is not funny!" said the villagers. "Don't lie to us again!" They were very upset and went back to the village.
+"This is not funny!" said the villagers. "Don't lie (झूठ बोल्नु हुँदैन) to us again!" They were very upset (रिसाए) and went back to the village.
 
-A week later, a real wolf came down from the mountains and started attacking the sheep. The boy was terrified and shouted for help.
+A week later, a real wolf came down from the mountains and started attacking the sheep. The boy was terrified (डरायो) and shouted for help.
 
 "Wolf! Wolf! Please help me! This time there really is a wolf!"
 
-But the villagers heard his cries and said, "He's lying again. We won't fall for his tricks anymore." Nobody came to help.
+But the villagers heard his cries and said, "He's lying again. We won't fall for his tricks (चालमा पर्दैनौं) anymore." Nobody came to help.
 
-The wolf scared away many sheep, and the boy lost his job. He learned that lying has serious consequences.
+The wolf scared away many sheep, and the boy lost his job. He learned that lying has serious consequences (गम्भीर परिणाम).
 
-Moral: If you lie often, people will not believe you even when you tell the truth. Trust is easily lost but very hard to regain.`
+Moral (नैतिक शिक्षा): If you lie often, people will not believe (विश्वास गर्दैनन्) you even when you tell the truth. Trust (विश्वास) is easily lost but very hard to regain (फिर्ता पाउन).`
     },
     {
       title: "The Tortoise and the Hare",
@@ -103,29 +103,29 @@ Moral: If you lie often, people will not believe you even when you tell the trut
 3. Hare runs ahead and takes a nap, feeling overconfident
 4. Tortoise continues slowly but steadily
 5. Tortoise wins while hare sleeps`,
-      content: `Once, in a sunny meadow, there lived a speedy hare who was very proud of how fast he could run. He often bragged to other animals about his incredible speed.
+      content: `Once, in a sunny meadow (घाँसे मैदान), there lived a speedy (छिटो) hare (खरायो) who was very proud (घमण्डी) of how fast he could run. He often bragged (घमण्ड गर्थ्यो) to other animals about his incredible speed (गति).
 
-One day, he met a slow-moving tortoise and began to make fun of him. "You are so slow!" laughed the hare. "It takes you forever to go anywhere!"
+One day, he met a slow-moving tortoise (कछुवा) and began to make fun (मजाक गर्न) of him. "You are so slow!" laughed the hare. "It takes you forever to go anywhere!"
 
-The tortoise remained calm and said quietly, "Speed is not everything. Would you like to race with me?"
+The tortoise remained (रह्यो) calm and said quietly, "Speed is not everything. Would you like to race (दौड प्रतियोगिता) with me?"
 
-All the animals gathered to watch this unusual race. "This will be easy!" thought the hare. "I'll win without even trying hard."
+All the animals gathered (जम्मा भए) to watch this unusual (असाधारण) race. "This will be easy!" thought the hare. "I'll win without even trying hard."
 
-The race began, and the hare immediately sprinted far ahead of the tortoise. He was so confident that he decided to take a nap under a shady tree.
+The race began, and the hare immediately (तुरुन्तै) sprinted far ahead of the tortoise. He was so confident (आत्मविश्वासी) that he decided to take a nap (झट्टा) under a shady tree.
 
 "I have plenty of time," he thought. "The tortoise is so slow that I can sleep for hours and still win easily."
 
-Meanwhile, the tortoise continued moving slowly but steadily. Step by step, he never stopped walking toward the finish line. He passed the sleeping hare without making any noise.
+Meanwhile (त्यति बेला), the tortoise continued moving slowly (बिस्तारै) but steadily (निरन्तर). Step by step, he never stopped walking toward the finish line. He passed the sleeping hare without making any noise.
 
 The hare woke up just as the sun was setting. He looked around and couldn't see the tortoise anywhere behind him. "Good," he thought, "I still have time."
 
-But when he reached the finish line, he got the biggest surprise of his life. The tortoise was already there, surrounded by cheering animals!
+But when he reached the finish line (अन्त्य रेखा), he got the biggest surprise (आश्चर्य) of his life. The tortoise was already there, surrounded by cheering (जयजयकार गर्दै) animals!
 
-"How did you win?" asked the amazed hare.
+"How did you win?" asked the amazed (चकित) hare.
 
-"I never stopped trying," replied the tortoise with a gentle smile. "Slow and steady wins the race."
+"I never stopped trying (कोसिस गर्न छोडिनँ)," replied the tortoise with a gentle smile. "Slow and steady (बिस्तारै तर निरन्तर) wins the race."
 
-Moral: Consistent effort and determination are more important than natural talent. Never give up, and don't let pride make you careless.`
+Moral (नैतिक शिक्षा): Consistent (निरन्तर) effort and determination (दृढ संकल्प) are more important than natural talent (प्राकृतिक प्रतिभा). Never give up, and don't let pride make you careless (लापरवाह).`
     },
     {
       title: "The Kind Lion and the Grateful Mouse",
@@ -136,33 +136,33 @@ Moral: Consistent effort and determination are more important than natural talen
 3. Mouse promises to help lion someday
 4. Lion gets trapped in hunters' net
 5. Mouse saves lion by chewing through ropes`,
-      content: `Once upon a time, in the heart of the jungle lived a mighty lion, the king of all animals. One hot afternoon, he was sleeping peacefully under a large tree when a tiny mouse accidentally ran across his paw.
+      content: `Once upon a time, in the heart of the jungle lived a mighty (शक्तिशाली) lion, the king (राजा) of all animals. One hot afternoon, he was sleeping peacefully under a large tree when a tiny (सानो) mouse accidentally (गल्तीले) ran across his paw.
 
-The lion woke up angry and grabbed the little mouse with his huge paw. "How dare you disturb my sleep!" he roared. "I should eat you right now!"
+The lion woke up angry and grabbed (समात्यो) the little mouse with his huge paw. "How dare you disturb (बाधा दिने) my sleep!" he roared (गर्जियो). "I should eat you right now!"
 
-The mouse trembled with fear but spoke bravely, "Please, Your Majesty, forgive me! I didn't mean to wake you. If you spare my life, I promise I will help you someday."
+The mouse trembled (काम्यो) with fear but spoke bravely (साहसी भएर), "Please, Your Majesty (महाराज), forgive (माफ गर्नुहोस्) me! I didn't mean to wake you. If you spare (छोडिदिनुभयो भने) my life, I promise (वाचा) I will help you someday."
 
-The lion laughed loudly. "You? Help me? You're just a tiny mouse! How could someone so small ever help the king of the jungle?" But he was feeling generous that day, so he let the mouse go.
+The lion laughed loudly. "You? Help me? You're just a tiny mouse! How could someone so small (सानो) ever help the king of the jungle?" But he was feeling generous (उदार) that day, so he let the mouse go.
 
-"Thank you so much!" squeaked the grateful mouse, and he quickly ran away.
+"Thank you so much!" squeaked the grateful (कृतज्ञ) mouse, and he quickly ran away.
 
-A few weeks later, some hunters came to the jungle and set a large net trap for the lion. When the lion was walking through the forest, he got caught in the strong ropes and couldn't escape no matter how hard he tried.
+A few weeks later, some hunters (शिकारीहरू) came to the jungle and set a large net trap (जाल) for the lion. When the lion was walking through the forest, he got caught (फसेको) in the strong ropes and couldn't escape no matter how hard he tried.
 
 The lion roared for help, and all the animals heard him, including the little mouse. The mouse immediately ran to where the lion was trapped.
 
 "Don't worry, Your Majesty! I'll help you!" said the mouse.
 
-The lion was surprised. "How can you possibly help me?"
+The lion was surprised (आश्चर्यचकित). "How can you possibly help me?"
 
-The clever mouse began to chew through the ropes with his sharp teeth. He worked quickly and carefully until he had made a hole big enough for the lion to escape.
+The clever mouse began to chew (कुट्न) through the ropes with his sharp (तीक्ष्ण) teeth. He worked quickly and carefully until he had made a hole big enough for the lion to escape.
 
-"You're free!" announced the mouse proudly.
+"You're free (मुक्त)!" announced the mouse proudly.
 
 The lion was amazed and grateful. "Thank you, little friend. I was wrong to think that someone small couldn't help someone big. You saved my life!"
 
 From that day on, the lion and the mouse became the best of friends.
 
-Moral: Kindness is never wasted, and even the smallest person can make a big difference. We should treat everyone with respect, no matter how different they are from us.`
+Moral (नैतिक शिक्षा): Kindness (दयालुता) is never wasted, and even the smallest (सानो) person can make a big difference (ठूलो फरक). We should treat everyone with respect (सम्मान), no matter how different they are from us.`
     }
   ];
 
