@@ -158,8 +158,8 @@ In conclusion, AI is not just a trend or a futuristic concept—it is a reality 
                 <CardDescription>{example.description}</CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="bg-education-light p-4 rounded-lg border max-h-96 overflow-y-auto">
-                  <pre className="whitespace-pre-wrap text-sm text-education-text">
+                <div className="bg-gray-200 p-4 rounded-lg border border-gray-300 max-h-96 overflow-y-auto">
+                  <pre className="whitespace-pre-wrap text-sm text-black select-all cursor-text">
                     {example.content}
                   </pre>
                 </div>

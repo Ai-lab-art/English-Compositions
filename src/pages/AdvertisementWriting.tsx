@@ -265,8 +265,8 @@ Email: hr@himalayanbank.com`,
                 <CardDescription>{example.description}</CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="bg-education-light p-4 rounded-lg border mb-4">
-                  <pre className="text-sm text-education-text leading-relaxed whitespace-pre-wrap font-sans">
+                <div className="bg-gray-200 p-4 rounded-lg border border-gray-300 mb-4">
+                  <pre className="text-sm text-black leading-relaxed whitespace-pre-wrap font-sans select-all cursor-text">
                     {example.content}
                   </pre>
                 </div>

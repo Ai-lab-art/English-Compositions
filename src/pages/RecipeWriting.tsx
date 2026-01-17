@@ -145,8 +145,8 @@ Cooking time: 45 minutes`
                 <CardDescription className="fun-text text-base">{example.description}</CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="bg-gradient-to-br from-education-yellow/10 to-education-green/10 p-4 rounded-lg border-2 border-education-purple/20">
-                  <pre className="whitespace-pre-wrap text-sm elegant-text text-foreground">
+                <div className="bg-gray-200 p-4 rounded-lg border border-gray-300">
+                  <pre className="whitespace-pre-wrap text-sm text-black select-all cursor-text">
                     {example.content}
                   </pre>
                 </div>

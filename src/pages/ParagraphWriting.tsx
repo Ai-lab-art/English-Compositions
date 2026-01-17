@@ -92,8 +92,8 @@ const ParagraphWriting = () => {
                 <CardDescription>{example.description}</CardDescription>
               </CardHeader>
               <CardContent>
-                <div className="bg-education-light p-4 rounded-lg border">
-                  <p className="text-sm text-education-text leading-relaxed">
+                <div className="bg-gray-200 p-4 rounded-lg border border-gray-300">
+                  <p className="text-sm text-black leading-relaxed select-all cursor-text">
                     {example.content}
                   </p>
                 </div>

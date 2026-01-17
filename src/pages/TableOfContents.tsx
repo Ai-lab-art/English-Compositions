@@ -236,32 +236,6 @@ const TableOfContents = () => {
           </p>
         </div>
 
-        {/* Topics Overview List */}
-        <Card className="mb-8 bg-white/95 backdrop-blur-sm">
-          <CardHeader className="pb-4">
-            <CardTitle className="text-2xl text-center text-primary">
-              All Topics at a Glance ({topics.length} Topics)
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
-              {topics.map((topic, index) => (
-                <Link 
-                  key={index} 
-                  to={topic.path}
-                  className="flex items-center gap-2 p-2 rounded-lg hover:bg-primary/10 transition-colors group"
-                >
-                  <span className="flex items-center justify-center w-6 h-6 rounded-full bg-primary text-white text-xs font-bold">
-                    {index + 1}
-                  </span>
-                  <span className="text-sm font-medium text-education-text group-hover:text-primary transition-colors">
-                    {topic.title}
-                  </span>
-                </Link>
-              ))}
-            </div>
-          </CardContent>
-        </Card>
 
         {/* Topics Grid */}
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -281,12 +255,12 @@ const TableOfContents = () => {
                   <div className={`w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-r ${topic.gradient} flex items-center justify-center shadow-lg`}>
                     <topic.icon className="h-8 w-8 text-white" />
                   </div>
-                  <CardTitle className="text-lg text-education-text group-hover:text-primary transition-colors">
+                  <CardTitle className="text-lg text-black group-hover:text-primary transition-colors">
                     {topic.title}
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <CardDescription className="text-education-text text-sm">
+                  <CardDescription className="text-black text-sm">
                     {topic.description}
                   </CardDescription>
                 </CardContent>

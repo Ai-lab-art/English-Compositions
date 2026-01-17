@@ -208,8 +208,8 @@ Bibek`
                 <CardContent>
                   {/* Diary Content */}
                   <div className="prose prose-sm max-w-none">
-                    <div className="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-lg border-l-4 border-purple-500">
-                      <div className="text-gray-700 text-sm leading-relaxed whitespace-pre-line font-mono">
+                    <div className="bg-gray-200 p-6 rounded-lg border border-gray-300">
+                      <div className="text-black text-sm leading-relaxed whitespace-pre-line font-mono select-all cursor-text">
                         {entry.content}
                       </div>
                     </div>
